@@ -1,0 +1,67 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-27T13:24:14",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e",
+            "violations": []
+        },
+        {
+            "path": "/Power: protection, eFuse, rails, switches/",
+            "uuid_path": "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/97e8f661-fe85-51dd-9b1a-e87ad9e27270",
+            "violations": []
+        },
+        {
+            "path": "/RP2350B, QSPI flash, crystal, boot, SWD/",
+            "uuid_path": "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/7526502d-da39-5d0f-80a1-019fe6addb0d",
+            "violations": []
+        },
+        {
+            "path": "/W5500 Ethernet + RJ45 magjack/",
+            "uuid_path": "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/bafc526d-16ae-543a-a341-909e5c2097a1",
+            "violations": []
+        },
+        {
+            "path": "/MAX98357A audio amplifier + speaker/",
+            "uuid_path": "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c",
+            "violations": []
+        },
+        {
+            "path": "/Score sensors, buttons, light drivers/",
+            "uuid_path": "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/d065ec3b-4939-5f3d-8c4e-d5593e139646",
+            "violations": []
+        },
+        {
+            "path": "/Display USB host + USB-C debug console/",
+            "uuid_path": "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/86043d1c-e8c4-534c-a1dc-c44ed754784f",
+            "violations": []
+        }
+    ],
+    "source": "skeeball-controller.kicad_sch"
+}

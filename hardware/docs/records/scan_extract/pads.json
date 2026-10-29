@@ -1,0 +1,562 @@
+{
+ "source": "board_back_flatbed_scan_300dpi.jpg (owner scan of the stock board bottom, not published)",
+ "declared_px_per_mm": 11.811,
+ "hole_fit": {
+  "px": {
+   "TL": [
+    1535.0,
+    145.5
+   ],
+   "TR": [
+    2464.9,
+    158.4
+   ],
+   "BL": [
+    1518.8,
+    1437.4
+   ],
+   "BR": [
+    2448.8,
+    1450.7
+   ]
+  },
+  "residual_mm_hole_only_fit": [
+   [
+    0.008,
+    0.001
+   ],
+   [
+    -0.008,
+    -0.001
+   ],
+   [
+    -0.008,
+    -0.001
+   ],
+   [
+    0.008,
+    0.001
+   ]
+  ],
+  "holes_mm": {
+   "H1": [
+    3.885,
+    3.585
+   ],
+   "H2": [
+    112.795,
+    3.585
+   ],
+   "H3": [
+    112.795,
+    82.145
+   ],
+   "H4": [
+    3.885,
+    82.145
+   ]
+  },
+  "scale_note": "hole-derived affine on both axes (owner M-H1 per-axis insets 3.885 / 3.585 mm)",
+  "px_per_mm_component_x": 11.865,
+  "px_per_mm_component_y": 11.838,
+  "vs_declared_pct": [
+   0.46,
+   0.23
+  ]
+ },
+ "connectors": [
+  {
+   "name": "PWR 1x3 RA (pin 1 = 5 V at the small-x end)",
+   "axis": "x",
+   "n": 3,
+   "nominal_pitch": 4.2,
+   "measured": [
+    [
+     95.46,
+     10.39
+    ],
+    [
+     99.55,
+     10.52
+    ],
+    [
+     103.79,
+     10.27
+    ]
+   ],
+   "fit": {
+    "pitch": 4.165,
+    "start": 95.43,
+    "other": 10.39
+   },
+   "note": "right-angle single-row 4.2 mm; two locating-peg holes at y ~3.6"
+  },
+  {
+   "name": "J18 micro-USB shell anchors (4)",
+   "axis": "x",
+   "n": 2,
+   "nominal_pitch": 5.5,
+   "measured": [
+    [
+     58.69,
+     1.74
+    ],
+    [
+     64.2,
+     1.77
+    ]
+   ],
+   "fit": {
+    "pitch": 5.51,
+    "start": 58.69,
+    "other": 1.75
+   },
+   "note": "row 1 of 2; see J18_anchor_row2"
+  },
+  {
+   "name": "J18_anchor_row2",
+   "axis": "x",
+   "n": 2,
+   "nominal_pitch": 5.0,
+   "measured": [
+    [
+     58.92,
+     4.72
+    ],
+    [
+     63.92,
+     4.68
+    ]
+   ],
+   "fit": {
+    "pitch": 5.0,
+    "start": 58.92,
+    "other": 4.7
+   },
+   "note": ""
+  },
+  {
+   "name": "PLAYFIELD 2-pin RA (lower pin = +5 V)",
+   "axis": "y",
+   "n": 2,
+   "nominal_pitch": 3.4,
+   "measured": [
+    [
+     4.87,
+     11.43
+    ],
+    [
+     4.9,
+     14.85
+    ]
+   ],
+   "fit": {
+    "pitch": 3.42,
+    "start": 11.43,
+    "other": 4.88
+   },
+   "note": "KK 396 (owner calipers: 3.96 mm pitch, 1.14 mm square pins); the scan's two solder-covered pads read 3.4 mm apart (centroid bias), so the pads are placed 3.96 apart about the scanned midpoint"
+  },
+  {
+   "name": "J5 1x4 (unpopulated, dropped)",
+   "axis": "x",
+   "n": 4,
+   "nominal_pitch": 4.2,
+   "measured": [
+    [
+     3.65,
+     25.86
+    ],
+    [
+     7.79,
+     25.87
+    ],
+    [
+     11.98,
+     25.83
+    ],
+    [
+     16.2,
+     25.85
+    ]
+   ],
+   "fit": {
+    "pitch": 4.184,
+    "start": 3.63,
+    "other": 25.85
+   },
+   "note": ""
+  },
+  {
+   "name": "RGB 1x4 vertical (pin 1 = +5 V at the small-x end)",
+   "axis": "x",
+   "n": 4,
+   "nominal_pitch": 4.2,
+   "measured": [
+    [
+     4.04,
+     37.82
+    ],
+    [
+     7.92,
+     37.7
+    ],
+    [
+     12.24,
+     37.77
+    ],
+    [
+     16.25,
+     37.88
+    ]
+   ],
+   "fit": {
+    "pitch": 4.095,
+    "start": 3.97,
+    "other": 37.79
+   },
+   "note": "soldered pins: +-0.2 mm"
+  },
+  {
+   "name": "J7 1x4 (unpopulated, dropped)",
+   "axis": "x",
+   "n": 4,
+   "nominal_pitch": 4.2,
+   "measured": [
+    [
+     3.46,
+     48.23
+    ],
+    [
+     7.6,
+     48.26
+    ],
+    [
+     11.79,
+     48.25
+    ],
+    [
+     15.98,
+     48.23
+    ]
+   ],
+   "fit": {
+    "pitch": 4.175,
+    "start": 3.45,
+    "other": 48.24
+   },
+   "note": ""
+  },
+  {
+   "name": "BUTTONS 2x4 row A (y ~56.2, signals)",
+   "axis": "x",
+   "n": 4,
+   "nominal_pitch": 4.2,
+   "measured": [
+    [
+     3.62,
+     56.26
+    ],
+    [
+     7.72,
+     56.15
+    ],
+    [
+     11.93,
+     56.45
+    ],
+    [
+     16.1,
+     56.4
+    ]
+   ],
+   "fit": {
+    "pitch": 4.165,
+    "start": 3.6,
+    "other": 56.32
+   },
+   "note": ""
+  },
+  {
+   "name": "BUTTONS 2x4 row B (y ~61.7, latch side = GND)",
+   "axis": "x",
+   "n": 4,
+   "nominal_pitch": 4.2,
+   "measured": [
+    [
+     3.77,
+     61.84
+    ],
+    [
+     7.82,
+     61.74
+    ],
+    [
+     12.11,
+     62.05
+    ],
+    [
+     16.38,
+     61.97
+    ]
+   ],
+   "fit": {
+    "pitch": 4.212,
+    "start": 3.7,
+    "other": 61.9
+   },
+   "note": ""
+  },
+  {
+   "name": "J19 1x3 2.54 (dropped)",
+   "axis": "x",
+   "n": 3,
+   "nominal_pitch": 2.54,
+   "measured": [
+    [
+     64.36,
+     49.76
+    ],
+    [
+     66.89,
+     49.73
+    ],
+    [
+     69.48,
+     49.75
+    ]
+   ],
+   "fit": {
+    "pitch": 2.56,
+    "start": 64.35,
+    "other": 49.75
+   },
+   "note": ""
+  },
+  {
+   "name": "SPEAKER 2x1 RA (two rows 5.5 apart, pins stacked)",
+   "axis": "x",
+   "n": 2,
+   "nominal_pitch": 5.5,
+   "measured": [
+    [
+     99.94,
+     48.33
+    ],
+    [
+     105.45,
+     48.28
+    ]
+   ],
+   "fit": {
+    "pitch": 5.51,
+    "start": 99.94,
+    "other": 48.3
+   },
+   "note": "peg hole at x ~112.6"
+  },
+  {
+   "name": "J2 2x5 4.2 mm row A (dropped)",
+   "axis": "x",
+   "n": 5,
+   "nominal_pitch": 4.2,
+   "measured": [
+    [
+     96.24,
+     57.35
+    ],
+    [
+     100.44,
+     57.38
+    ],
+    [
+     104.57,
+     57.36
+    ],
+    [
+     108.81,
+     57.38
+    ],
+    [
+     113.0,
+     57.37
+    ]
+   ],
+   "fit": {
+    "pitch": 4.189,
+    "start": 96.23,
+    "other": 57.37
+   },
+   "note": ""
+  },
+  {
+   "name": "J2 2x5 4.2 mm row B (dropped)",
+   "axis": "x",
+   "n": 5,
+   "nominal_pitch": 4.2,
+   "measured": [
+    [
+     96.24,
+     62.86
+    ],
+    [
+     100.43,
+     62.87
+    ],
+    [
+     104.62,
+     62.85
+    ],
+    [
+     108.79,
+     62.88
+    ],
+    [
+     112.97,
+     62.88
+    ]
+   ],
+   "fit": {
+    "pitch": 4.182,
+    "start": 96.25,
+    "other": 62.87
+   },
+   "note": ""
+  },
+  {
+   "name": "J11 1x9 (pin 1 '*' = GND at the large-x end)",
+   "axis": "x",
+   "n": 9,
+   "nominal_pitch": 2.51,
+   "measured": [
+    [
+     48.31,
+     65.17
+    ],
+    [
+     50.68,
+     65.28
+    ],
+    [
+     53.28,
+     65.22
+    ],
+    [
+     55.83,
+     65.22
+    ],
+    [
+     58.4,
+     65.45
+    ],
+    [
+     60.86,
+     65.18
+    ],
+    [
+     63.3,
+     65.13
+    ],
+    [
+     65.63,
+     65.29
+    ],
+    [
+     68.52,
+     65.2
+    ]
+   ],
+   "fit": {
+    "pitch": 2.513,
+    "start": 48.26,
+    "other": 65.24
+   },
+   "note": "solder-covered pins: +-0.2 mm; pitch from the 8-pitch span"
+  }
+ ],
+ "modular_jack_holes_y80": [
+  [
+   3.88,
+   82.14
+  ],
+  [
+   12.5,
+   80.66
+  ],
+  [
+   20.13,
+   80.68
+  ],
+  [
+   24.48,
+   80.6
+  ],
+  [
+   32.14,
+   80.66
+  ],
+  [
+   36.48,
+   80.64
+  ],
+  [
+   44.05,
+   80.61
+  ],
+  [
+   48.49,
+   80.61
+  ],
+  [
+   56.17,
+   80.61
+  ],
+  [
+   60.57,
+   80.64
+  ],
+  [
+   68.16,
+   80.63
+  ],
+  [
+   72.64,
+   80.58
+  ],
+  [
+   80.22,
+   80.63
+  ],
+  [
+   84.6,
+   80.64
+  ],
+  [
+   92.27,
+   80.62
+  ],
+  [
+   96.69,
+   80.62
+  ],
+  [
+   104.29,
+   80.61
+  ],
+  [
+   112.8,
+   82.15
+  ]
+ ],
+ "unused_top_holes": [
+  [
+   29.4,
+   3.74
+  ],
+  [
+   87.28,
+   3.79
+  ]
+ ],
+ "accuracy_mm": 0.1
+}

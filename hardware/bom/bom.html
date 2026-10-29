@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SBC-1 BOM</title>
+<style>
+  :root { --bg: #fff; --fg: #1b1b1b; --mut: #666; --line: #ddd; --ok: #1e7b34; --warn: #a15c00; --bad: #b3261e; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #161616; --fg: #e8e8e8; --mut: #9a9a9a; --line: #333; } }
+  body { background: var(--bg); color: var(--fg); font: 14px/1.4 system-ui, sans-serif; margin: 16px; }
+  table { border-collapse: collapse; width: 100%; } th, td { border-bottom: 1px solid var(--line); padding: 4px 6px; text-align: left; }
+  th { position: sticky; top: 0; background: var(--bg); } .num { text-align: right; } .mut { color: var(--mut); }
+  .OK { color: var(--ok); } .THIN, .TBD { color: var(--warn); } .OUT, .NOT_FOUND, .NOT_BUYABLE { color: var(--bad); }
+  .wrap { overflow-x: auto; }
+</style>
+</head>
+<body>
+<h1>SBC-1 BOM</h1>
+<p class="mut" id="stamp">Loading bom.json ... (serve this folder: <code>python -m http.server</code>)</p>
+<div class="wrap"><table id="t"><thead><tr><th>Refs</th><th class="num">Qty</th><th>Value</th><th>MPN</th><th>Maker</th>
+<th>LCSC</th><th>Lib</th><th class="num">JLC stock</th><th class="num">USD</th><th>Checked</th><th>Status</th></tr></thead><tbody></tbody></table></div>
+<script>
+fetch('bom.json', {cache: 'no-store'}).then(r => r.json()).then(b => {
+  document.getElementById('stamp').textContent = `Data: bom.json updated ${b.updated_utc} - ${b.lines.length} lines, run ${b.run_boards} boards, design ${String(b.design_sha256).slice(0, 8)}`;
+  const tb = document.querySelector('#t tbody');
+  for (const l of b.lines) {
+    const j = l.jlc || {}; const tr = document.createElement('tr');
+    const cells = [l.refs.join(', '), l.qty_per_board, l.value, l.mpn, l.mfr, j.code || '', j.library || '', j.stock ?? '',
+                   j.unit_price_usd ?? '', (j.fetched_utc || '').slice(0, 16), (l.status || '') + (l.provisional ? ' (harness, provisional)' : '')];
+    cells.forEach((c, i) => { const td = document.createElement('td'); td.textContent = c; if ([1, 7, 8].includes(i)) td.className = 'num'; if (i === 10) td.className = l.status || ''; tr.appendChild(td); });
+    tb.appendChild(tr);
+  }
+}).catch(e => { document.getElementById('stamp').textContent = 'Could not load bom.json: ' + e; });
+</script>
+</body>
+</html>

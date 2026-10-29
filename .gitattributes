@@ -1,0 +1,13 @@
+* text=auto
+*.kicad_pcb text eol=crlf
+*.kicad_sch text eol=crlf
+*.kicad_pro text eol=crlf
+*.kicad_sym text eol=crlf
+*.kicad_mod text eol=crlf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary
+*.step binary
+*.wrl text
+hardware/fab/** -text

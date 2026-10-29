@@ -1,0 +1,275 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1480' height='930' viewBox='0 0 1480 930'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='24.0' y='36.0' font-size='22' text-anchor='start' fill='#111' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>RJ45 location study - 2 allowed zones x 2 orientations (owner picks)</text>
+<text x='24.0' y='60.0' font-size='13' text-anchor='start' fill='#444' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>Outline + holes measured (owner); harness bodies photo +-1 mm. Gaps are body-edge to nearest feature edge (holes as 3.2 mm circles).</text>
+<rect x='20.0' y='80.0' width='710.0' height='390.0' stroke='#ccc' fill='none' fill-opacity='1.0' stroke-width='1'/>
+<rect x='40.0' y='148.0' width='420.0' height='308.6' stroke='#2f7d4a' fill='#eaf4ec' fill-opacity='1.0' stroke-width='2'/>
+<rect x='107.3' y='173.2' width='92.5' height='69.1' stroke='#2a6fdb' fill='#2a6fdb' fill-opacity='0.06' stroke-width='1.5' stroke-dasharray='6,4'/>
+<rect x='374.4' y='198.4' width='85.6' height='101.5' stroke='#2a6fdb' fill='#2a6fdb' fill-opacity='0.06' stroke-width='1.5' stroke-dasharray='6,4'/>
+<rect x='373.7' y='148.4' width='50.0' height='43.2' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='246.7' y='144.4' width='28.8' height='23.8' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='40.0' y='179.7' width='41.0' height='31.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='44.3' y='266.4' width='64.4' height='35.3' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='42.9' y='340.6' width='66.2' height='40.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='204.5' y='371.6' width='91.4' height='23.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='387.0' y='305.0' width='73.0' height='34.2' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<circle cx='383.7' cy='185.4' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='398.4' cy='185.9' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='413.6' cy='185.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='251.3' cy='154.3' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='271.1' cy='154.4' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='252.1' cy='165.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='270.1' cy='164.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='57.5' cy='189.1' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='57.6' cy='201.5' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='54.5' cy='284.2' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='68.5' cy='283.7' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='84.1' cy='284.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='98.5' cy='284.4' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='53.0' cy='350.5' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='67.8' cy='350.1' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='82.9' cy='351.2' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='98.0' cy='351.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='53.6' cy='370.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='68.2' cy='370.3' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='83.6' cy='371.4' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='99.0' cy='371.1' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='399.8' cy='322.0' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='419.6' cy='321.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='286.7' cy='382.7' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='276.3' cy='383.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='267.9' cy='382.5' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='259.1' cy='382.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='250.2' cy='383.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='241.0' cy='382.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='231.8' cy='382.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='222.4' cy='383.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='213.9' cy='382.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='54.0' cy='160.9' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='446.1' cy='160.9' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='446.1' cy='443.7' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='54.0' cy='443.7' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<text x='398.7' y='173.5' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>PWR</text>
+<text x='261.1' y='159.8' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>USB</text>
+<text x='60.5' y='198.7' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>PF</text>
+<text x='76.5' y='287.6' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>RGB</text>
+<text x='76.0' y='364.1' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>BTN</text>
+<text x='250.2' y='386.6' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>J11</text>
+<text x='423.5' y='325.6' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>SPK</text>
+<rect x='125.0' y='144.4' width='57.2' height='76.7' stroke='#c0392b' fill='#c0392b' fill-opacity='0.35' stroke-width='2'/>
+<text x='32.0' y='106.0' font-size='15' text-anchor='start' fill='#111' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>Zone a - right-angle: HanRun HR911105A</text>
+<line x1='153.6' y1='142.4' x2='153.6' y2='130.4' stroke='#c0392b' stroke-width='3'/>
+<text x='490.0' y='162.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>body 15.9 x 21.3 mm,</text>
+<text x='490.0' y='178.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>height 13.5 mm, faces board edge</text>
+<text x='490.0' y='196.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>x 23.6-39.5, y -1.0-20.3 mm</text>
+<text x='490.0' y='220.0' font-size='12' text-anchor='start' fill='#111' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>nearest features (gap):</text>
+<text x='490.0' y='238.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>PLAYFIELD LIGHTS: 12.2 mm</text>
+<text x='490.0' y='254.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>RGB LIGHTS: 13.4 mm</text>
+<text x='490.0' y='270.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>J18 micro-USB: 17.9 mm</text>
+<text x='490.0' y='286.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>H1: 17.9 mm</text>
+<text x='490.0' y='312.0' font-size='12' text-anchor='start' fill='#7a2a20' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>cable exits the TOP edge (with the</text>
+<text x='490.0' y='328.0' font-size='12' text-anchor='start' fill='#7a2a20' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>USB + power plugs)</text>
+<rect x='740.0' y='80.0' width='710.0' height='390.0' stroke='#ccc' fill='none' fill-opacity='1.0' stroke-width='1'/>
+<rect x='760.0' y='148.0' width='420.0' height='308.6' stroke='#2f7d4a' fill='#eaf4ec' fill-opacity='1.0' stroke-width='2'/>
+<rect x='827.3' y='173.2' width='92.5' height='69.1' stroke='#2a6fdb' fill='#2a6fdb' fill-opacity='0.06' stroke-width='1.5' stroke-dasharray='6,4'/>
+<rect x='1094.4' y='198.4' width='85.6' height='101.5' stroke='#2a6fdb' fill='#2a6fdb' fill-opacity='0.06' stroke-width='1.5' stroke-dasharray='6,4'/>
+<rect x='1093.7' y='148.4' width='50.0' height='43.2' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='966.7' y='144.4' width='28.8' height='23.8' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='760.0' y='179.7' width='41.0' height='31.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='764.3' y='266.4' width='64.4' height='35.3' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='762.9' y='340.6' width='66.2' height='40.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='924.5' y='371.6' width='91.4' height='23.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='1107.0' y='305.0' width='73.0' height='34.2' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<circle cx='1103.7' cy='185.4' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='1118.4' cy='185.9' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='1133.6' cy='185.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='971.3' cy='154.3' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='991.1' cy='154.4' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='972.1' cy='165.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='990.1' cy='164.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='777.5' cy='189.1' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='777.6' cy='201.5' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='774.5' cy='284.2' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='788.5' cy='283.7' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='804.1' cy='284.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='818.5' cy='284.4' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='773.0' cy='350.5' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='787.8' cy='350.1' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='802.9' cy='351.2' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='818.0' cy='351.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='773.6' cy='370.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='788.2' cy='370.3' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='803.6' cy='371.4' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='819.0' cy='371.1' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='1119.8' cy='322.0' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='1139.6' cy='321.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='1006.7' cy='382.7' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='996.3' cy='383.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='987.9' cy='382.5' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='979.1' cy='382.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='970.2' cy='383.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='961.0' cy='382.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='951.8' cy='382.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='942.4' cy='383.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='933.9' cy='382.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='774.0' cy='160.9' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='1166.1' cy='160.9' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='1166.1' cy='443.7' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='774.0' cy='443.7' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<text x='1118.7' y='173.5' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>PWR</text>
+<text x='981.1' y='159.8' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>USB</text>
+<text x='780.5' y='198.7' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>PF</text>
+<text x='796.5' y='287.6' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>RGB</text>
+<text x='796.0' y='364.1' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>BTN</text>
+<text x='970.2' y='386.6' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>J11</text>
+<text x='1143.5' y='325.6' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>SPK</text>
+<rect x='844.2' y='178.1' width='58.3' height='59.4' stroke='#c0392b' fill='#c0392b' fill-opacity='0.35' stroke-width='2'/>
+<text x='752.0' y='106.0' font-size='15' text-anchor='start' fill='#111' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>Zone a - vertical: HanRun HR963380AE</text>
+<circle cx='873.4' cy='207.8' r='6' fill='none' stroke='#c0392b' stroke-width='3'/>
+<circle cx='873.4' cy='207.8' r='1.8' fill='#c0392b'/>
+<text x='1210.0' y='162.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>body 16.2 x 16.5 mm,</text>
+<text x='1210.0' y='178.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>height 16.85 mm, faces up</text>
+<text x='1210.0' y='196.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>x 23.4-39.6, y 8.3-24.9 mm</text>
+<text x='1210.0' y='220.0' font-size='12' text-anchor='start' fill='#111' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>nearest features (gap):</text>
+<text x='1210.0' y='238.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>RGB LIGHTS: 9.1 mm</text>
+<text x='1210.0' y='254.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>PLAYFIELD LIGHTS: 12.0 mm</text>
+<text x='1210.0' y='270.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>J18 micro-USB: 18.0 mm</text>
+<text x='1210.0' y='286.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>H1: 18.3 mm</text>
+<text x='1210.0' y='312.0' font-size='12' text-anchor='start' fill='#7a2a20' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>plug from above: needs ~17 mm body</text>
+<text x='1210.0' y='328.0' font-size='12' text-anchor='start' fill='#7a2a20' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>+ plug + cable bend clear overhead</text>
+<rect x='20.0' y='480.0' width='710.0' height='390.0' stroke='#ccc' fill='none' fill-opacity='1.0' stroke-width='1'/>
+<rect x='40.0' y='548.0' width='420.0' height='308.6' stroke='#2f7d4a' fill='#eaf4ec' fill-opacity='1.0' stroke-width='2'/>
+<rect x='107.3' y='573.2' width='92.5' height='69.1' stroke='#2a6fdb' fill='#2a6fdb' fill-opacity='0.06' stroke-width='1.5' stroke-dasharray='6,4'/>
+<rect x='374.4' y='598.4' width='85.6' height='101.5' stroke='#2a6fdb' fill='#2a6fdb' fill-opacity='0.06' stroke-width='1.5' stroke-dasharray='6,4'/>
+<rect x='373.7' y='548.4' width='50.0' height='43.2' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='246.7' y='544.4' width='28.8' height='23.8' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='40.0' y='579.7' width='41.0' height='31.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='44.3' y='666.4' width='64.4' height='35.3' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='42.9' y='740.6' width='66.2' height='40.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='204.5' y='771.6' width='91.4' height='23.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='387.0' y='705.0' width='73.0' height='34.2' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<circle cx='383.7' cy='585.4' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='398.4' cy='585.9' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='413.6' cy='585.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='251.3' cy='554.3' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='271.1' cy='554.4' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='252.1' cy='565.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='270.1' cy='564.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='57.5' cy='589.1' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='57.6' cy='601.5' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='54.5' cy='684.2' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='68.5' cy='683.7' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='84.1' cy='684.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='98.5' cy='684.4' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='53.0' cy='750.5' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='67.8' cy='750.1' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='82.9' cy='751.2' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='98.0' cy='751.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='53.6' cy='770.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='68.2' cy='770.3' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='83.6' cy='771.4' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='99.0' cy='771.1' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='399.8' cy='722.0' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='419.6' cy='721.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='286.7' cy='782.7' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='276.3' cy='783.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='267.9' cy='782.5' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='259.1' cy='782.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='250.2' cy='783.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='241.0' cy='782.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='231.8' cy='782.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='222.4' cy='783.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='213.9' cy='782.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='54.0' cy='560.9' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='446.1' cy='560.9' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='446.1' cy='843.7' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='54.0' cy='843.7' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<text x='398.7' y='573.5' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>PWR</text>
+<text x='261.1' y='559.8' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>USB</text>
+<text x='60.5' y='598.7' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>PF</text>
+<text x='76.5' y='687.6' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>RGB</text>
+<text x='76.0' y='764.1' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>BTN</text>
+<text x='250.2' y='786.6' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>J11</text>
+<text x='423.5' y='725.6' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>SPK</text>
+<rect x='387.0' y='620.5' width='76.7' height='57.2' stroke='#c0392b' fill='#c0392b' fill-opacity='0.35' stroke-width='2'/>
+<text x='32.0' y='506.0' font-size='15' text-anchor='start' fill='#111' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>Zone b - right-angle: HanRun HR911105A</text>
+<line x1='465.7' y1='649.2' x2='477.7' y2='649.2' stroke='#c0392b' stroke-width='3'/>
+<text x='490.0' y='562.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>body 15.9 x 21.3 mm,</text>
+<text x='490.0' y='578.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>height 13.5 mm, faces board edge</text>
+<text x='490.0' y='596.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>x 96.4-117.7, y 20.1-36.0 mm</text>
+<text x='490.0' y='620.0' font-size='12' text-anchor='start' fill='#111' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>nearest features (gap):</text>
+<text x='490.0' y='638.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>J20 SPEAKER: 7.6 mm</text>
+<text x='490.0' y='654.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>PWR: 8.0 mm</text>
+<text x='490.0' y='670.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>H2: 14.8 mm</text>
+<text x='490.0' y='686.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>J18 micro-USB: 34.2 mm</text>
+<text x='490.0' y='712.0' font-size='12' text-anchor='start' fill='#7a2a20' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>cable exits the RIGHT edge:</text>
+<text x='490.0' y='728.0' font-size='12' text-anchor='start' fill='#7a2a20' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>check the room to the side wall</text>
+<rect x='740.0' y='480.0' width='710.0' height='390.0' stroke='#ccc' fill='none' fill-opacity='1.0' stroke-width='1'/>
+<rect x='760.0' y='548.0' width='420.0' height='308.6' stroke='#2f7d4a' fill='#eaf4ec' fill-opacity='1.0' stroke-width='2'/>
+<rect x='827.3' y='573.2' width='92.5' height='69.1' stroke='#2a6fdb' fill='#2a6fdb' fill-opacity='0.06' stroke-width='1.5' stroke-dasharray='6,4'/>
+<rect x='1094.4' y='598.4' width='85.6' height='101.5' stroke='#2a6fdb' fill='#2a6fdb' fill-opacity='0.06' stroke-width='1.5' stroke-dasharray='6,4'/>
+<rect x='1093.7' y='548.4' width='50.0' height='43.2' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='966.7' y='544.4' width='28.8' height='23.8' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='760.0' y='579.7' width='41.0' height='31.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='764.3' y='666.4' width='64.4' height='35.3' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='762.9' y='740.6' width='66.2' height='40.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='924.5' y='771.6' width='91.4' height='23.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='1107.0' y='705.0' width='73.0' height='34.2' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<circle cx='1103.7' cy='585.4' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='1118.4' cy='585.9' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='1133.6' cy='585.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='971.3' cy='554.3' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='991.1' cy='554.4' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='972.1' cy='565.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='990.1' cy='564.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='777.5' cy='589.1' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='777.6' cy='601.5' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='774.5' cy='684.2' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='788.5' cy='683.7' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='804.1' cy='684.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='818.5' cy='684.4' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='773.0' cy='750.5' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='787.8' cy='750.1' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='802.9' cy='751.2' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='818.0' cy='751.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='773.6' cy='770.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='788.2' cy='770.3' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='803.6' cy='771.4' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='819.0' cy='771.1' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='1119.8' cy='722.0' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='1139.6' cy='721.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='1006.7' cy='782.7' r='3.2' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='996.3' cy='783.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='987.9' cy='782.5' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='979.1' cy='782.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='970.2' cy='783.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='961.0' cy='782.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='951.8' cy='782.8' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='942.4' cy='783.0' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='933.9' cy='782.6' r='3.2' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='774.0' cy='560.9' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='1166.1' cy='560.9' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='1166.1' cy='843.7' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='774.0' cy='843.7' r='6.4' fill='white' stroke='#555' stroke-width='1.5'/>
+<text x='1118.7' y='573.5' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>PWR</text>
+<text x='981.1' y='559.8' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>USB</text>
+<text x='780.5' y='598.7' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>PF</text>
+<text x='796.5' y='687.6' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>RGB</text>
+<text x='796.0' y='764.1' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>BTN</text>
+<text x='970.2' y='786.6' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>J11</text>
+<text x='1143.5' y='725.6' font-size='9' text-anchor='middle' fill='#6b4200' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>SPK</text>
+<rect x='1108.1' y='619.5' width='58.3' height='59.4' stroke='#c0392b' fill='#c0392b' fill-opacity='0.35' stroke-width='2'/>
+<text x='752.0' y='506.0' font-size='15' text-anchor='start' fill='#111' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>Zone b - vertical: HanRun HR963380AE</text>
+<circle cx='1137.3' cy='649.2' r='6' fill='none' stroke='#c0392b' stroke-width='3'/>
+<circle cx='1137.3' cy='649.2' r='1.8' fill='#c0392b'/>
+<text x='1210.0' y='562.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>body 16.2 x 16.5 mm,</text>
+<text x='1210.0' y='578.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>height 16.85 mm, faces up</text>
+<text x='1210.0' y='596.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>x 96.7-112.9, y 19.9-36.4 mm</text>
+<text x='1210.0' y='620.0' font-size='12' text-anchor='start' fill='#111' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>nearest features (gap):</text>
+<text x='1210.0' y='638.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>J20 SPEAKER: 7.2 mm</text>
+<text x='1210.0' y='654.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>PWR: 7.8 mm</text>
+<text x='1210.0' y='670.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>H2: 14.5 mm</text>
+<text x='1210.0' y='686.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>J18 micro-USB: 34.4 mm</text>
+<text x='1210.0' y='712.0' font-size='12' text-anchor='start' fill='#7a2a20' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>plug from above: needs ~17 mm body</text>
+<text x='1210.0' y='728.0' font-size='12' text-anchor='start' fill='#7a2a20' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>+ plug + cable bend clear overhead</text>
+</svg>

@@ -1,0 +1,156 @@
+{
+ "status": "outline + holes EXACT (owner 2026-10-26); connector bodies / pin-1 = photo +-1 mm (replace by the 600 dpi scan if it arrives)",
+ "source": "skeeball-board/photos/2026-10-26_owner/board_front_straight.jpg, homography anchored on the four measured hole centres",
+ "outline_mm": [
+  116.68,
+  85.73
+ ],
+ "hole_drill_mm": 3.57,
+ "holes_mm": {
+  "H1 TL": [
+   3.97,
+   3.97
+  ],
+  "H2 TR": [
+   112.71000000000001,
+   3.97
+  ],
+  "H3 BR": [
+   112.71000000000001,
+   81.76
+  ],
+  "H4 BL": [
+   3.97,
+   81.76
+  ]
+ },
+ "checks": {
+  "mapped edges (TL, TR, BR, left-low) vs outline 116.68 x 85.73": [
+   [
+    0.3,
+    1.1
+   ],
+   [
+    116.3,
+    0.4
+   ],
+   [
+    114.9,
+    85.6
+   ],
+   [
+    0.8,
+    83.8
+   ]
+  ],
+  "RP2040 body width / height (should be 7.00)": [
+   7.04,
+   7.01
+  ],
+  "J11 pin1 - pin9 span (8 pitches: 20.32 = KK 2.54, 20.00 = XH 2.5)": 21.5
+ },
+ "unused_holes_mm": {
+  "top, above model text": [
+   29.3,
+   3.9
+  ],
+  "top, left of PWR": [
+   86.7,
+   3.7
+  ]
+ },
+ "regions_mm": {
+  "PWR (3-pin right-angle, plug from the top edge)": [
+   93.5,
+   3.1,
+   107.6,
+   11.9
+  ],
+  "J18 micro-USB (display)": [
+   57.4,
+   0.0,
+   65.2,
+   5.1
+  ],
+  "PLAYFIELD LIGHTS (2-pin right-angle, plug from the left)": [
+   0.8,
+   6.9,
+   10.1,
+   17.8
+  ],
+  "RGB LIGHTS (1x4 4.2 mm vertical)": [
+   2.3,
+   31.1,
+   18.7,
+   40.7
+  ],
+  "BUTTONS (2x4 4.2 mm vertical)": [
+   3.6,
+   53.1,
+   18.9,
+   64.2
+  ],
+  "J11 SCORE SENSORS (9-way)": [
+   46.4,
+   64.1,
+   69.9,
+   67.7
+  ],
+  "J20 SPEAKER (2-pin right-angle, plug from the right)": [
+   97.0,
+   45.6,
+   116.3,
+   51.3
+  ]
+ },
+ "pin1_mm": {
+  "PWR pin 1 (5 V, left pin)": [
+   95.0,
+   11.1
+  ],
+  "RGB pin 1 (left, square)": [
+   4.7,
+   39.2
+  ],
+  "BUTTONS pin 1 (top-left, square)": [
+   5.6,
+   54.8
+  ],
+  "PLAYFIELD upper pin (FET channel; +5 V = lower pin)": [
+   4.2,
+   9.8
+  ],
+  "SPEAKER pin 1 (left pad)": [
+   99.2,
+   48.4
+  ],
+  "J18 micro-USB centre (x)": [
+   61.3,
+   1.9
+  ]
+ },
+ "zones_mm": {
+  "a: model-number text area": [
+   18.7,
+   7.0,
+   44.4,
+   26.2
+  ],
+  "b: between PWR and SPEAKER": [
+   92.9,
+   14.0,
+   116.68,
+   42.2
+  ]
+ },
+ "pins_mm": {
+  "J11 pin 9 (left end)": [
+   47.4,
+   65.8
+  ],
+  "J11 pin 1 '*' (right end)": [
+   68.9,
+   66.2
+  ]
+ }
+}

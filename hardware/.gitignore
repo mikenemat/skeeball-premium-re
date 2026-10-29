@@ -1,0 +1,28 @@
+# --- scratch, runs and backups (router runs, gate outputs, scratch boards) ---
+.runtime/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- KiCad local state / backups / caches ---
+*.kicad_prl
+*-backups/
+*.lck
+~*.lck
+_autosave-*
+fp-info-cache
+*.bak
+
+# --- third-party material: download / regenerate instead of committing ---
+datasheets/
+hardware/lib/3d/vendor/
+tools/pylib/
+
+# --- API caches (rebuilt on demand by scripts/jlc_api.py / jlc_footprints.py) ---
+bom/.jlc_api_cache/
+bom/easyeda_cache/
+
+# --- superseded outputs (release-2026-10-27c is the manufacturing record) ---
+fab/release-2026-10-27b/
+renders/pcb/*
+!renders/pcb/final-2026-10-27b/

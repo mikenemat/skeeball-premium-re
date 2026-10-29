@@ -1,0 +1,185 @@
+{
+ "fetched_utc": "2026-10-26T21:47:03Z",
+ "qty": 5,
+ "options": {
+  "A RP2350B + W5500 + W25Q128 (chosen)": {
+   "parts": [
+    {
+     "code": "C42415655",
+     "mpn": "RP2350B",
+     "stock": 3477,
+     "buyable": true,
+     "unit_usd": 1.2833,
+     "package": "QFN-80-EP(10x10)",
+     "page": "https://jlcpcb.com/partdetail/RaspberryPi-RP2350B/C42415655"
+    },
+    {
+     "code": "C32843",
+     "mpn": "W5500",
+     "stock": 23251,
+     "buyable": true,
+     "unit_usd": 2.83,
+     "package": "LQFP-48_7x7",
+     "page": "https://jlcpcb.com/partdetail/WIZNET-W5500/C32843"
+    },
+    {
+     "code": "C97521",
+     "mpn": "W25Q128JVSIQ",
+     "stock": 58346,
+     "buyable": true,
+     "unit_usd": 2.5828,
+     "package": "SOIC-8-208mil",
+     "page": "https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521"
+    },
+    {
+     "code": "C12074",
+     "mpn": "HR911105A",
+     "stock": 69833,
+     "buyable": true,
+     "unit_usd": 1.7252,
+     "package": "Plugin",
+     "page": "https://jlcpcb.com/partdetail/12651-HR911105A/C12074"
+    }
+   ],
+   "core_usd": 8.42
+  },
+  "A' RP2350A (QFN-60, 30 GPIO) - first pick": {
+   "parts": [
+    {
+     "code": "C42411118",
+     "mpn": "RP2350A",
+     "stock": 5711,
+     "buyable": true,
+     "unit_usd": 1.2947,
+     "package": "QFN-60-EP(7x7)",
+     "page": "https://jlcpcb.com/partdetail/RaspberryPi-RP2350A/C42411118"
+    }
+   ],
+   "core_usd": 1.29
+  },
+  "B STM32F407VGT6 + LAN8720A PHY": {
+   "parts": [
+    {
+     "code": "C12345",
+     "mpn": "STM32F407VGT6",
+     "stock": 3483,
+     "buyable": true,
+     "unit_usd": 5.1394,
+     "package": "LQFP-100(14x14)",
+     "page": "https://jlcpcb.com/partdetail/STMicroelectronics-STM32F407VGT6/C12345"
+    },
+    {
+     "code": "C45223",
+     "mpn": "LAN8720A-CP-TR",
+     "stock": 33298,
+     "buyable": true,
+     "unit_usd": 0.7939,
+     "package": "QFN-24",
+     "page": "https://jlcpcb.com/partdetail/MicrochipTech-LAN8720A_CPTR/C45223"
+    },
+    {
+     "code": "C12074",
+     "mpn": "HR911105A",
+     "stock": 69833,
+     "buyable": true,
+     "unit_usd": 1.7252,
+     "package": "Plugin",
+     "page": "https://jlcpcb.com/partdetail/12651-HR911105A/C12074"
+    }
+   ],
+   "core_usd": 7.66
+  },
+  "C CH32V307VCT6 (MAC + 10M PHY) + W25Q128": {
+   "parts": [
+    {
+     "code": "C2943979",
+     "mpn": "CH32V307VCT6",
+     "stock": 1637,
+     "buyable": true,
+     "unit_usd": 3.411,
+     "package": "LQFP-100(14x14)",
+     "page": "https://jlcpcb.com/partdetail/WCH_Jiangsu_Qin_Heng-CH32V307VCT6/C2943979"
+    },
+    {
+     "code": "C97521",
+     "mpn": "W25Q128JVSIQ",
+     "stock": 58346,
+     "buyable": true,
+     "unit_usd": 2.5828,
+     "package": "SOIC-8-208mil",
+     "page": "https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521"
+    },
+    {
+     "code": "C12074",
+     "mpn": "HR911105A",
+     "stock": 69833,
+     "buyable": true,
+     "unit_usd": 1.7252,
+     "package": "Plugin",
+     "page": "https://jlcpcb.com/partdetail/12651-HR911105A/C12074"
+    }
+   ],
+   "core_usd": 7.72
+  },
+  "C' CH32V307RCT6 (LQFP-64)": {
+   "parts": [
+    {
+     "code": "C2988083",
+     "mpn": "CH32V307RCT6",
+     "stock": 863,
+     "buyable": true,
+     "unit_usd": 3.4552,
+     "package": "LQFP-64M(10x10)",
+     "page": "https://jlcpcb.com/partdetail/WCH_Jiangsu_Qin_Heng-CH32V307RCT6/C2988083"
+    }
+   ],
+   "core_usd": 3.46
+  },
+  "D ESP32-S3-WROOM-1-N16R8 + W5500": {
+   "parts": [
+    {
+     "code": "C2913202",
+     "mpn": "ESP32-S3-WROOM-1-N16R8",
+     "stock": 23692,
+     "buyable": true,
+     "unit_usd": 5.3505,
+     "package": "SMD,25.5x18mm",
+     "page": "https://jlcpcb.com/partdetail/3198300-ESP32_S3_WROOM_1N16R8/C2913202"
+    },
+    {
+     "code": "C32843",
+     "mpn": "W5500",
+     "stock": 23251,
+     "buyable": true,
+     "unit_usd": 2.83,
+     "package": "LQFP-48_7x7",
+     "page": "https://jlcpcb.com/partdetail/WIZNET-W5500/C32843"
+    },
+    {
+     "code": "C12074",
+     "mpn": "HR911105A",
+     "stock": 69833,
+     "buyable": true,
+     "unit_usd": 1.7252,
+     "package": "Plugin",
+     "page": "https://jlcpcb.com/partdetail/12651-HR911105A/C12074"
+    }
+   ],
+   "core_usd": 9.91
+  },
+  "E WIZnet W55RP20 (RP2040 + W5500 SiP)": {
+   "parts": [
+    {
+     "code": "C44874687",
+     "mpn": "W55RP20-S2E",
+     "stock": 0,
+     "buyable": true,
+     "unit_usd": 11.1069,
+     "package": "-",
+     "page": "https://jlcpcb.com/partdetail/WIZNET-W55RP20S2E/C44874687"
+    }
+   ],
+   "core_usd": 11.11
+  }
+ }
+}

@@ -1,0 +1,3212 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9931e672-f382-57e6-a825-4531d0af812b")
+	(paper "A3")
+	(title_block
+		(title "MAX98357A audio amplifier + speaker")
+	)
+	(lib_symbols
+		(symbol "skeeball:MAX98357A_TQFN"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -13.97 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MAX98357A_TQFN"
+				(at -13.97 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm"
+				(at 0.0000 -22.86 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX98357A-MAX98357B.pdf"
+				(at 0.0000 -25.4 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "I2S class-D mono amplifier, 3.2 W into 4 R at 5 V"
+				(at 0.0000 -27.94 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MAX98357A_TQFN_0_1"
+				(rectangle
+					(start -13.97 19.05)
+					(end 13.97 -19.05)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MAX98357A_TQFN_1_1"
+				(pin power_in line
+					(at -16.51 16.51 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -16.51 13.97 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 8.89 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 6.35 0)
+					(length 2.54)
+					(name "BCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 3.81 0)
+					(length 2.54)
+					(name "LRCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -16.51 -1.27 0)
+					(length 2.54)
+					(name "SD_MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -16.51 -3.81 0)
+					(length 2.54)
+					(name "GAIN_SLOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -16.51 -11.43 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -16.51 -13.97 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -16.51 -16.51 0)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 16.51 180)
+					(length 2.54)
+					(name "OUTP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 13.97 180)
+					(length 2.54)
+					(name "OUTN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 16.51 8.89 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 16.51 6.35 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 16.51 3.81 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 16.51 1.27 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "skeeball:MAX98357A_TQFN")
+		(at 55.88 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "12cc98cd-d42a-5d9e-ae73-345a0081a07f")
+		(property "Reference" "U8"
+			(at 41.91 71.12 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX98357AETE+T"
+			(at 41.91 30.48 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm"
+			(at 55.88 27.94 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MAX98357AETE+T"
+			(at 58.42 55.8799 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 58.42 55.8799 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C910544"
+			(at 58.42 55.8799 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Note" "I2S class-D, 3.2 W into 4 R at 5 V (10 % THD), filterless, click/pop suppression. GAIN_SLOT unconnected -> 9 dB (Table 8, modest gain per owner 2026-10-26); firmware caps the digital volume. Speaker (owner photo 2026-10-26): Stetron DB20-009, Bay Tek AACE8811A, 4 R nominal, power rating unverified, 2-wire floating -> BTL output OK"
+			(at 58.42 55.8799 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "7"
+			(uuid "edeb4b02-e7ee-58fb-9463-a6bc423b16b7")
+		)
+		(pin "8"
+			(uuid "a872e5a4-6162-508f-a211-1c4ba1bf062a")
+		)
+		(pin "1"
+			(uuid "d3678f05-cdba-583f-b47b-144fb6f4ec14")
+		)
+		(pin "16"
+			(uuid "f6a07c19-58a0-5a92-9c2e-e2c3f4eee10a")
+		)
+		(pin "14"
+			(uuid "6ad60feb-9696-5d9c-a205-36a986439d81")
+		)
+		(pin "4"
+			(uuid "c1ca2728-ef4a-5927-a19a-2ef52beeb92f")
+		)
+		(pin "2"
+			(uuid "94a68a67-ee60-5eb5-8b09-dafdcbc630dd")
+		)
+		(pin "3"
+			(uuid "014a9c32-fdd5-5438-96cf-d9ef5fb8e4f4")
+		)
+		(pin "11"
+			(uuid "6fabf90b-3db9-5870-b44c-6360dd794bf3")
+		)
+		(pin "15"
+			(uuid "ab853d19-c8fd-5ca0-8687-b4348f1bc14b")
+		)
+		(pin "17"
+			(uuid "1350aebf-2e1a-5a96-8054-e1cbb4b6b621")
+		)
+		(pin "9"
+			(uuid "f9c4c815-6740-53e5-8c9f-34b1a6607019")
+		)
+		(pin "10"
+			(uuid "d9166950-21a8-544c-ab08-5f8b185a79f1")
+		)
+		(pin "5"
+			(uuid "46a21899-9963-5046-bbe4-04b719fbae12")
+		)
+		(pin "6"
+			(uuid "008fcb70-d08a-5e30-83f4-637b8e45a94f")
+		)
+		(pin "12"
+			(uuid "27ef3538-12fc-5ffb-97e8-0cc1f78ba4ce")
+		)
+		(pin "13"
+			(uuid "94aa894d-1aac-5e24-b0a2-7ee235a7f47e")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "27fc6255-396a-588e-9888-65d638aa07f3")
+		(property "Reference" "R38"
+			(at 104.140 45.720 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510k"
+			(at 106.045 45.720 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 99.822 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF5103T5E"
+			(at 104.14 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 104.14 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "tolerance" "1%"
+			(at 104.14 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Note" "SD_MODE pull-up RLARGE for the (L+R)/2 mono mix (Table 5: B0 < VSD_MODE < B1). Re-centred (coordinator QA B4 2026-10-27; 680k sat 30 mV above B0 max): Electrical Characteristics B0 max 0.355 V, B1 typ 0.77 V (no min given), RPD 100k +-8 %; with +3V3 3.26-3.39 V and 1 %: VSD_MODE 0.494-0.597 V (typ 3.3 x 100k / 610k = 0.54 V), margins 0.14 V to B0 max and 0.17 V to B1 typ. JLC basic C23192 (Table 6's 634k is extended). Amp idles in standby without BCLK"
+			(at 104.14 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "a7ac6b0f-0bb2-5786-b86f-3530e5e734dd")
+		)
+		(pin "2"
+			(uuid "ca6b3837-b0e0-514c-8137-0f1c2158edb4")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "66182bf0-4723-520b-9db7-e62a52ddeff6")
+		(property "Reference" "C54"
+			(at 127.635 48.26 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 127.635 43.18 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 127.9652 41.91 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21A106KAYNNNE"
+			(at 129.54 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 129.54 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Note" "VDD 10 uF + 0.1 uF (Typical Application Circuit)"
+			(at 129.54 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "db3963ef-16e3-5f6a-aad8-085bb34ae8fa")
+		)
+		(pin "2"
+			(uuid "44dcbe98-a8f0-53fe-9b2b-2919f5010846")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 154.94 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "5ee168be-cd72-584b-8792-204686b9c378")
+		(property "Reference" "C55"
+			(at 155.575 48.26 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 155.575 43.18 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 155.9052 41.91 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R9BB104"
+			(at 157.48 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 157.48 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "f51adb42-5589-5eca-9f99-7323516a2dbc")
+		)
+		(pin "2"
+			(uuid "8f9433cf-c161-5949-ba95-9a5f38977c79")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 180.34 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "83ff0094-317c-5ce5-8df5-83f07f658cb1")
+		(property "Reference" "C56"
+			(at 180.975 48.26 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF polymer"
+			(at 180.975 43.18 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
+			(at 181.3052 41.91 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OVZ221M1ATR-0606"
+			(at 182.88 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Lelon"
+			(at 182.88 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Note" "amp reservoir: with the eFuse-output 220 uF, 660 uF polymer + the 22 / 10 uF X5R 0805 MLCCs (~30-40 % of nominal at 5 V DC bias, QA A9 2026-10-27) on +5V_SYS hold a 1.2 A audio peak to ~0.15 V droop for 100 us while the brick's loop responds (ARCHITECTURE 5.12)"
+			(at 182.88 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "4b0122a6-4944-55ed-a4d4-500a74e501fd")
+		)
+		(pin "2"
+			(uuid "c4913b5b-6935-533c-826f-d5d51fff741f")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 213.36 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "e12d99d8-7a82-56c1-b173-5745417910d5")
+		(property "Reference" "C57"
+			(at 213.995 48.26 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF polymer"
+			(at 213.995 43.18 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
+			(at 214.3252 41.91 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "OVZ221M1ATR-0606"
+			(at 215.9 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Lelon"
+			(at 215.9 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Note" "amp reservoir: with the eFuse-output 220 uF, 660 uF polymer + the 22 / 10 uF X5R 0805 MLCCs (~30-40 % of nominal at 5 V DC bias, QA A9 2026-10-27) on +5V_SYS hold a 1.2 A audio peak to ~0.15 V droop for 100 us while the brick's loop responds (ARCHITECTURE 5.12)"
+			(at 215.9 50.7999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "2771e078-b71e-5ad1-9cdb-bce7a82eda1e")
+		)
+		(pin "2"
+			(uuid "8d5d76fe-5789-5ad1-98a4-6daf697d62c3")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 251.46 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "b397112b-cf67-5f57-8c5a-ffd8148bf149")
+		(property "Reference" "R39"
+			(at 254.000 53.340 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 255.905 53.340 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 249.682 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF330JT5E"
+			(at 254 58.4199 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 254 58.4199 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "tolerance" "1%"
+			(at 254 58.4199 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Note" "source termination at the RP2350 driver"
+			(at 254 58.4199 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "65a92995-12ee-5613-bafb-37ff53d893c6")
+		)
+		(pin "2"
+			(uuid "7440cd09-62f6-5449-9830-46334534c4c5")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 292.1 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "1c03d1b2-5cf1-5f95-9fa3-9751633d1f2d")
+		(property "Reference" "R40"
+			(at 294.640 53.340 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 296.545 53.340 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 290.322 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF330JT5E"
+			(at 294.64 58.4199 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 294.64 58.4199 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "tolerance" "1%"
+			(at 294.64 58.4199 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Note" "source termination at the RP2350 driver"
+			(at 294.64 58.4199 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "f74078e5-b97e-51fd-ba8c-485d910f4dea")
+		)
+		(pin "2"
+			(uuid "36f2a6d5-bbe7-5556-a2c1-f7ac07dc874b")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 330.2 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "53588ad9-5ec0-5c60-8cdb-e6b877893db5")
+		(property "Reference" "R41"
+			(at 332.740 50.800 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 334.645 50.800 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 328.422 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF330JT5E"
+			(at 332.74 55.8799 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 332.74 55.8799 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "tolerance" "1%"
+			(at 332.74 55.8799 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Note" "source termination at the RP2350 driver"
+			(at 332.74 55.8799 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "e5523e4a-eb72-5c21-96bc-bf3573f40d20")
+		)
+		(pin "2"
+			(uuid "e863d8aa-40c0-5463-9f96-c641a1e7978f")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 363.22 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "35fa8f92-3f5b-549b-a242-6b7bb3b73198")
+		(property "Reference" "FB2"
+			(at 367.620 48.260 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLM21PG221SN1D"
+			(at 369.520 48.260 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 361.442 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM21PG221SN1D"
+			(at 365.76 53.3399 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 365.76 53.3399 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C85840"
+			(at 365.76 53.3399 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Note" "ferrite + 1 nF output EMI filter for the speaker lead ('Filterless Class D Operation' / EMI section; the stock board has the same FB1/FB2 + C36/C37 pair); 2 A, 50 mOhm"
+			(at 365.76 53.3399 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "d845061c-fc3f-5dbf-b1c2-12dba7d88484")
+		)
+		(pin "2"
+			(uuid "7e505913-107c-50a1-821c-4bb82d905645")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 30.48 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "a4db7289-4895-5a43-992b-22696a12c1fb")
+		(property "Reference" "C58"
+			(at 31.115 99.06 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 31.115 93.98 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 31.4452 92.71 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC"
+			(at 33.02 101.5999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 33.02 101.5999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "90f99ad8-37dd-5db8-83aa-be2d45bb4040")
+		)
+		(pin "2"
+			(uuid "1f8630e7-c4f6-55b3-9205-ef14d6a5be0f")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 55.88 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "46b17742-0b9a-57f4-a578-78cfd3085d6c")
+		(property "Reference" "FB3"
+			(at 60.280 101.600 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLM21PG221SN1D"
+			(at 62.180 101.600 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 54.102 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BLM21PG221SN1D"
+			(at 58.42 106.6799 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 58.42 106.6799 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C85840"
+			(at 58.42 106.6799 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Note" "ferrite + 1 nF output EMI filter for the speaker lead ('Filterless Class D Operation' / EMI section; the stock board has the same FB1/FB2 + C36/C37 pair); 2 A, 50 mOhm"
+			(at 58.42 106.6799 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "df5ca70b-2be2-57d5-b351-5a50804903c6")
+		)
+		(pin "2"
+			(uuid "a566865a-576d-58cf-9caa-d3058d8cae3a")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "FB3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "fade36a6-8c08-59d6-aa7e-7e604c19061c")
+		(property "Reference" "C59"
+			(at 86.995 99.06 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 86.995 93.98 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 87.3252 92.71 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC"
+			(at 88.9 101.5999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 88.9 101.5999 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "73692e7b-f2e1-582f-9d44-d1819697bce6")
+		)
+		(pin "2"
+			(uuid "4f9e59ed-0e39-5a91-8e1a-f497ede3d9c2")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 114.3 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "03f6fdfe-6de3-5c01-836a-ef35db754136")
+		(property "Reference" "J4"
+			(at 117.100 93.980 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SPEAKER"
+			(at 114.300 90.380 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal"
+			(at 114.3 93.98 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "39300020"
+			(at 116.84 99.0599 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 116.84 99.0599 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C240831"
+			(at 116.84 99.0599 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Note" "HARNESS (stock J20 location + type, owner photos 2026-10-26): Mini-Fit Jr 2-circuit DUAL-ROW right-angle header 5569-02A2 (= 39-30-0020) with a snap-in peg, the two pins stacked perpendicular to the board, plug enters from the RIGHT edge. The owner's scan shows the stock part's single 3.3 mm peg hole on the pin axis 7.28 mm beyond the outer pin = this variant (KiCad 5569-02A2 and LCSC C240831: 7.3 mm); the flange-mount 39291028 used before has two holes 4.5 mm off-axis and is dropped. Speaker Stetron DB20-009 4 R, floating (BTL). Pins at (100.13, 48.27) / (105.67, 48.23) (scan)"
+			(at 116.84 99.0599 0) (hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+
+		(pin "1"
+			(uuid "a02848c5-077a-52d5-afc8-f3daf9654a4f")
+		)
+		(pin "2"
+			(uuid "0e95bd7c-abb0-5261-8686-51e63068178f")
+		)
+		(instances
+			(project "MAX98357A audio amplifier + speaker"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e/cd14658b-0a37-5aac-9da6-a60be5994f3c"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(text "MAX98357A audio amplifier + speaker"
+		(exclude_from_sim no)
+		(at 12.700 12.700 0)
+		(effects
+			(font
+				(size 3.0 3.0)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "43fc0085-7eeb-51fb-b350-ed022510f291")
+	)
+	(global_label "+5V_SYS"
+		(shape passive)
+		(at 39.3700 34.2900 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f62f917-393a-5387-9c26-bae60bac9d59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3700 34.2900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_SYS"
+		(shape passive)
+		(at 39.3700 36.8300 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f3db43a-d500-5b26-89cf-cbedd5ced40a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3700 36.8300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_DIN"
+		(shape passive)
+		(at 39.3700 41.9100 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8ad54de-382a-58c0-872d-98df19379b27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3700 41.9100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_BCLK"
+		(shape passive)
+		(at 39.3700 44.4500 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45d4b668-9fc8-5822-bb96-2440ba59fb51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3700 44.4500 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_LRCLK"
+		(shape passive)
+		(at 39.3700 46.9900 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d15f040-093b-5a76-9ac1-c8e632b1c32b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3700 46.9900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMP_SD"
+		(shape passive)
+		(at 39.3700 52.0700 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec6181e9-b314-5f73-817a-ac4e4bb23859")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3700 52.0700 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(no_connect
+		(at 39.3700 54.6100)
+		(uuid "d7f9ed7c-1930-5de0-8301-325f72b5f785")
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 39.3700 59.6900 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7281a1e6-a809-5b39-882b-b3d30b65badb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3700 59.6900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 39.3700 62.2300 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "810daa87-a951-52d2-9c7b-b879f832d6cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3700 62.2300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 39.3700 64.7700 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c28a889a-f6f1-5d60-a541-aa77a3e6b8c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3700 64.7700 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 39.3700 67.3100 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ce79ac3-0bd8-54fa-b3f4-a333cc61a7dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.3700 67.3100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMP_OUTP"
+		(shape passive)
+		(at 72.3900 34.2900 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "475bcd08-cbbb-5533-bfab-bbfb7911fffc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.3900 34.2900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMP_OUTN"
+		(shape passive)
+		(at 72.3900 36.8300 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "235c4e29-2cdd-5768-a438-746676836ba6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.3900 36.8300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(no_connect
+		(at 72.3900 41.9100)
+		(uuid "e06348b5-0c53-5997-b23d-36328c786a6c")
+	)
+	(no_connect
+		(at 72.3900 44.4500)
+		(uuid "aefa84ea-f2c8-5da5-b8a5-490b26d339dc")
+	)
+	(no_connect
+		(at 72.3900 46.9900)
+		(uuid "9c101c30-7913-56e8-b6f8-b2be8614f7bd")
+	)
+	(no_connect
+		(at 72.3900 49.5300)
+		(uuid "220f0219-9885-5825-9481-900c0c9e3583")
+	)
+	(global_label "+3V3"
+		(shape passive)
+		(at 101.6000 41.9100 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d1ace6b-3e62-59d6-9005-c600003e74a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6000 41.9100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMP_SD"
+		(shape passive)
+		(at 101.6000 49.5300 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5342ec7b-826f-544a-a7ec-74c71d45e6e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6000 49.5300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_SYS"
+		(shape passive)
+		(at 127.0000 41.9100 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ff6c3ad-f31b-562e-b901-e75b77141d4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.0000 41.9100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 127.0000 49.5300 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ca866f8-8ac8-5309-bf2b-357c495a2b6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.0000 49.5300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_SYS"
+		(shape passive)
+		(at 154.9400 41.9100 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49ec58d5-71bc-5a4c-a351-b3f9baef9314")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.9400 41.9100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 154.9400 49.5300 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d900e73-f61d-56c2-9ed7-56617ba804df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.9400 49.5300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_SYS"
+		(shape passive)
+		(at 180.3400 41.9100 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52c441c5-7422-5365-b312-35664c5ad29b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.3400 41.9100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 180.3400 49.5300 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b05c9079-5ec5-55d1-a1bf-2c51d91f47a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.3400 49.5300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_SYS"
+		(shape passive)
+		(at 213.3600 41.9100 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad8b69bd-bc17-5a17-a5d9-1f9328ad0c6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.3600 41.9100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 213.3600 49.5300 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b745272-5092-534f-9aab-b021754e7f06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.3600 49.5300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_BCLK_MCU"
+		(shape passive)
+		(at 251.4600 49.5300 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1828bc4-0d2c-5b23-a800-555285719667")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.4600 49.5300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_BCLK"
+		(shape passive)
+		(at 251.4600 57.1500 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e625daa-bef2-53d6-9d09-5d3b929e0431")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.4600 57.1500 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_LRCLK_MCU"
+		(shape passive)
+		(at 292.1000 49.5300 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1804cab0-8dc0-5b58-9af7-8bdde3be64a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.1000 49.5300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_LRCLK"
+		(shape passive)
+		(at 292.1000 57.1500 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4256f67a-d77b-565c-8f1f-282e0d0f093c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.1000 57.1500 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_DIN_MCU"
+		(shape passive)
+		(at 330.2000 46.9900 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c2b71d2-ce36-5825-906a-313b5d02f4d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 330.2000 46.9900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2S_DIN"
+		(shape passive)
+		(at 330.2000 54.6100 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83681a1d-b3cd-55f0-98f9-72a7d9e6c07d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 330.2000 54.6100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMP_OUTP"
+		(shape passive)
+		(at 363.2200 44.4500 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "609acd73-801e-5815-80a3-922a1ffd9af1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 363.2200 44.4500 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPK_P"
+		(shape passive)
+		(at 363.2200 52.0700 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba75bdec-0916-5219-9e60-883f8875db8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 363.2200 52.0700 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPK_P"
+		(shape passive)
+		(at 30.4800 92.7100 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd4bf8d7-2d3d-52fa-bb27-ad7733101537")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.4800 92.7100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 30.4800 100.3300 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "340bb99b-f3f2-57d8-a2f8-84fc47b33397")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.4800 100.3300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMP_OUTN"
+		(shape passive)
+		(at 55.8800 97.7900 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1526df9-2fe4-50c8-9bc4-12f7a0150bc4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.8800 97.7900 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPK_N"
+		(shape passive)
+		(at 55.8800 105.4100 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "251252f2-b626-53e5-8fb1-f96de18f0ee7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.8800 105.4100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPK_N"
+		(shape passive)
+		(at 86.3600 92.7100 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab21e0ab-3bd4-5cf9-a97b-629a644d16b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.3600 92.7100 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 86.3600 100.3300 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67be4c6c-c36a-57cd-b89b-e8dac8699587")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.3600 100.3300 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPK_P"
+		(shape passive)
+		(at 109.2200 93.9800 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2b4d3cd-66c2-59b7-b425-97bbfd268e3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.2200 93.9800 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPK_N"
+		(shape passive)
+		(at 109.2200 96.5200 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cde844d6-f0ad-554c-88b3-afc494cc9ea8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.2200 96.5200 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+)

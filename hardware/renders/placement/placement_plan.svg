@@ -1,0 +1,131 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1640' height='800' viewBox='0 0 1640 800'>
+<rect width='1640' height='800' fill='white'/>
+<text x='30.0' y='38.0' font-size='22' text-anchor='start' fill='#111' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>SBC-1 placement plan - outline, holes and connector pads measured</text>
+<text x='30.0' y='62.0' font-size='13' text-anchor='start' fill='#444' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>Outline 116.68 x 85.73 mm and corner holes (3.57 mm, 3.885 mm from the short / 3.585 mm from the long edges) = owner calipers 2026-10-26. Connector pads (dots) = owner's 300 dpi bottom scan, +-0.1 mm.</text>
+<text x='30.0' y='80.0' font-size='13' text-anchor='start' fill='#444' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>Scan mapped onto the holes; bodies drawn around the pads. Origin = top-left, component side up; the J11 score-harness edge is the bottom. Pin 1 pads are drawn filled.</text>
+<rect x='250.0' y='110.0' width='816.8' height='600.1' stroke='#2f7d4a' fill='#eaf4ec' fill-opacity='1.0' stroke-width='2'/>
+<rect x='380.9' y='159.0' width='179.9' height='134.4' stroke='#2a6fdb' fill='#2a6fdb' fill-opacity='0.06' stroke-width='1.5' stroke-dasharray='6,4'/>
+<rect x='900.3' y='208.0' width='166.5' height='197.4' stroke='#2a6fdb' fill='#2a6fdb' fill-opacity='0.06' stroke-width='1.5' stroke-dasharray='6,4'/>
+<rect x='579.0' y='271.0' width='161.0' height='154.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='659.5' y='352.0' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G1</text>
+<rect x='768.0' y='208.0' width='119.0' height='84.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='827.5' y='254.0' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G2</text>
+<rect x='397.0' y='404.0' width='84.0' height='63.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='439.0' y='439.5' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G3</text>
+<rect x='565.0' y='467.0' width='175.0' height='63.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='652.5' y='502.5' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G4</text>
+<rect x='404.0' y='481.0' width='84.0' height='77.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='446.0' y='523.5' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G5</text>
+<rect x='852.0' y='488.0' width='91.0' height='70.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='897.5' y='527.0' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G6</text>
+<rect x='635.0' y='159.0' width='84.0' height='56.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='677.0' y='191.0' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G7</text>
+<rect x='908.0' y='579.0' width='98.0' height='77.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='957.0' y='621.5' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G8</text>
+<rect x='754.0' y='579.0' width='133.0' height='63.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='820.5' y='614.5' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G9</text>
+<rect x='754.0' y='656.0' width='133.0' height='28.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='820.5' y='674.0' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G10</text>
+<rect x='502.0' y='600.0' width='56.0' height='42.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='530.0' y='625.0' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G11</text>
+<rect x='306.0' y='593.0' width='168.0' height='77.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='390.0' y='635.5' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G12</text>
+<rect x='898.9' y='110.7' width='97.3' height='84.0' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='652.0' y='103.0' width='56.0' height='46.2' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='250.0' y='171.6' width='79.8' height='60.2' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='258.4' y='340.3' width='125.3' height='68.6' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='255.6' y='484.5' width='128.8' height='77.7' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='569.9' y='544.7' width='177.8' height='44.8' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<rect x='924.8' y='415.2' width='142.0' height='66.5' stroke='#b06d00' fill='#e8a33d' fill-opacity='0.55' stroke-width='1.2'/>
+<circle cx='918.2' cy='182.7' r='6.3' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='946.9' cy='183.6' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='976.5' cy='181.9' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='660.8' cy='122.2' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='699.4' cy='122.4' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='662.4' cy='143.0' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='697.4' cy='142.8' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='284.1' cy='190.0' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='284.3' cy='213.9' r='6.3' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='278.3' cy='374.7' r='6.3' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='305.4' cy='373.9' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='335.7' cy='374.4' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='363.8' cy='375.2' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='275.3' cy='503.8' r='6.3' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='304.0' cy='503.1' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='333.5' cy='505.2' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='362.7' cy='504.8' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='276.4' cy='542.9' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='304.7' cy='542.2' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='334.8' cy='544.3' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='364.7' cy='543.8' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='949.6' cy='448.3' r='6.3' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='988.1' cy='448.0' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='729.6' cy='566.4' r='6.3' fill='#7a2a20' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='709.4' cy='567.0' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='693.1' cy='565.9' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='676.0' cy='566.3' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='658.8' cy='568.2' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='640.8' cy='566.5' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='623.0' cy='566.5' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='604.8' cy='567.0' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='588.2' cy='566.2' r='6.3' fill='white' stroke='#7a2a20' stroke-width='1'/>
+<circle cx='277.2' cy='135.1' r='12.5' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='1039.6' cy='135.1' r='12.5' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='1039.6' cy='685.0' r='12.5' fill='white' stroke='#555' stroke-width='1.5'/>
+<circle cx='277.2' cy='685.0' r='12.5' fill='white' stroke='#555' stroke-width='1.5'/>
+<rect x='413.8' y='168.4' width='113.4' height='115.5' stroke='#c0392b' fill='#c0392b' fill-opacity='0.35' stroke-width='2'/>
+<text x='470.5' y='230.2' font-size='12' text-anchor='middle' fill='#7a1a10' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>RJ45</text>
+<rect x='411.0' y='299.0' width='140.0' height='63.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.18' stroke-width='1'/>
+<text x='481.0' y='334.5' font-size='11' text-anchor='middle' fill='#333' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>G13</text>
+<line x1='947.5' y1='110.7' x2='947.5' y2='98.0' stroke='#b06d00'/>
+<text x='947.5' y='94.0' font-size='13' text-anchor='middle' fill='#7a4a00' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>PWR</text>
+<line x1='680.0' y1='103.0' x2='680.0' y2='98.0' stroke='#b06d00'/>
+<text x='680.0' y='94.0' font-size='13' text-anchor='middle' fill='#7a4a00' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>J18 micro-USB</text>
+<line x1='250.0' y1='201.7' x2='236.0' y2='201.7' stroke='#b06d00'/>
+<text x='232.0' y='205.7' font-size='13' text-anchor='end' fill='#7a4a00' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>PLAYFIELD LIGHTS</text>
+<line x1='258.4' y1='374.6' x2='236.0' y2='374.6' stroke='#b06d00'/>
+<text x='232.0' y='378.6' font-size='13' text-anchor='end' fill='#7a4a00' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>RGB LIGHTS</text>
+<line x1='255.6' y1='523.3' x2='236.0' y2='523.3' stroke='#b06d00'/>
+<text x='232.0' y='527.3' font-size='13' text-anchor='end' fill='#7a4a00' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>BUTTONS</text>
+<line x1='658.8' y1='589.5' x2='658.8' y2='723.1' stroke='#b06d00'/>
+<text x='658.8' y='736.1' font-size='13' text-anchor='middle' fill='#7a4a00' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>J11 SCORE SENSORS (9-way latching, pin 1 '*' at the right end)</text>
+<line x1='1066.8' y1='448.4' x2='1080.8' y2='448.4' stroke='#b06d00'/>
+<text x='1084.8' y='452.4' font-size='13' text-anchor='start' fill='#7a4a00' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>J20 SPEAKER</text>
+<text x='380.9' y='155.0' font-size='12' text-anchor='start' fill='#2a6fdb' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>RJ45 zone a</text>
+<text x='900.3' y='204.0' font-size='12' text-anchor='start' fill='#2a6fdb' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>RJ45 zone b</text>
+<text x='292.4' y='139.1' font-size='11' text-anchor='start' fill='#333' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>H1</text>
+<text x='1024.4' y='139.1' font-size='11' text-anchor='end' fill='#333' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>H2</text>
+<text x='1024.4' y='689.0' font-size='11' text-anchor='end' fill='#333' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>H3</text>
+<text x='292.4' y='689.0' font-size='11' text-anchor='start' fill='#333' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>H4</text>
+<text x='1216.8' y='130.0' font-size='15' text-anchor='start' fill='#111' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>Legend</text>
+<rect x='1216.8' y='140.0' width='18.0' height='14.0' stroke='#e8a33d' fill='#e8a33d' fill-opacity='0.5' stroke-width='1'/>
+<text x='1242.8' y='152.0' font-size='13' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>harness connector (kept at the stock spot)</text>
+<rect x='1216.8' y='162.0' width='18.0' height='14.0' stroke='#9aa3ad' fill='#9aa3ad' fill-opacity='0.5' stroke-width='1'/>
+<text x='1242.8' y='174.0' font-size='13' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>proposed function group G#</text>
+<rect x='1216.8' y='184.0' width='18.0' height='14.0' stroke='#2a6fdb' fill='#2a6fdb' fill-opacity='0.5' stroke-width='1'/>
+<text x='1242.8' y='196.0' font-size='13' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>allowed RJ45 zone (owner)</text>
+<circle cx='1225.76' cy='213' r='7' fill='white' stroke='#555' stroke-width='1.5'/>
+<text x='1242.8' y='218.0' font-size='13' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>corner hole 3.57 mm (nylon stand-off stud; measured)</text>
+<text x='1216.8' y='252.0' font-size='15' text-anchor='start' fill='#111' font-weight='bold' font-family='DejaVu Sans, Arial, sans-serif'>Function groups</text>
+<text x='1216.8' y='272.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G1  RP2350B + flash + 12 MHz + decoupling</text>
+<text x='1216.8' y='292.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G2  Power: TVS, eFuse, buck, 1V1 LDO, polymer bulk</text>
+<text x='1216.8' y='312.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G3  Light FETs x4 + PTC</text>
+<text x='1216.8' y='332.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G4  Score inputs: ESD + R/C x8</text>
+<text x='1216.8' y='352.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G5  Button inputs: ESD + R/C x4</text>
+<text x='1216.8' y='372.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G6  Audio: MAX98357A + filter + reservoir</text>
+<text x='1216.8' y='392.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G7  USB host: ESD + 27R + TPS2553</text>
+<text x='1216.8' y='412.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G8  Debug: USB-C (vertical) + CH340N</text>
+<text x='1216.8' y='432.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G9  Controls: RESET, BOOTSEL, LANE-ID DIP</text>
+<text x='1216.8' y='452.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G10  LEDs: PWR, FAULT, VBUS, STATUS + jack LEDs</text>
+<text x='1216.8' y='472.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G11  SWD (JST SH)</text>
+<text x='1216.8' y='492.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G12  Labelled test points</text>
+<text x='1216.8' y='512.0' font-size='12' text-anchor='start' fill='#111' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>G13  W5500 + 25 MHz + MDI terminations (at the RJ45)</text>
+<text x='1216.8' y='542.0' font-size='12' text-anchor='start' fill='#444' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>Removed vs stock: 8 modular jacks, J2, J3,</text>
+<text x='1216.8' y='559.0' font-size='12' text-anchor='start' fill='#444' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>J5/J7 footprints, J19 (owner 2026-10-26).</text>
+<text x='1216.8' y='576.0' font-size='12' text-anchor='start' fill='#444' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>The freed jack strip holds G8-G12.</text>
+<text x='1216.8' y='600.0' font-size='12' text-anchor='start' fill='#7a2a20' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>RJ45 (red) = owner pick: zone a, vertical HanRun</text>
+<text x='1216.8' y='617.0' font-size='12' text-anchor='start' fill='#7a2a20' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>HR963380AE; G13 = W5500 + 25 MHz + terminations.</text>
+<text x='1216.8' y='641.0' font-size='12' text-anchor='start' fill='#444' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>Stock inner holes are not used and not kept (owner).</text>
+<text x='1216.8' y='665.0' font-size='12' text-anchor='start' fill='#444' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>Confirmed by continuity: PWR 1 = 5 V / 2 NC / 3 GND;</text>
+<text x='1216.8' y='682.0' font-size='12' text-anchor='start' fill='#444' font-weight='normal' font-family='DejaVu Sans, Arial, sans-serif'>RGB pin 1 (left) = +5 V; Playfield lower pin = +5 V.</text>
+</svg>

@@ -1,0 +1,7964 @@
+{
+ "project": "SBC-1 Skee-Ball lane controller",
+ "run_boards": 5,
+ "design_sha256": "0865a3868db3e8741801680303e6886bb1ff1dac3f45c67e9ad29f920f4b59e6",
+ "lines": [
+  {
+   "key": "0603B103K500NT",
+   "mpn": "0603B103K500NT",
+   "mfr": "FH",
+   "value": "10nF",
+   "footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "refs": [
+    "C47",
+    "C51"
+   ],
+   "lcsc_design": "",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C57112",
+    "mpn": "0603B103K500NT",
+    "maker": "FH (Guangdong Fenghua Advanced Tech)",
+    "stock": 5972499,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 4385927,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0047
+     ],
+     [
+      1000,
+      3999,
+      0.0037
+     ],
+     [
+      4000,
+      7999,
+      0.0032
+     ],
+     [
+      8000,
+      47999,
+      0.0029
+     ],
+     [
+      48000,
+      99999,
+      0.0028
+     ],
+     [
+      100000,
+      null,
+      0.0027
+     ]
+    ],
+    "need": 10,
+    "attrition": 10,
+    "order_qty": 20,
+    "unit_price_usd": 0.0047,
+    "part_page": "https://jlcpcb.com/partdetail/58143-0603B103K500NT/C57112",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:11:47Z",
+     "stock": 5972499,
+     "unit_price_usd": 0.0047
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 5972499,
+     "unit_price_usd": 0.0047
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 5972499,
+     "unit_price_usd": 0.0047
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 5972499,
+     "unit_price_usd": 0.0047
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 5972499,
+     "unit_price_usd": 0.0047
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 5972499,
+     "unit_price_usd": 0.0047
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 5972499,
+     "unit_price_usd": 0.0047
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603B682K500NT",
+   "mpn": "0603B682K500NT",
+   "mfr": "FH",
+   "value": "6.8nF",
+   "footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "refs": [
+    "C52",
+    "C53"
+   ],
+   "lcsc_design": "",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C1631",
+    "mpn": "0603B682K500NT",
+    "maker": "FH (Guangdong Fenghua Advanced Tech)",
+    "stock": 364930,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 323408,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0055
+     ],
+     [
+      1000,
+      3999,
+      0.0045
+     ],
+     [
+      4000,
+      7999,
+      0.0036
+     ],
+     [
+      8000,
+      47999,
+      0.0033
+     ],
+     [
+      48000,
+      99999,
+      0.003
+     ],
+     [
+      100000,
+      null,
+      0.0028
+     ]
+    ],
+    "need": 10,
+    "attrition": 10,
+    "order_qty": 20,
+    "unit_price_usd": 0.0055,
+    "part_page": "https://jlcpcb.com/partdetail/1983-0603B682K500NT/C1631",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0603B682K500NT_C1631.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:11:49Z",
+     "stock": 364930,
+     "unit_price_usd": 0.0055
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 364930,
+     "unit_price_usd": 0.0055
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 364930,
+     "unit_price_usd": 0.0055
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 364930,
+     "unit_price_usd": 0.0055
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 364930,
+     "unit_price_usd": 0.0055
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 364930,
+     "unit_price_usd": 0.0055
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 364930,
+     "unit_price_usd": 0.0055
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CC0603KRX7R9BB104",
+   "mpn": "CC0603KRX7R9BB104",
+   "mfr": "YAGEO",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "refs": [
+    "C4",
+    "C9",
+    "C15",
+    "C17",
+    "C37",
+    "C38",
+    "C39",
+    "C40",
+    "C41",
+    "C42",
+    "C45",
+    "C55",
+    "C72",
+    "C73"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 14,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C14663",
+    "mpn": "CC0603KRX7R9BB104",
+    "maker": "YAGEO",
+    "stock": 42860043,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 25006520,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      499,
+      0.0149
+     ],
+     [
+      500,
+      1499,
+      0.0114
+     ],
+     [
+      1500,
+      3999,
+      0.0095
+     ],
+     [
+      4000,
+      23999,
+      0.0084
+     ],
+     [
+      24000,
+      47999,
+      0.0074
+     ],
+     [
+      48000,
+      null,
+      0.0068
+     ]
+    ],
+    "need": 70,
+    "attrition": 10,
+    "order_qty": 80,
+    "unit_price_usd": 0.0149,
+    "part_page": "https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2211101700_YAGEO-CC0603KRX7R9BB104_C14663.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:11:51Z",
+     "stock": 42860043,
+     "unit_price_usd": 0.0149
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 42860043,
+     "unit_price_usd": 0.0149
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 42860043,
+     "unit_price_usd": 0.0149
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 42860043,
+     "unit_price_usd": 0.0149
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 42860043,
+     "unit_price_usd": 0.0149
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 42860043,
+     "unit_price_usd": 0.0149
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 42860043,
+     "unit_price_usd": 0.0149
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CL05A475MP5NRNC",
+   "mpn": "CL05A475MP5NRNC",
+   "mfr": "Samsung",
+   "value": "4.7uF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "refs": [
+    "C31",
+    "C32"
+   ],
+   "lcsc_design": "",
+   "sheet": "mcu",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C23733",
+    "mpn": "CL05A475MP5NRNC",
+    "maker": "Samsung Electro-Mechanics",
+    "stock": 2606160,
+    "library": "basic",
+    "preferred": false,
+    "package": "0402",
+    "presale": 2023735,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      499,
+      0.0153
+     ],
+     [
+      500,
+      1499,
+      0.0119
+     ],
+     [
+      1500,
+      9999,
+      0.0104
+     ],
+     [
+      10000,
+      19999,
+      0.0093
+     ],
+     [
+      20000,
+      49999,
+      0.0089
+     ],
+     [
+      50000,
+      null,
+      0.0086
+     ]
+    ],
+    "need": 10,
+    "attrition": 10,
+    "order_qty": 20,
+    "unit_price_usd": 0.0153,
+    "part_page": "https://jlcpcb.com/partdetail/24469-CL05A475MP5NRNC/C23733",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05A475MP5NRNC_C23733.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:08:34Z",
+     "stock": 2606160,
+     "unit_price_usd": 0.0153
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:51Z",
+     "stock": 2606160,
+     "unit_price_usd": 0.0153
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 2606160,
+     "unit_price_usd": 0.0153
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 2606160,
+     "unit_price_usd": 0.0153
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 2606160,
+     "unit_price_usd": 0.0153
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 2606160,
+     "unit_price_usd": 0.0153
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 2606160,
+     "unit_price_usd": 0.0153
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 2606160,
+     "unit_price_usd": 0.0153
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CL05B104KO5NNNC",
+   "mpn": "CL05B104KO5NNNC",
+   "mfr": "Samsung",
+   "value": "100nF",
+   "footprint": "Capacitor_SMD:C_0402_1005Metric",
+   "refs": [
+    "C18",
+    "C19",
+    "C20",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25",
+    "C26",
+    "C27",
+    "C28",
+    "C29",
+    "C30",
+    "C34"
+   ],
+   "lcsc_design": "",
+   "sheet": "mcu",
+   "note": "",
+   "qty_per_board": 14,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C1525",
+    "mpn": "CL05B104KO5NNNC",
+    "maker": "Samsung Electro-Mechanics",
+    "stock": 34906725,
+    "library": "basic",
+    "preferred": false,
+    "package": "0402",
+    "presale": 27003706,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0035
+     ],
+     [
+      1000,
+      2999,
+      0.0027
+     ],
+     [
+      3000,
+      9999,
+      0.0023
+     ],
+     [
+      10000,
+      49999,
+      0.0021
+     ],
+     [
+      50000,
+      50199,
+      0.0019
+     ],
+     [
+      50200,
+      null,
+      0.0019
+     ]
+    ],
+    "need": 70,
+    "attrition": 10,
+    "order_qty": 80,
+    "unit_price_usd": 0.0035,
+    "part_page": "https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:08:35Z",
+     "stock": 34906725,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:51Z",
+     "stock": 34906725,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 34906725,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 34906725,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 34906725,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 34906725,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 34906725,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 34906725,
+     "unit_price_usd": 0.0035
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CL10A105KB8NNNC",
+   "mpn": "CL10A105KB8NNNC",
+   "mfr": "Samsung",
+   "value": "1uF",
+   "footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "refs": [
+    "C13",
+    "C14"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C15849",
+    "mpn": "CL10A105KB8NNNC",
+    "maker": "Samsung Electro-Mechanics",
+    "stock": 13334380,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 10120749,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      499,
+      0.0146
+     ],
+     [
+      500,
+      1499,
+      0.0112
+     ],
+     [
+      1500,
+      3999,
+      0.0098
+     ],
+     [
+      4000,
+      23999,
+      0.0086
+     ],
+     [
+      24000,
+      47999,
+      0.0082
+     ],
+     [
+      48000,
+      null,
+      0.0079
+     ]
+    ],
+    "need": 10,
+    "attrition": 10,
+    "order_qty": 20,
+    "unit_price_usd": 0.0146,
+    "part_page": "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:11:52Z",
+     "stock": 13334380,
+     "unit_price_usd": 0.0146
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 13334380,
+     "unit_price_usd": 0.0146
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 13334380,
+     "unit_price_usd": 0.0146
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 13334380,
+     "unit_price_usd": 0.0146
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 13334380,
+     "unit_price_usd": 0.0146
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 13334380,
+     "unit_price_usd": 0.0146
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 13334380,
+     "unit_price_usd": 0.0146
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CL10B102KB8NNNC",
+   "mpn": "CL10B102KB8NNNC",
+   "mfr": "Samsung",
+   "value": "1nF",
+   "footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "refs": [
+    "C58",
+    "C59",
+    "C60",
+    "C61",
+    "C62",
+    "C63",
+    "C64",
+    "C65",
+    "C66",
+    "C67",
+    "C68",
+    "C69",
+    "C70",
+    "C71"
+   ],
+   "lcsc_design": "",
+   "sheet": "audio",
+   "note": "",
+   "qty_per_board": 14,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C1588",
+    "mpn": "CL10B102KB8NNNC",
+    "maker": "Samsung Electro-Mechanics",
+    "stock": 5502112,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 4221502,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      499,
+      0.0098
+     ],
+     [
+      500,
+      1499,
+      0.0076
+     ],
+     [
+      1500,
+      3999,
+      0.0067
+     ],
+     [
+      4000,
+      23999,
+      0.006
+     ],
+     [
+      24000,
+      47999,
+      0.0057
+     ],
+     [
+      48000,
+      null,
+      0.0055
+     ]
+    ],
+    "need": 70,
+    "attrition": 10,
+    "order_qty": 80,
+    "unit_price_usd": 0.0098,
+    "part_page": "https://jlcpcb.com/partdetail/1940-CL10B102KB8NNNC/C1588",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B102KB8NNNC_C1588.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:08:37Z",
+     "stock": 5502112,
+     "unit_price_usd": 0.0098
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:52Z",
+     "stock": 5502112,
+     "unit_price_usd": 0.0098
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 5502112,
+     "unit_price_usd": 0.0098
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 5502112,
+     "unit_price_usd": 0.0098
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 5502112,
+     "unit_price_usd": 0.0098
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 5502112,
+     "unit_price_usd": 0.0098
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 5502112,
+     "unit_price_usd": 0.0098
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 5502112,
+     "unit_price_usd": 0.0098
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CL10B223KB8NNNC",
+   "mpn": "CL10B223KB8NNNC",
+   "mfr": "Samsung",
+   "value": "22nF",
+   "footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "refs": [
+    "C50"
+   ],
+   "lcsc_design": "",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C21122",
+    "mpn": "CL10B223KB8NNNC",
+    "maker": "Samsung Electro-Mechanics",
+    "stock": 1077610,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 884679,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      499,
+      0.0057
+     ],
+     [
+      500,
+      1499,
+      0.0044
+     ],
+     [
+      1500,
+      3999,
+      0.0038
+     ],
+     [
+      4000,
+      23999,
+      0.0033
+     ],
+     [
+      24000,
+      47999,
+      0.0031
+     ],
+     [
+      48000,
+      null,
+      0.003
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.0057,
+    "part_page": "https://jlcpcb.com/partdetail/21834-CL10B223KB8NNNC/C21122",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B223KB8NNNC_C21122.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:08:43Z",
+     "stock": 1077610,
+     "unit_price_usd": 0.0057
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:52Z",
+     "stock": 1077610,
+     "unit_price_usd": 0.0057
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 1077610,
+     "unit_price_usd": 0.0057
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 1077610,
+     "unit_price_usd": 0.0057
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 1077610,
+     "unit_price_usd": 0.0057
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 1077610,
+     "unit_price_usd": 0.0057
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 1077610,
+     "unit_price_usd": 0.0057
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 1077610,
+     "unit_price_usd": 0.0057
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CL10B473KB8NNNC",
+   "mpn": "CL10B473KB8NNNC",
+   "mfr": "Samsung",
+   "value": "47nF",
+   "footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "refs": [
+    "C6"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C1622",
+    "mpn": "CL10B473KB8NNNC",
+    "maker": "Samsung Electro-Mechanics",
+    "stock": 974968,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 645977,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0077
+     ],
+     [
+      1000,
+      2999,
+      0.0058
+     ],
+     [
+      3000,
+      7999,
+      0.0049
+     ],
+     [
+      8000,
+      47999,
+      0.0043
+     ],
+     [
+      48000,
+      95999,
+      0.004
+     ],
+     [
+      96000,
+      null,
+      0.0039
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.0077,
+    "part_page": "https://jlcpcb.com/partdetail/1974-CL10B473KB8NNNC/C1622",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B473KB8NNNC_C1622.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:08:45Z",
+     "stock": 974968,
+     "unit_price_usd": 0.0077
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:52Z",
+     "stock": 974968,
+     "unit_price_usd": 0.0077
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 974968,
+     "unit_price_usd": 0.0077
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 974968,
+     "unit_price_usd": 0.0077
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 974968,
+     "unit_price_usd": 0.0077
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 974968,
+     "unit_price_usd": 0.0077
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 974968,
+     "unit_price_usd": 0.0077
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 974968,
+     "unit_price_usd": 0.0077
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CL10C150JB8NNNC",
+   "mpn": "CL10C150JB8NNNC",
+   "mfr": "Samsung",
+   "value": "15pF C0G",
+   "footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "refs": [
+    "C12",
+    "C35",
+    "C36"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 3,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C1644",
+    "mpn": "CL10C150JB8NNNC",
+    "maker": "Samsung Electro-Mechanics",
+    "stock": 1119169,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 921123,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      499,
+      0.0111
+     ],
+     [
+      500,
+      1499,
+      0.0084
+     ],
+     [
+      1500,
+      3999,
+      0.0073
+     ],
+     [
+      4000,
+      23999,
+      0.0064
+     ],
+     [
+      24000,
+      47999,
+      0.006
+     ],
+     [
+      48000,
+      null,
+      0.0058
+     ]
+    ],
+    "need": 15,
+    "attrition": 10,
+    "order_qty": 25,
+    "unit_price_usd": 0.0111,
+    "part_page": "https://jlcpcb.com/partdetail/1996-CL10C150JB8NNNC/C1644",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C150JB8NNNC_C1644.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:08:48Z",
+     "stock": 1119169,
+     "unit_price_usd": 0.0111
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:52Z",
+     "stock": 1119169,
+     "unit_price_usd": 0.0111
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 1119169,
+     "unit_price_usd": 0.0111
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 1119169,
+     "unit_price_usd": 0.0111
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 1119169,
+     "unit_price_usd": 0.0111
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 1119169,
+     "unit_price_usd": 0.0111
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 1119169,
+     "unit_price_usd": 0.0111
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 1119169,
+     "unit_price_usd": 0.0111
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CL10C180JB8NNNC",
+   "mpn": "CL10C180JB8NNNC",
+   "mfr": "Samsung",
+   "value": "18pF C0G",
+   "footprint": "Capacitor_SMD:C_0603_1608Metric",
+   "refs": [
+    "C48",
+    "C49"
+   ],
+   "lcsc_design": "",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C1647",
+    "mpn": "CL10C180JB8NNNC",
+    "maker": "Samsung Electro-Mechanics",
+    "stock": 271473,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 166181,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      499,
+      0.0158
+     ],
+     [
+      500,
+      1499,
+      0.0132
+     ],
+     [
+      1500,
+      3999,
+      0.0117
+     ],
+     [
+      4000,
+      23999,
+      0.0104
+     ],
+     [
+      24000,
+      47999,
+      0.0096
+     ],
+     [
+      48000,
+      null,
+      0.0092
+     ]
+    ],
+    "need": 10,
+    "attrition": 10,
+    "order_qty": 20,
+    "unit_price_usd": 0.0158,
+    "part_page": "https://jlcpcb.com/partdetail/1999-CL10C180JB8NNNC/C1647",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10C180JB8NNNC_C1647.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:08:50Z",
+     "stock": 271473,
+     "unit_price_usd": 0.0158
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:52Z",
+     "stock": 271473,
+     "unit_price_usd": 0.0158
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 271473,
+     "unit_price_usd": 0.0158
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 271473,
+     "unit_price_usd": 0.0158
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 271473,
+     "unit_price_usd": 0.0158
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 271473,
+     "unit_price_usd": 0.0158
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 271473,
+     "unit_price_usd": 0.0158
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 271473,
+     "unit_price_usd": 0.0158
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CL21A106KAYNNNE",
+   "mpn": "CL21A106KAYNNNE",
+   "mfr": "Samsung",
+   "value": "10uF",
+   "footprint": "Capacitor_SMD:C_0805_2012Metric",
+   "refs": [
+    "C2",
+    "C3",
+    "C5",
+    "C11",
+    "C33",
+    "C43",
+    "C44",
+    "C54"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 8,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C15850",
+    "mpn": "CL21A106KAYNNNE",
+    "maker": "Samsung Electro-Mechanics",
+    "stock": 8948721,
+    "library": "basic",
+    "preferred": false,
+    "package": "0805",
+    "presale": 7185460,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      199,
+      0.0438
+     ],
+     [
+      200,
+      599,
+      0.0352
+     ],
+     [
+      600,
+      1999,
+      0.031
+     ],
+     [
+      2000,
+      9999,
+      0.0274
+     ],
+     [
+      10000,
+      19999,
+      0.0261
+     ],
+     [
+      20000,
+      null,
+      0.0253
+     ]
+    ],
+    "need": 40,
+    "attrition": 10,
+    "order_qty": 50,
+    "unit_price_usd": 0.0438,
+    "part_page": "https://jlcpcb.com/partdetail/16532-CL21A106KAYNNNE/C15850",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A106KAYNNNE_C15850.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:08:53Z",
+     "stock": 8948721,
+     "unit_price_usd": 0.0438
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:52Z",
+     "stock": 8948721,
+     "unit_price_usd": 0.0438
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 8948721,
+     "unit_price_usd": 0.0438
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 8948721,
+     "unit_price_usd": 0.0438
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 8948721,
+     "unit_price_usd": 0.0438
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 8948721,
+     "unit_price_usd": 0.0438
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 8948721,
+     "unit_price_usd": 0.0438
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 8948721,
+     "unit_price_usd": 0.0438
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CL21A226MAQNNNE",
+   "mpn": "CL21A226MAQNNNE",
+   "mfr": "Samsung",
+   "value": "22uF",
+   "footprint": "Capacitor_SMD:C_0805_2012Metric",
+   "refs": [
+    "C8",
+    "C16"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C45783",
+    "mpn": "CL21A226MAQNNNE",
+    "maker": "Samsung Electro-Mechanics",
+    "stock": 4118242,
+    "library": "basic",
+    "preferred": false,
+    "package": "0805",
+    "presale": 3165214,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      199,
+      0.1917
+     ],
+     [
+      200,
+      599,
+      0.1508
+     ],
+     [
+      600,
+      1999,
+      0.131
+     ],
+     [
+      2000,
+      9999,
+      0.1131
+     ],
+     [
+      10000,
+      19999,
+      0.1082
+     ],
+     [
+      20000,
+      null,
+      0.1055
+     ]
+    ],
+    "need": 10,
+    "attrition": 4,
+    "order_qty": 14,
+    "unit_price_usd": 0.1917,
+    "part_page": "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A226MAQNNNE_C45783.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:08:55Z",
+     "stock": 4118242,
+     "unit_price_usd": 0.1917
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:52Z",
+     "stock": 4118242,
+     "unit_price_usd": 0.1917
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 4118242,
+     "unit_price_usd": 0.1917
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 4118242,
+     "unit_price_usd": 0.1917
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 4118242,
+     "unit_price_usd": 0.1917
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 4118242,
+     "unit_price_usd": 0.1917
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 4118242,
+     "unit_price_usd": 0.1917
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 4118242,
+     "unit_price_usd": 0.1917
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CL21A475KAQNNNE",
+   "mpn": "CL21A475KAQNNNE",
+   "mfr": "Samsung",
+   "value": "4.7uF",
+   "footprint": "Capacitor_SMD:C_0805_2012Metric",
+   "refs": [
+    "C10",
+    "C46"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C1779",
+    "mpn": "CL21A475KAQNNNE",
+    "maker": "Samsung Electro-Mechanics",
+    "stock": 1980619,
+    "library": "basic",
+    "preferred": false,
+    "package": "0805",
+    "presale": 1576400,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      199,
+      0.0343
+     ],
+     [
+      200,
+      599,
+      0.0266
+     ],
+     [
+      600,
+      1999,
+      0.0226
+     ],
+     [
+      2000,
+      9999,
+      0.0154
+     ],
+     [
+      10000,
+      19999,
+      0.0142
+     ],
+     [
+      20000,
+      null,
+      0.0135
+     ]
+    ],
+    "need": 10,
+    "attrition": 10,
+    "order_qty": 20,
+    "unit_price_usd": 0.0343,
+    "part_page": "https://jlcpcb.com/partdetail/2131-CL21A475KAQNNNE/C1779",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21A475KAQNNNE_C1779.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 1980619,
+     "unit_price_usd": 0.0343
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 1980619,
+     "unit_price_usd": 0.0343
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 1980619,
+     "unit_price_usd": 0.0343
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 1980619,
+     "unit_price_usd": 0.0343
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 1980619,
+     "unit_price_usd": 0.0343
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 1980619,
+     "unit_price_usd": 0.0343
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 1980619,
+     "unit_price_usd": 0.0343
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "OVZ221M1ATR-0606",
+   "mpn": "OVZ221M1ATR-0606",
+   "mfr": "Lelon",
+   "value": "220uF polymer",
+   "footprint": "Capacitor_SMD:CP_Elec_6.3x5.9",
+   "refs": [
+    "C1",
+    "C7",
+    "C56",
+    "C57"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 4,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C311623",
+    "mpn": "OVZ221M1ATR-0606",
+    "maker": "Lelon",
+    "stock": 15012,
+    "library": "extended",
+    "preferred": false,
+    "package": "SMD,D6.3xL5.9mm",
+    "presale": 14818,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.2063
+     ],
+     [
+      50,
+      149,
+      0.1691
+     ],
+     [
+      150,
+      999,
+      0.1532
+     ],
+     [
+      1000,
+      1999,
+      0.1136
+     ],
+     [
+      2000,
+      4999,
+      0.1048
+     ],
+     [
+      5000,
+      null,
+      0.0994
+     ]
+    ],
+    "need": 20,
+    "attrition": 2,
+    "order_qty": 22,
+    "unit_price_usd": 0.2063,
+    "part_page": "https://jlcpcb.com/partdetail/Lelon-OVZ221M1ATR0606/C311623",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Lelon-OVZ221M1ATR-0606_C311623.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:08:58Z",
+     "stock": 15012,
+     "unit_price_usd": 0.2063
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 15012,
+     "unit_price_usd": 0.2063
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 15012,
+     "unit_price_usd": 0.2063
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 15012,
+     "unit_price_usd": 0.2063
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 15012,
+     "unit_price_usd": 0.2063
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 15012,
+     "unit_price_usd": 0.2063
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 15012,
+     "unit_price_usd": 0.2063
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 15012,
+     "unit_price_usd": 0.2063
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "KT-0603G",
+   "mpn": "KT-0603G",
+   "mfr": "Hubei KENTO",
+   "value": "PWR green",
+   "footprint": "LED_SMD:LED_0603_1608Metric",
+   "refs": [
+    "D3",
+    "D5"
+   ],
+   "lcsc_design": "C12624",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C12624",
+    "mpn": "KT-0603G",
+    "maker": "Hubei KENTO Elec",
+    "stock": 443493,
+    "library": "extended",
+    "preferred": false,
+    "package": "0603",
+    "presale": 430780,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      499,
+      0.0117
+     ],
+     [
+      500,
+      1499,
+      0.0091
+     ],
+     [
+      1500,
+      3999,
+      0.0077
+     ],
+     [
+      4000,
+      23999,
+      0.0069
+     ],
+     [
+      24000,
+      47999,
+      0.0062
+     ],
+     [
+      48000,
+      null,
+      0.0058
+     ]
+    ],
+    "need": 10,
+    "attrition": 16,
+    "order_qty": 26,
+    "unit_price_usd": 0.0117,
+    "part_page": "https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0603G/C12624",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151818_Hubei-KENTO-Elec-KT-0603G_C12624.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:08:59Z",
+     "stock": 443493,
+     "unit_price_usd": 0.0117
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 443493,
+     "unit_price_usd": 0.0117
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 443493,
+     "unit_price_usd": 0.0117
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 443493,
+     "unit_price_usd": 0.0117
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 443493,
+     "unit_price_usd": 0.0117
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 443493,
+     "unit_price_usd": 0.0117
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 443493,
+     "unit_price_usd": 0.0117
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 443493,
+     "unit_price_usd": 0.0117
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "KT-0603R",
+   "mpn": "KT-0603R",
+   "mfr": "Hubei KENTO",
+   "value": "FAULT red",
+   "footprint": "LED_SMD:LED_0603_1608Metric",
+   "refs": [
+    "D2"
+   ],
+   "lcsc_design": "C2286",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T20:24:25Z",
+    "found": true,
+    "code": "C2286",
+    "mpn": "KT-0603R",
+    "maker": "Hubei KENTO Elec",
+    "stock": 7642560,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 6968529,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0077
+     ],
+     [
+      1000,
+      3999,
+      0.0059
+     ],
+     [
+      4000,
+      7999,
+      0.0046
+     ],
+     [
+      8000,
+      47999,
+      0.004
+     ],
+     [
+      48000,
+      99999,
+      0.0037
+     ],
+     [
+      100000,
+      null,
+      0.0036
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.0077,
+    "part_page": "https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0603R/C2286",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-27T20:24:25Z",
+     "stock": 7642560,
+     "unit_price_usd": 0.0077
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "NCD0603Y1",
+   "mpn": "NCD0603Y1",
+   "mfr": "NationStar",
+   "value": "VBUS yellow",
+   "footprint": "LED_SMD:LED_0603_1608Metric",
+   "refs": [
+    "D4"
+   ],
+   "lcsc_design": "C84268",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T12:10:31Z",
+    "found": true,
+    "code": "C84268",
+    "mpn": "NCD0603Y1",
+    "maker": "Foshan NationStar Optoelectronics",
+    "stock": 306447,
+    "library": "extended",
+    "preferred": false,
+    "package": "0603",
+    "presale": 285169,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      499,
+      0.0112
+     ],
+     [
+      500,
+      1499,
+      0.0102
+     ],
+     [
+      1500,
+      3999,
+      0.0097
+     ],
+     [
+      4000,
+      23999,
+      0.0073
+     ],
+     [
+      24000,
+      47999,
+      0.007
+     ],
+     [
+      48000,
+      null,
+      0.0069
+     ]
+    ],
+    "need": 5,
+    "attrition": 14,
+    "order_qty": 19,
+    "unit_price_usd": 0.0112,
+    "part_page": "https://jlcpcb.com/partdetail/85437-NCD0603Y1/C84268",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2008201033_Foshan-NationStar-Optoelectronics-NCD0603Y1_C84268.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-27T12:10:31Z",
+     "stock": 306447,
+     "unit_price_usd": 0.0112
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "SMBJ5.0A",
+   "mpn": "SMBJ5.0A",
+   "mfr": "Littelfuse",
+   "value": "SMBJ5.0A",
+   "footprint": "Diode_SMD:D_SMB",
+   "refs": [
+    "D1"
+   ],
+   "lcsc_design": "C83333",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C83333",
+    "mpn": "SMBJ5.0A",
+    "maker": "Littelfuse",
+    "stock": 37387,
+    "library": "extended",
+    "preferred": false,
+    "package": "DO-214AA",
+    "presale": 36576,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.1156
+     ],
+     [
+      50,
+      149,
+      0.0935
+     ],
+     [
+      150,
+      499,
+      0.0824
+     ],
+     [
+      500,
+      2999,
+      0.0742
+     ],
+     [
+      3000,
+      5999,
+      0.0596
+     ],
+     [
+      6000,
+      null,
+      0.0564
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.1156,
+    "part_page": "https://jlcpcb.com/partdetail/Littelfuse-SMBJ50A/C83333",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809042032_Littelfuse-SMBJ5-0A_C83333.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:04Z",
+     "stock": 37387,
+     "unit_price_usd": 0.1156
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 37387,
+     "unit_price_usd": 0.1156
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 37387,
+     "unit_price_usd": 0.1156
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 37387,
+     "unit_price_usd": 0.1156
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 37387,
+     "unit_price_usd": 0.1156
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 37387,
+     "unit_price_usd": 0.1156
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 37387,
+     "unit_price_usd": 0.1156
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 37387,
+     "unit_price_usd": 0.1156
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "1812L300MR",
+   "mpn": "1812L300MR",
+   "mfr": "Littelfuse",
+   "value": "3A hold",
+   "footprint": "Fuse:Fuse_1812_4532Metric",
+   "refs": [
+    "F2"
+   ],
+   "lcsc_design": "C127824",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C127824",
+    "mpn": "1812L300MR",
+    "maker": "Littelfuse",
+    "stock": 3798,
+    "library": "extended",
+    "preferred": false,
+    "package": "1812",
+    "presale": 3719,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.1366
+     ],
+     [
+      50,
+      149,
+      0.1092
+     ],
+     [
+      150,
+      999,
+      0.0955
+     ],
+     [
+      1000,
+      1999,
+      0.0814
+     ],
+     [
+      2000,
+      4999,
+      0.0732
+     ],
+     [
+      5000,
+      null,
+      0.0691
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.1366,
+    "part_page": "https://jlcpcb.com/partdetail/Littelfuse-1812L300MR/C127824",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Littelfuse-1812L300MR_C127824.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:04Z",
+     "stock": 3798,
+     "unit_price_usd": 0.1366
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 3798,
+     "unit_price_usd": 0.1366
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:27Z",
+     "stock": 3798,
+     "unit_price_usd": 0.1366
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 3798,
+     "unit_price_usd": 0.1366
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 3798,
+     "unit_price_usd": 0.1366
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 3798,
+     "unit_price_usd": 0.1366
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 3798,
+     "unit_price_usd": 0.1366
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 3798,
+     "unit_price_usd": 0.1366
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "2920L500/16MR",
+   "mpn": "2920L500/16MR",
+   "mfr": "Littelfuse",
+   "value": "5A hold",
+   "footprint": "Fuse:Fuse_2920_7451Metric",
+   "refs": [
+    "F1"
+   ],
+   "lcsc_design": "C207091",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C207091",
+    "mpn": "2920L500/16MR",
+    "maker": "Littelfuse",
+    "stock": 2614,
+    "library": "extended",
+    "preferred": false,
+    "package": "2920",
+    "presale": 2594,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.3788
+     ],
+     [
+      50,
+      149,
+      0.3012
+     ],
+     [
+      150,
+      999,
+      0.268
+     ],
+     [
+      1000,
+      1999,
+      0.2266
+     ],
+     [
+      2000,
+      4999,
+      0.2081
+     ],
+     [
+      5000,
+      null,
+      0.1969
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.3788,
+    "part_page": "https://jlcpcb.com/partdetail/Littelfuse-2920L50016MR/C207091",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Littelfuse-2920L500-16MR_C207091.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T22:58:28Z",
+     "stock": 2614,
+     "unit_price_usd": 0.3788
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 2614,
+     "unit_price_usd": 0.3788
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 2614,
+     "unit_price_usd": 0.3788
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 2614,
+     "unit_price_usd": 0.3788
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 2614,
+     "unit_price_usd": 0.3788
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 2614,
+     "unit_price_usd": 0.3788
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "BLM21PG221SN1D",
+   "mpn": "BLM21PG221SN1D",
+   "mfr": "Murata",
+   "value": "BLM21PG221SN1D",
+   "footprint": "Inductor_SMD:L_0805_2012Metric",
+   "refs": [
+    "FB2",
+    "FB3"
+   ],
+   "lcsc_design": "C85840",
+   "sheet": "audio",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C85840",
+    "mpn": "BLM21PG221SN1D",
+    "maker": "Murata Electronics",
+    "stock": 591700,
+    "library": "extended",
+    "preferred": false,
+    "package": "0805",
+    "presale": 573741,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      199,
+      0.0346
+     ],
+     [
+      200,
+      599,
+      0.0282
+     ],
+     [
+      600,
+      3999,
+      0.0254
+     ],
+     [
+      4000,
+      7999,
+      0.0226
+     ],
+     [
+      8000,
+      19999,
+      0.0218
+     ],
+     [
+      20000,
+      null,
+      0.0213
+     ]
+    ],
+    "need": 10,
+    "attrition": 8,
+    "order_qty": 18,
+    "unit_price_usd": 0.0346,
+    "part_page": "https://jlcpcb.com/partdetail/MurataElectronics-BLM21PG221SN1D/C85840",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Murata-Electronics-BLM21PG221SN1D_C85840.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:08Z",
+     "stock": 591700,
+     "unit_price_usd": 0.0346
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 591700,
+     "unit_price_usd": 0.0346
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:28Z",
+     "stock": 591700,
+     "unit_price_usd": 0.0346
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 591700,
+     "unit_price_usd": 0.0346
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 591700,
+     "unit_price_usd": 0.0346
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 591700,
+     "unit_price_usd": 0.0346
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 591700,
+     "unit_price_usd": 0.0346
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 591700,
+     "unit_price_usd": 0.0346
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "GZ2012D601TF",
+   "mpn": "GZ2012D601TF",
+   "mfr": "Sunlord",
+   "value": "600R@100MHz",
+   "footprint": "Inductor_SMD:L_0805_2012Metric",
+   "refs": [
+    "FB1"
+   ],
+   "lcsc_design": "C1017",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C1017",
+    "mpn": "GZ2012D601TF",
+    "maker": "Sunlord",
+    "stock": 577061,
+    "library": "basic",
+    "preferred": false,
+    "package": "0805",
+    "presale": 519661,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      199,
+      0.02
+     ],
+     [
+      200,
+      599,
+      0.0158
+     ],
+     [
+      600,
+      3999,
+      0.014
+     ],
+     [
+      4000,
+      7999,
+      0.0126
+     ],
+     [
+      8000,
+      19999,
+      0.012
+     ],
+     [
+      20000,
+      null,
+      0.0117
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.02,
+    "part_page": "https://jlcpcb.com/partdetail/Sunlord-GZ2012D601TF/C1017",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2310301640_Sunlord-GZ2012D601TF_C1017.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:59:01Z",
+     "stock": 577061,
+     "unit_price_usd": 0.02
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:28Z",
+     "stock": 577061,
+     "unit_price_usd": 0.02
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 577061,
+     "unit_price_usd": 0.02
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 577061,
+     "unit_price_usd": 0.02
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 577061,
+     "unit_price_usd": 0.02
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 577061,
+     "unit_price_usd": 0.02
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 577061,
+     "unit_price_usd": 0.02
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "MF-NSMF050-2",
+   "mpn": "MF-NSMF050-2",
+   "mfr": "Bourns",
+   "value": "0.5A hold",
+   "footprint": "Fuse:Fuse_1206_3216Metric",
+   "refs": [
+    "F3"
+   ],
+   "lcsc_design": "C75464",
+   "sheet": "io",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T06:24:43Z",
+    "found": true,
+    "code": "C75464",
+    "mpn": "MF-NSMF050-2",
+    "maker": "BOURNS",
+    "stock": 72093,
+    "library": "extended",
+    "preferred": false,
+    "package": "1206",
+    "presale": 70387,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      199,
+      0.0591
+     ],
+     [
+      200,
+      599,
+      0.0464
+     ],
+     [
+      600,
+      2999,
+      0.0392
+     ],
+     [
+      3000,
+      8999,
+      0.0348
+     ],
+     [
+      9000,
+      20999,
+      0.0311
+     ],
+     [
+      21000,
+      null,
+      0.029
+     ]
+    ],
+    "need": 5,
+    "attrition": 8,
+    "order_qty": 13,
+    "unit_price_usd": 0.0591,
+    "part_page": "https://jlcpcb.com/partdetail/BOURNS-MF_NSMF0502/C75464",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_BOURNS-MF-NSMF050-2_C75464.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-27T06:24:43Z",
+     "stock": 72093,
+     "unit_price_usd": 0.0591
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "10118194-0001LF",
+   "mpn": "10118194-0001LF",
+   "mfr": "Amphenol ICC",
+   "value": "DISPLAY USB",
+   "footprint": "Connector_USB:USB_Micro-B_Amphenol_10118194-0001LF_Horizontal",
+   "refs": [
+    "J9"
+   ],
+   "lcsc_design": "C132563",
+   "sheet": "usb",
+   "note": "",
+   "harness": true,
+   "provisional": false,
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C132563",
+    "mpn": "10118194-0001LF",
+    "maker": "Amphenol ICC",
+    "stock": 41020,
+    "library": "extended",
+    "preferred": false,
+    "package": "SMD",
+    "presale": 40748,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.2585
+     ],
+     [
+      50,
+      149,
+      0.2094
+     ],
+     [
+      150,
+      1199,
+      0.1883
+     ],
+     [
+      1200,
+      2399,
+      0.1603
+     ],
+     [
+      2400,
+      4799,
+      0.1485
+     ],
+     [
+      4800,
+      null,
+      0.1415
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.2585,
+    "part_page": "https://jlcpcb.com/partdetail/AmphenolICC-101181940001LF/C132563",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811131822_Amphenol-ICC-10118194-0001LF_C132563.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:09Z",
+     "stock": 41020,
+     "unit_price_usd": 0.2585
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 41020,
+     "unit_price_usd": 0.2585
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:28Z",
+     "stock": 41020,
+     "unit_price_usd": 0.2585
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 41020,
+     "unit_price_usd": 0.2585
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 41020,
+     "unit_price_usd": 0.2585
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 41020,
+     "unit_price_usd": 0.2585
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 41020,
+     "unit_price_usd": 0.2585
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 41020,
+     "unit_price_usd": 0.2585
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "26604020",
+   "mpn": "26604020",
+   "mfr": "Molex",
+   "value": "PLAYFIELD LIGHTS",
+   "footprint": "Connector_Molex:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical",
+   "refs": [
+    "J8"
+   ],
+   "lcsc_design": "C505042",
+   "sheet": "io",
+   "note": "",
+   "harness": true,
+   "provisional": false,
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T01:30:41Z",
+    "found": true,
+    "code": "C505042",
+    "mpn": "26604020",
+    "maker": "MOLEX",
+    "stock": 24726,
+    "library": "extended",
+    "preferred": false,
+    "package": "Plugin,P=3.96mm",
+    "presale": 24280,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.1605
+     ],
+     [
+      50,
+      149,
+      0.1313
+     ],
+     [
+      150,
+      1349,
+      0.1166
+     ],
+     [
+      1350,
+      2699,
+      0.1056
+     ],
+     [
+      2700,
+      5399,
+      0.0969
+     ],
+     [
+      5400,
+      null,
+      0.0925
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.1605,
+    "part_page": "https://jlcpcb.com/partdetail/MOLEX-26604020/C505042",
+    "datasheet": null
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-27T01:30:41Z",
+     "stock": 24726,
+     "unit_price_usd": 0.1605
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "39281083",
+   "mpn": "39281083",
+   "mfr": "Molex",
+   "value": "BUTTONS",
+   "footprint": "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical",
+   "refs": [
+    "J6"
+   ],
+   "lcsc_design": "C293503",
+   "sheet": "io",
+   "note": "",
+   "harness": true,
+   "provisional": false,
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C293503",
+    "mpn": "39281083",
+    "maker": "MOLEX",
+    "stock": 4243,
+    "library": "extended",
+    "preferred": false,
+    "package": "Plugin,P=4.2mm",
+    "presale": 4050,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.402
+     ],
+     [
+      50,
+      149,
+      0.322
+     ],
+     [
+      150,
+      499,
+      0.2876
+     ],
+     [
+      500,
+      2499,
+      0.2449
+     ],
+     [
+      2500,
+      4999,
+      0.2258
+     ],
+     [
+      5000,
+      null,
+      0.2145
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.402,
+    "part_page": "https://jlcpcb.com/partdetail/MOLEX-39281083/C293503",
+    "datasheet": null
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:35:30Z",
+     "stock": 4243,
+     "unit_price_usd": 0.402
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:28Z",
+     "stock": 4243,
+     "unit_price_usd": 0.402
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 4243,
+     "unit_price_usd": 0.402
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 4243,
+     "unit_price_usd": 0.402
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 4243,
+     "unit_price_usd": 0.402
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 4243,
+     "unit_price_usd": 0.402
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 4243,
+     "unit_price_usd": 0.402
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "39300020",
+   "mpn": "39300020",
+   "mfr": "Molex",
+   "value": "SPEAKER",
+   "footprint": "Connector_Molex:Molex_Mini-Fit_Jr_5569-02A2_2x01_P4.20mm_Horizontal",
+   "refs": [
+    "J4"
+   ],
+   "lcsc_design": "C240831",
+   "sheet": "audio",
+   "note": "",
+   "harness": true,
+   "provisional": false,
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C240831",
+    "mpn": "39300020",
+    "maker": "MOLEX",
+    "stock": 298,
+    "library": "extended",
+    "preferred": false,
+    "package": "Push-Pull,P=4.2mm",
+    "presale": 256,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      0.604
+     ],
+     [
+      10,
+      29,
+      0.4731
+     ],
+     [
+      30,
+      99,
+      0.4174
+     ],
+     [
+      100,
+      499,
+      0.347
+     ],
+     [
+      500,
+      999,
+      0.3159
+     ],
+     [
+      1000,
+      null,
+      0.2979
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.604,
+    "part_page": "https://jlcpcb.com/partdetail/MOLEX-39300020/C240831",
+    "datasheet": null
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 298,
+     "unit_price_usd": 0.604
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 298,
+     "unit_price_usd": 0.604
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 298,
+     "unit_price_usd": 0.604
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "39301049",
+   "mpn": "39301049",
+   "mfr": "Molex",
+   "value": "RGB LIGHTS",
+   "footprint": "skeeball:Molex_Mini-Fit_Jr_39-30-1049_1x04_P4.20mm_Vertical",
+   "refs": [
+    "J7"
+   ],
+   "lcsc_design": "C587488",
+   "sheet": "io",
+   "note": "",
+   "harness": true,
+   "provisional": false,
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C587488",
+    "mpn": "39301049",
+    "maker": "MOLEX",
+    "stock": 4042,
+    "library": "extended",
+    "preferred": false,
+    "package": "Plugin,P=4.2mm",
+    "presale": 4042,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      0.3192
+     ],
+     [
+      10,
+      29,
+      0.3127
+     ],
+     [
+      30,
+      101,
+      0.3078
+     ],
+     [
+      102,
+      103,
+      0.3028
+     ],
+     [
+      104,
+      105,
+      0.3028
+     ],
+     [
+      106,
+      null,
+      0.3028
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.3192,
+    "part_page": "https://jlcpcb.com/partdetail/MOLEX-39301049/C587488",
+    "datasheet": null
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 4042,
+     "unit_price_usd": 0.3192
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 4042,
+     "unit_price_usd": 0.3192
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 4042,
+     "unit_price_usd": 0.3192
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 4042,
+     "unit_price_usd": 0.3192
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 4042,
+     "unit_price_usd": 0.3192
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "39303035",
+   "mpn": "39303035",
+   "mfr": "Molex",
+   "value": "PWR 5V/GND",
+   "footprint": "skeeball:Molex_Mini-Fit_Jr_39-30-3035_1x03_P4.20mm_Horizontal",
+   "refs": [
+    "J1"
+   ],
+   "lcsc_design": "C505179",
+   "sheet": "power",
+   "note": "",
+   "harness": true,
+   "provisional": false,
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C505179",
+    "mpn": "39303035",
+    "maker": "MOLEX",
+    "stock": 11634,
+    "library": "extended",
+    "preferred": false,
+    "package": "Push-Pull,P=4.2mm",
+    "presale": 11550,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      0.5369
+     ],
+     [
+      10,
+      29,
+      0.4452
+     ],
+     [
+      30,
+      99,
+      0.4043
+     ],
+     [
+      100,
+      499,
+      0.3552
+     ],
+     [
+      500,
+      799,
+      0.3323
+     ],
+     [
+      800,
+      null,
+      0.3192
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.5369,
+    "part_page": "https://jlcpcb.com/partdetail/MOLEX-39303035/C505179",
+    "datasheet": null
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 11634,
+     "unit_price_usd": 0.5369
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 11634,
+     "unit_price_usd": 0.5369
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 11634,
+     "unit_price_usd": 0.5369
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 11634,
+     "unit_price_usd": 0.5369
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 11634,
+     "unit_price_usd": 0.5369
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "955032441",
+   "mpn": "955032441",
+   "mfr": "Molex",
+   "value": "SCORE 0",
+   "footprint": "skeeball:RJ11_6P4C_TopEntry_StockPads",
+   "refs": [
+    "J21",
+    "J22",
+    "J23",
+    "J24",
+    "J25",
+    "J26",
+    "J27",
+    "J28"
+   ],
+   "lcsc_design": "C588833",
+   "sheet": "io",
+   "note": "",
+   "harness": true,
+   "provisional": false,
+   "qty_per_board": 8,
+   "jlc": {
+    "fetched_utc": "2026-10-27T02:48:30Z",
+    "found": true,
+    "code": "C588833",
+    "mpn": "955032441",
+    "maker": "MOLEX",
+    "stock": 649,
+    "library": "extended",
+    "preferred": false,
+    "package": "Plugin",
+    "presale": 649,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      1.5059
+     ],
+     [
+      10,
+      29,
+      1.2522
+     ],
+     [
+      30,
+      118,
+      1.1114
+     ],
+     [
+      119,
+      475,
+      0.9527
+     ],
+     [
+      476,
+      951,
+      0.8823
+     ],
+     [
+      952,
+      null,
+      0.8512
+     ]
+    ],
+    "need": 40,
+    "attrition": 2,
+    "order_qty": 42,
+    "unit_price_usd": 1.1114,
+    "part_page": "https://jlcpcb.com/partdetail/MOLEX-955032441/C588833",
+    "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2407081236_MOLEX-955032441_C588833.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-27T02:48:30Z",
+     "stock": 649,
+     "unit_price_usd": 1.1114
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "BM03B-SRSS-TB(LF)(SN)",
+   "mpn": "BM03B-SRSS-TB(LF)(SN)",
+   "mfr": "JST",
+   "value": "SWD",
+   "footprint": "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical",
+   "refs": [
+    "J2"
+   ],
+   "lcsc_design": "C160389",
+   "sheet": "mcu",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C160389",
+    "mpn": "BM03B-SRSS-TB(LF)(SN)",
+    "maker": "JST",
+    "stock": 27324,
+    "library": "extended",
+    "preferred": false,
+    "package": "SMD,P=1mm",
+    "presale": 26752,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.2762
+     ],
+     [
+      50,
+      149,
+      0.231
+     ],
+     [
+      150,
+      1499,
+      0.2115
+     ],
+     [
+      1500,
+      2999,
+      0.1816
+     ],
+     [
+      3000,
+      4499,
+      0.1708
+     ],
+     [
+      4500,
+      null,
+      0.1643
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.2762,
+    "part_page": "https://jlcpcb.com/partdetail/JST-BM03B_SRSS_TB_LF_SN/C160389",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-BM03B-SRSS-TB-LF-SN_C160389.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:17Z",
+     "stock": 27324,
+     "unit_price_usd": 0.2762
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 27324,
+     "unit_price_usd": 0.2762
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:28Z",
+     "stock": 27324,
+     "unit_price_usd": 0.2762
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 27324,
+     "unit_price_usd": 0.2762
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 27324,
+     "unit_price_usd": 0.2762
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 27324,
+     "unit_price_usd": 0.2762
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 27324,
+     "unit_price_usd": 0.2762
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 27324,
+     "unit_price_usd": 0.2762
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "HC-PZ254-11.5L-1x9PZ",
+   "mpn": "HC-PZ254-11.5L-1x9PZ",
+   "mfr": "Hong Cheng",
+   "value": "SCORE SENSORS",
+   "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical",
+   "refs": [
+    "J5"
+   ],
+   "lcsc_design": "C27985193",
+   "sheet": "io",
+   "note": "",
+   "harness": true,
+   "provisional": false,
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T02:52:11Z",
+    "found": true,
+    "code": "C27985193",
+    "mpn": "HC-PZ254-11.5L-1x9PZ",
+    "maker": "Hong Cheng",
+    "stock": 2390,
+    "library": "extended",
+    "preferred": false,
+    "package": "Plugin,P=2.54mm",
+    "presale": 2374,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      99,
+      0.0433
+     ],
+     [
+      100,
+      499,
+      0.0334
+     ],
+     [
+      500,
+      999,
+      0.0326
+     ],
+     [
+      1000,
+      4999,
+      0.0289
+     ],
+     [
+      5000,
+      9999,
+      0.0259
+     ],
+     [
+      10000,
+      null,
+      0.0244
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.0433,
+    "part_page": "https://jlcpcb.com/partdetail/HongCheng-HC_PZ254_11_5L1x9PZ/C27985193",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2407101107_Hong-Cheng-HC-PZ254-11-5L-1x9PZ_C27985193.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-27T02:52:11Z",
+     "stock": 2390,
+     "unit_price_usd": 0.0433
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "HR963380AE",
+   "mpn": "HR963380AE",
+   "mfr": "HanRun",
+   "value": "HR963380AE",
+   "footprint": "skeeball:RJ45_HanRun_HR963380AE_Vertical",
+   "refs": [
+    "J3"
+   ],
+   "lcsc_design": "C19724763",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C19724763",
+    "mpn": "HR963380AE",
+    "maker": "HANRUN(Zhongshan HanRun Elec)",
+    "stock": 154,
+    "library": "extended",
+    "preferred": false,
+    "package": "Plugin",
+    "presale": 131,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      2.7252
+     ],
+     [
+      10,
+      29,
+      2.3062
+     ],
+     [
+      30,
+      89,
+      2.0443
+     ],
+     [
+      90,
+      539,
+      1.7759
+     ],
+     [
+      540,
+      989,
+      1.6548
+     ],
+     [
+      990,
+      null,
+      1.6024
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 2.7252,
+    "part_page": "https://jlcpcb.com/partdetail/21045354-HR963380AE/C19724763",
+    "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221758_HANRUN-Zhongshan-HanRun-Elec-HR963380AE_C19724763.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:59:01Z",
+     "stock": 154,
+     "unit_price_usd": 2.7252
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:28Z",
+     "stock": 154,
+     "unit_price_usd": 2.7252
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 154,
+     "unit_price_usd": 2.7252
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 154,
+     "unit_price_usd": 2.7252
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 154,
+     "unit_price_usd": 2.7252
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 154,
+     "unit_price_usd": 2.7252
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 154,
+     "unit_price_usd": 2.7252
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "TYPE-C-31-D-15",
+   "mpn": "TYPE-C-31-D-15",
+   "mfr": "Korean Hroparts",
+   "value": "DEBUG USB-C",
+   "footprint": "skeeball:USB_C_Receptacle_HRO_TYPE-C-31-D-15_Vertical",
+   "refs": [
+    "J10"
+   ],
+   "lcsc_design": "C22464480",
+   "sheet": "usb",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T12:10:31Z",
+    "found": true,
+    "code": "C22464480",
+    "mpn": "TYPE-C-31-D-15",
+    "maker": "Korean Hroparts Elec",
+    "stock": 469,
+    "library": "extended",
+    "preferred": false,
+    "package": "SMD",
+    "presale": 467,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      0.6531
+     ],
+     [
+      10,
+      29,
+      0.5271
+     ],
+     [
+      30,
+      99,
+      0.4633
+     ],
+     [
+      100,
+      499,
+      0.3994
+     ],
+     [
+      500,
+      999,
+      0.3618
+     ],
+     [
+      1000,
+      null,
+      0.3421
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.6531,
+    "part_page": "https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_D15/C22464480",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2406141143_Korean-Hroparts-Elec-TYPE-C-31-D-15_C22464480.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-27T12:10:31Z",
+     "stock": 469,
+     "unit_price_usd": 0.6531
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "SWPA4030S2R2MT",
+   "mpn": "SWPA4030S2R2MT",
+   "mfr": "Sunlord",
+   "value": "2.2uH",
+   "footprint": "Inductor_SMD:L_Sunlord_SWPA4030S",
+   "refs": [
+    "L1"
+   ],
+   "lcsc_design": "C36409",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C36409",
+    "mpn": "SWPA4030S2R2MT",
+    "maker": "Sunlord",
+    "stock": 34358,
+    "library": "extended",
+    "preferred": false,
+    "package": "SMD,4x4mm",
+    "presale": 34235,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      99,
+      0.0583
+     ],
+     [
+      100,
+      299,
+      0.0477
+     ],
+     [
+      300,
+      1999,
+      0.0423
+     ],
+     [
+      2000,
+      3999,
+      0.0383
+     ],
+     [
+      4000,
+      9999,
+      0.0351
+     ],
+     [
+      10000,
+      null,
+      0.0334
+     ]
+    ],
+    "need": 5,
+    "attrition": 4,
+    "order_qty": 9,
+    "unit_price_usd": 0.0583,
+    "part_page": "https://jlcpcb.com/partdetail/Sunlord-SWPA4030S2R2MT/C36409",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2310251551_Sunlord-SWPA4030S2R2MT_C36409.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:17Z",
+     "stock": 34358,
+     "unit_price_usd": 0.0583
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 34358,
+     "unit_price_usd": 0.0583
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:28Z",
+     "stock": 34358,
+     "unit_price_usd": 0.0583
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 34358,
+     "unit_price_usd": 0.0583
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 34358,
+     "unit_price_usd": 0.0583
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 34358,
+     "unit_price_usd": 0.0583
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 34358,
+     "unit_price_usd": 0.0583
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 34358,
+     "unit_price_usd": 0.0583
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "AO3416",
+   "mpn": "AO3416",
+   "mfr": "Alpha & Omega",
+   "value": "AO3416",
+   "footprint": "Package_TO_SOT_SMD:SOT-23",
+   "refs": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+   ],
+   "lcsc_design": "C43307",
+   "sheet": "io",
+   "note": "",
+   "qty_per_board": 4,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C43307",
+    "mpn": "AO3416",
+    "maker": "Alpha & Omega Semicon",
+    "stock": 48177,
+    "library": "extended",
+    "preferred": false,
+    "package": "SOT-23",
+    "presale": 46856,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.1091
+     ],
+     [
+      50,
+      149,
+      0.0876
+     ],
+     [
+      150,
+      499,
+      0.0766
+     ],
+     [
+      500,
+      2999,
+      0.0676
+     ],
+     [
+      3000,
+      5999,
+      0.0562
+     ],
+     [
+      6000,
+      null,
+      0.0541
+     ]
+    ],
+    "need": 20,
+    "attrition": 2,
+    "order_qty": 22,
+    "unit_price_usd": 0.1091,
+    "part_page": "https://jlcpcb.com/partdetail/Alpha_OmegaSemicon-AO3416/C43307",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809200029_Alpha---Omega-Semicon-AO3416_C43307.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T22:58:30Z",
+     "stock": 48177,
+     "unit_price_usd": 0.1091
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 48177,
+     "unit_price_usd": 0.1091
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 48177,
+     "unit_price_usd": 0.1091
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 48177,
+     "unit_price_usd": 0.1091
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 48177,
+     "unit_price_usd": 0.1091
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 48177,
+     "unit_price_usd": 0.1091
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0402WGF1000TCE",
+   "mpn": "0402WGF1000TCE",
+   "mfr": "UNI-ROYAL",
+   "value": "100",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "refs": [
+    "R15",
+    "R16"
+   ],
+   "lcsc_design": "",
+   "sheet": "mcu",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C25076",
+    "mpn": "0402WGF1000TCE",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 7105177,
+    "library": "basic",
+    "preferred": false,
+    "package": "0402",
+    "presale": 5897444,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0012
+     ],
+     [
+      1000,
+      2999,
+      0.001
+     ],
+     [
+      3000,
+      9999,
+      0.0009
+     ],
+     [
+      10000,
+      49999,
+      0.0008
+     ],
+     [
+      50000,
+      50199,
+      0.0008
+     ],
+     [
+      50200,
+      null,
+      0.0008
+     ]
+    ],
+    "need": 10,
+    "attrition": 10,
+    "order_qty": 20,
+    "unit_price_usd": 0.0012,
+    "part_page": "https://jlcpcb.com/partdetail/25819-0402WGF1000TCE/C25076",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:20Z",
+     "stock": 7105177,
+     "unit_price_usd": 0.0012
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 7105177,
+     "unit_price_usd": 0.0012
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:30Z",
+     "stock": 7105177,
+     "unit_price_usd": 0.0012
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 7105177,
+     "unit_price_usd": 0.0012
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 7105177,
+     "unit_price_usd": 0.0012
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 7105177,
+     "unit_price_usd": 0.0012
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 7105177,
+     "unit_price_usd": 0.0012
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 7105177,
+     "unit_price_usd": 0.0012
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0402WGF1001TCE",
+   "mpn": "0402WGF1001TCE",
+   "mfr": "UNI-ROYAL",
+   "value": "1k",
+   "footprint": "Resistor_SMD:R_0402_1005Metric",
+   "refs": [
+    "R12",
+    "R13",
+    "R14"
+   ],
+   "lcsc_design": "",
+   "sheet": "mcu",
+   "note": "",
+   "qty_per_board": 3,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C11702",
+    "mpn": "0402WGF1001TCE",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 19064680,
+    "library": "basic",
+    "preferred": false,
+    "package": "0402",
+    "presale": 15946752,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0013
+     ],
+     [
+      1000,
+      2999,
+      0.0011
+     ],
+     [
+      3000,
+      9999,
+      0.001
+     ],
+     [
+      10000,
+      49999,
+      0.0009
+     ],
+     [
+      50000,
+      50199,
+      0.0008
+     ],
+     [
+      50200,
+      null,
+      0.0008
+     ]
+    ],
+    "need": 15,
+    "attrition": 10,
+    "order_qty": 25,
+    "unit_price_usd": 0.0013,
+    "part_page": "https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:22Z",
+     "stock": 19064680,
+     "unit_price_usd": 0.0013
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 19064680,
+     "unit_price_usd": 0.0013
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:30Z",
+     "stock": 19064680,
+     "unit_price_usd": 0.0013
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 19064680,
+     "unit_price_usd": 0.0013
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 19064680,
+     "unit_price_usd": 0.0013
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 19064680,
+     "unit_price_usd": 0.0013
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 19064680,
+     "unit_price_usd": 0.0013
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 19064680,
+     "unit_price_usd": 0.0013
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF0000T5E",
+   "mpn": "0603WAF0000T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "0",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R25",
+    "R27",
+    "R28",
+    "R29",
+    "R30"
+   ],
+   "lcsc_design": "",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 5,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C21189",
+    "mpn": "0603WAF0000T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 22071302,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 19645859,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0022
+     ],
+     [
+      1000,
+      4999,
+      0.0017
+     ],
+     [
+      5000,
+      9999,
+      0.0015
+     ],
+     [
+      10000,
+      49999,
+      0.0013
+     ],
+     [
+      50000,
+      50199,
+      0.0012
+     ],
+     [
+      50200,
+      null,
+      0.0012
+     ]
+    ],
+    "need": 25,
+    "attrition": 10,
+    "order_qty": 35,
+    "unit_price_usd": 0.0022,
+    "part_page": "https://jlcpcb.com/partdetail/21903-0603WAF0000T5E/C21189",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF0000T5E_C21189.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:25Z",
+     "stock": 22071302,
+     "unit_price_usd": 0.0022
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 22071302,
+     "unit_price_usd": 0.0022
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:30Z",
+     "stock": 22071302,
+     "unit_price_usd": 0.0022
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 22071302,
+     "unit_price_usd": 0.0022
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 22071302,
+     "unit_price_usd": 0.0022
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 22071302,
+     "unit_price_usd": 0.0022
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 22071302,
+     "unit_price_usd": 0.0022
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 22071302,
+     "unit_price_usd": 0.0022
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF1000T5E",
+   "mpn": "0603WAF1000T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "100",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R66",
+    "R68",
+    "R70",
+    "R72",
+    "R78",
+    "R79"
+   ],
+   "lcsc_design": "",
+   "sheet": "io",
+   "note": "",
+   "qty_per_board": 6,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C22775",
+    "mpn": "0603WAF1000T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 10427539,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 8215817,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0023
+     ],
+     [
+      1000,
+      4999,
+      0.0019
+     ],
+     [
+      5000,
+      9999,
+      0.0016
+     ],
+     [
+      10000,
+      49999,
+      0.0013
+     ],
+     [
+      50000,
+      50199,
+      0.0012
+     ],
+     [
+      50200,
+      null,
+      0.0012
+     ]
+    ],
+    "need": 30,
+    "attrition": 10,
+    "order_qty": 40,
+    "unit_price_usd": 0.0023,
+    "part_page": "https://jlcpcb.com/partdetail/23502-0603WAF1000T5E/C22775",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:27Z",
+     "stock": 10427539,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 10427539,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:30Z",
+     "stock": 10427539,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 10427539,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 10427539,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 10427539,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 10427539,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 10427539,
+     "unit_price_usd": 0.0023
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF1001T5E",
+   "mpn": "0603WAF1001T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "1k",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R4",
+    "R10"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C21190",
+    "mpn": "0603WAF1001T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 34230068,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 27528801,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0017
+     ],
+     [
+      1000,
+      4999,
+      0.0014
+     ],
+     [
+      5000,
+      9999,
+      0.0012
+     ],
+     [
+      10000,
+      49999,
+      0.001
+     ],
+     [
+      50000,
+      50199,
+      0.0009
+     ],
+     [
+      50200,
+      null,
+      0.0009
+     ]
+    ],
+    "need": 10,
+    "attrition": 10,
+    "order_qty": 20,
+    "unit_price_usd": 0.0017,
+    "part_page": "https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:29Z",
+     "stock": 34230068,
+     "unit_price_usd": 0.0017
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 34230068,
+     "unit_price_usd": 0.0017
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:30Z",
+     "stock": 34230068,
+     "unit_price_usd": 0.0017
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 34230068,
+     "unit_price_usd": 0.0017
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 34230068,
+     "unit_price_usd": 0.0017
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 34230068,
+     "unit_price_usd": 0.0017
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 34230068,
+     "unit_price_usd": 0.0017
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 34230068,
+     "unit_price_usd": 0.0017
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF1002T5E",
+   "mpn": "0603WAF1002T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "10k",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R18",
+    "R19",
+    "R20",
+    "R21",
+    "R23",
+    "R81",
+    "R82"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 7,
+   "jlc": {
+    "fetched_utc": "2026-10-27T12:10:31Z",
+    "found": true,
+    "code": "C25804",
+    "mpn": "0603WAF1002T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 38841065,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 28629555,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0017
+     ],
+     [
+      1000,
+      4999,
+      0.0014
+     ],
+     [
+      5000,
+      9999,
+      0.0012
+     ],
+     [
+      10000,
+      49999,
+      0.0012
+     ],
+     [
+      50000,
+      50199,
+      0.0011
+     ],
+     [
+      50200,
+      null,
+      0.0011
+     ]
+    ],
+    "need": 35,
+    "attrition": 10,
+    "order_qty": 45,
+    "unit_price_usd": 0.0017,
+    "part_page": "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1002T5E_C25804.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:30Z",
+     "stock": 39458469,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 39458469,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:30Z",
+     "stock": 39458469,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 39458469,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 39458469,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 39458469,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 39458469,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 39458469,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-27T12:10:31Z",
+     "stock": 38841065,
+     "unit_price_usd": 0.0017
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF1003T5E",
+   "mpn": "0603WAF1003T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "100k",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R1",
+    "R5",
+    "R8"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 3,
+   "jlc": {
+    "fetched_utc": "2026-10-27T10:36:03Z",
+    "found": true,
+    "code": "C25803",
+    "mpn": "0603WAF1003T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 17660400,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 15355308,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0031
+     ],
+     [
+      1000,
+      4999,
+      0.0024
+     ],
+     [
+      5000,
+      9999,
+      0.0021
+     ],
+     [
+      10000,
+      49999,
+      0.0017
+     ],
+     [
+      50000,
+      50199,
+      0.0016
+     ],
+     [
+      50200,
+      null,
+      0.0016
+     ]
+    ],
+    "need": 20,
+    "attrition": 10,
+    "order_qty": 30,
+    "unit_price_usd": 0.0031,
+    "part_page": "https://jlcpcb.com/partdetail/26546-0603WAF1003T5E/C25803",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF1003T5E_C25803.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:32Z",
+     "stock": 17864858,
+     "unit_price_usd": 0.0031
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 17864858,
+     "unit_price_usd": 0.0031
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:30Z",
+     "stock": 17864858,
+     "unit_price_usd": 0.0031
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 17864858,
+     "unit_price_usd": 0.0031
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 17864858,
+     "unit_price_usd": 0.0031
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 17864858,
+     "unit_price_usd": 0.0031
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 17864858,
+     "unit_price_usd": 0.0031
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 17864858,
+     "unit_price_usd": 0.0031
+    },
+    {
+     "fetched_utc": "2026-10-27T10:36:03Z",
+     "stock": 17660400,
+     "unit_price_usd": 0.0031
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF1004T5E",
+   "mpn": "0603WAF1004T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "1M",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R26"
+   ],
+   "lcsc_design": "",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C22935",
+    "mpn": "0603WAF1004T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 5584345,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 4822914,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0018
+     ],
+     [
+      1000,
+      4999,
+      0.0014
+     ],
+     [
+      5000,
+      9999,
+      0.0012
+     ],
+     [
+      10000,
+      49999,
+      0.001
+     ],
+     [
+      50000,
+      50199,
+      0.0009
+     ],
+     [
+      50200,
+      null,
+      0.0009
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.0018,
+    "part_page": "https://jlcpcb.com/partdetail/23662-0603WAF1004T5E/C22935",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1004T5E_C22935.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:33Z",
+     "stock": 5584345,
+     "unit_price_usd": 0.0018
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 5584345,
+     "unit_price_usd": 0.0018
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:30Z",
+     "stock": 5584345,
+     "unit_price_usd": 0.0018
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 5584345,
+     "unit_price_usd": 0.0018
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 5584345,
+     "unit_price_usd": 0.0018
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 5584345,
+     "unit_price_usd": 0.0018
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 5584345,
+     "unit_price_usd": 0.0018
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 5584345,
+     "unit_price_usd": 0.0018
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF100JT5E",
+   "mpn": "0603WAF100JT5E",
+   "mfr": "UNI-ROYAL",
+   "value": "10",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R33"
+   ],
+   "lcsc_design": "",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C22859",
+    "mpn": "0603WAF100JT5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 6801213,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 5553984,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      199,
+      0.0032
+     ],
+     [
+      200,
+      599,
+      0.0025
+     ],
+     [
+      600,
+      4999,
+      0.0022
+     ],
+     [
+      5000,
+      9999,
+      0.002
+     ],
+     [
+      10000,
+      10039,
+      0.0017
+     ],
+     [
+      10040,
+      null,
+      0.0017
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.0032,
+    "part_page": "https://jlcpcb.com/partdetail/23586-0603WAF100JT5E/C22859",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF100JT5E_C22859.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:35Z",
+     "stock": 6801213,
+     "unit_price_usd": 0.0032
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 6801213,
+     "unit_price_usd": 0.0032
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:30Z",
+     "stock": 6801213,
+     "unit_price_usd": 0.0032
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 6801213,
+     "unit_price_usd": 0.0032
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 6801213,
+     "unit_price_usd": 0.0032
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 6801213,
+     "unit_price_usd": 0.0032
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 6801213,
+     "unit_price_usd": 0.0032
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 6801213,
+     "unit_price_usd": 0.0032
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF1242T5E",
+   "mpn": "0603WAF1242T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "12.4k",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R22"
+   ],
+   "lcsc_design": "",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C22865",
+    "mpn": "0603WAF1242T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 183987,
+    "library": "extended",
+    "preferred": false,
+    "package": "0603",
+    "presale": 161712,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0015
+     ],
+     [
+      1000,
+      4999,
+      0.0012
+     ],
+     [
+      5000,
+      9999,
+      0.001
+     ],
+     [
+      10000,
+      49999,
+      0.0009
+     ],
+     [
+      50000,
+      50199,
+      0.0008
+     ],
+     [
+      50200,
+      null,
+      0.0008
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.0015,
+    "part_page": "https://jlcpcb.com/partdetail/23592-0603WAF1242T5E/C22865",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1242T5E_C22865.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:37Z",
+     "stock": 183987,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 183987,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:30Z",
+     "stock": 183987,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 183987,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 183987,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 183987,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 183987,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 183987,
+     "unit_price_usd": 0.0015
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF1501T5E",
+   "mpn": "0603WAF1501T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "1.5k",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R11"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C22843",
+    "mpn": "0603WAF1501T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 3838230,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 3466578,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.002
+     ],
+     [
+      1000,
+      4999,
+      0.0015
+     ],
+     [
+      5000,
+      9999,
+      0.0013
+     ],
+     [
+      10000,
+      49999,
+      0.0011
+     ],
+     [
+      50000,
+      50199,
+      0.001
+     ],
+     [
+      50200,
+      null,
+      0.001
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.002,
+    "part_page": "https://jlcpcb.com/partdetail/23570-0603WAF1501T5E/C22843",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010130_UNI-ROYAL-Uniroyal-Elec-0603WAF1501T5E_C22843.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:38Z",
+     "stock": 3838230,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:54Z",
+     "stock": 3838230,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:30Z",
+     "stock": 3838230,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 3838230,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 3838230,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 3838230,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 3838230,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 3838230,
+     "unit_price_usd": 0.002
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF2201T5E",
+   "mpn": "0603WAF2201T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "2.2k",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R42",
+    "R44",
+    "R46",
+    "R48",
+    "R50",
+    "R52",
+    "R54",
+    "R56",
+    "R58",
+    "R60",
+    "R62",
+    "R64"
+   ],
+   "lcsc_design": "",
+   "sheet": "io",
+   "note": "",
+   "qty_per_board": 12,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C4190",
+    "mpn": "0603WAF2201T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 5955416,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 5241883,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0018
+     ],
+     [
+      1000,
+      4999,
+      0.0014
+     ],
+     [
+      5000,
+      9999,
+      0.0012
+     ],
+     [
+      10000,
+      49999,
+      0.0011
+     ],
+     [
+      50000,
+      50199,
+      0.0009
+     ],
+     [
+      50200,
+      null,
+      0.0009
+     ]
+    ],
+    "need": 60,
+    "attrition": 10,
+    "order_qty": 70,
+    "unit_price_usd": 0.0018,
+    "part_page": "https://jlcpcb.com/partdetail/4597-0603WAF2201T5E/C4190",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-0603WAF2201T5E_C4190.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 5955416,
+     "unit_price_usd": 0.0018
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 5955416,
+     "unit_price_usd": 0.0018
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 5955416,
+     "unit_price_usd": 0.0018
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 5955416,
+     "unit_price_usd": 0.0018
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 5955416,
+     "unit_price_usd": 0.0018
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 5955416,
+     "unit_price_usd": 0.0018
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF2202T5E",
+   "mpn": "0603WAF2202T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "22k",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R6"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C31850",
+    "mpn": "0603WAF2202T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 3147116,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 2838097,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0042
+     ],
+     [
+      1000,
+      4999,
+      0.0032
+     ],
+     [
+      5000,
+      9999,
+      0.0026
+     ],
+     [
+      10000,
+      49999,
+      0.0023
+     ],
+     [
+      50000,
+      50199,
+      0.002
+     ],
+     [
+      50200,
+      null,
+      0.002
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.0042,
+    "part_page": "https://jlcpcb.com/partdetail/32812-0603WAF2202T5E/C31850",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010030_UNI-ROYAL-Uniroyal-Elec-0603WAF2202T5E_C31850.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:11:55Z",
+     "stock": 3147116,
+     "unit_price_usd": 0.0042
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 3147116,
+     "unit_price_usd": 0.0042
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 3147116,
+     "unit_price_usd": 0.0042
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 3147116,
+     "unit_price_usd": 0.0042
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 3147116,
+     "unit_price_usd": 0.0042
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 3147116,
+     "unit_price_usd": 0.0042
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 3147116,
+     "unit_price_usd": 0.0042
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF270JT5E",
+   "mpn": "0603WAF270JT5E",
+   "mfr": "UNI-ROYAL",
+   "value": "27",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R74",
+    "R75"
+   ],
+   "lcsc_design": "",
+   "sheet": "usb",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C25190",
+    "mpn": "0603WAF270JT5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 407953,
+    "library": "preferred",
+    "preferred": true,
+    "package": "0603",
+    "presale": 335242,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0016
+     ],
+     [
+      1000,
+      4999,
+      0.0013
+     ],
+     [
+      5000,
+      9999,
+      0.0011
+     ],
+     [
+      10000,
+      49999,
+      0.001
+     ],
+     [
+      50000,
+      50199,
+      0.0008
+     ],
+     [
+      50200,
+      null,
+      0.0008
+     ]
+    ],
+    "need": 10,
+    "attrition": 10,
+    "order_qty": 20,
+    "unit_price_usd": 0.0016,
+    "part_page": "https://jlcpcb.com/partdetail/25933-0603WAF270JT5E/C25190",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311845_UNI-ROYAL-Uniroyal-Elec-0603WAF270JT5E_C25190.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:59:01Z",
+     "stock": 407953,
+     "unit_price_usd": 0.0016
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 407953,
+     "unit_price_usd": 0.0016
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 407953,
+     "unit_price_usd": 0.0016
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 407953,
+     "unit_price_usd": 0.0016
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 407953,
+     "unit_price_usd": 0.0016
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 407953,
+     "unit_price_usd": 0.0016
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 407953,
+     "unit_price_usd": 0.0016
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF3300T5E",
+   "mpn": "0603WAF3300T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "330",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R36",
+    "R37"
+   ],
+   "lcsc_design": "",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C23138",
+    "mpn": "0603WAF3300T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 3725238,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 3145065,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.002
+     ],
+     [
+      1000,
+      4999,
+      0.0016
+     ],
+     [
+      5000,
+      9999,
+      0.0013
+     ],
+     [
+      10000,
+      49999,
+      0.0011
+     ],
+     [
+      50000,
+      50199,
+      0.001
+     ],
+     [
+      50200,
+      null,
+      0.001
+     ]
+    ],
+    "need": 10,
+    "attrition": 10,
+    "order_qty": 20,
+    "unit_price_usd": 0.002,
+    "part_page": "https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF3300T5E_C23138.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:40Z",
+     "stock": 3725238,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:55Z",
+     "stock": 3725238,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 3725238,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:07Z",
+     "stock": 3725238,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 3725238,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 3725238,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 3725238,
+     "unit_price_usd": 0.002
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 3725238,
+     "unit_price_usd": 0.002
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF330JT5E",
+   "mpn": "0603WAF330JT5E",
+   "mfr": "UNI-ROYAL",
+   "value": "33",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R24",
+    "R39",
+    "R40",
+    "R41"
+   ],
+   "lcsc_design": "",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 4,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C23140",
+    "mpn": "0603WAF330JT5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 4510286,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 3913314,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0024
+     ],
+     [
+      1000,
+      4999,
+      0.0019
+     ],
+     [
+      5000,
+      9999,
+      0.0016
+     ],
+     [
+      10000,
+      49999,
+      0.0014
+     ],
+     [
+      50000,
+      50199,
+      0.0013
+     ],
+     [
+      50200,
+      null,
+      0.0013
+     ]
+    ],
+    "need": 20,
+    "attrition": 10,
+    "order_qty": 30,
+    "unit_price_usd": 0.0024,
+    "part_page": "https://jlcpcb.com/partdetail/23867-0603WAF330JT5E/C23140",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF330JT5E_C23140.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:42Z",
+     "stock": 4510286,
+     "unit_price_usd": 0.0024
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:55Z",
+     "stock": 4510286,
+     "unit_price_usd": 0.0024
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 4510286,
+     "unit_price_usd": 0.0024
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 4510286,
+     "unit_price_usd": 0.0024
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 4510286,
+     "unit_price_usd": 0.0024
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 4510286,
+     "unit_price_usd": 0.0024
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 4510286,
+     "unit_price_usd": 0.0024
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 4510286,
+     "unit_price_usd": 0.0024
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF4700T5E",
+   "mpn": "0603WAF4700T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "470",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R17"
+   ],
+   "lcsc_design": "",
+   "sheet": "mcu",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C23179",
+    "mpn": "0603WAF4700T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 4990526,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 4299537,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0023
+     ],
+     [
+      1000,
+      4999,
+      0.0018
+     ],
+     [
+      5000,
+      9999,
+      0.0015
+     ],
+     [
+      10000,
+      49999,
+      0.0012
+     ],
+     [
+      50000,
+      50199,
+      0.0011
+     ],
+     [
+      50200,
+      null,
+      0.0011
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.0023,
+    "part_page": "https://jlcpcb.com/partdetail/23906-0603WAF4700T5E/C23179",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4700T5E_C23179.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:46Z",
+     "stock": 4990526,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 4990526,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 4990526,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 4990526,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 4990526,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 4990526,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 4990526,
+     "unit_price_usd": 0.0023
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 4990526,
+     "unit_price_usd": 0.0023
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF4701T5E",
+   "mpn": "0603WAF4701T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "4.7k",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R43",
+    "R45",
+    "R47",
+    "R49",
+    "R51",
+    "R53",
+    "R55",
+    "R57",
+    "R59",
+    "R61",
+    "R63",
+    "R65",
+    "R67",
+    "R69",
+    "R71",
+    "R73",
+    "R80"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 17,
+   "jlc": {
+    "fetched_utc": "2026-10-27T12:10:31Z",
+    "found": true,
+    "code": "C23162",
+    "mpn": "0603WAF4701T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 16608030,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 13339080,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0028
+     ],
+     [
+      1000,
+      4999,
+      0.0022
+     ],
+     [
+      5000,
+      9999,
+      0.0019
+     ],
+     [
+      10000,
+      49999,
+      0.0016
+     ],
+     [
+      50000,
+      50199,
+      0.0015
+     ],
+     [
+      50200,
+      null,
+      0.0015
+     ]
+    ],
+    "need": 85,
+    "attrition": 10,
+    "order_qty": 95,
+    "unit_price_usd": 0.0028,
+    "part_page": "https://jlcpcb.com/partdetail/23889-0603WAF4701T5E/C23162",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:48Z",
+     "stock": 16752258,
+     "unit_price_usd": 0.0028
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 16752258,
+     "unit_price_usd": 0.0028
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 16752258,
+     "unit_price_usd": 0.0028
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 16752258,
+     "unit_price_usd": 0.0028
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 16752258,
+     "unit_price_usd": 0.0028
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 16752258,
+     "unit_price_usd": 0.0028
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 16752258,
+     "unit_price_usd": 0.0028
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 16752258,
+     "unit_price_usd": 0.0028
+    },
+    {
+     "fetched_utc": "2026-10-27T12:10:31Z",
+     "stock": 16608030,
+     "unit_price_usd": 0.0028
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF4702T5E",
+   "mpn": "0603WAF4702T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "47k",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R2",
+    "R9"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T10:36:04Z",
+    "found": true,
+    "code": "C25819",
+    "mpn": "0603WAF4702T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 3388230,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 2696231,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0035
+     ],
+     [
+      1000,
+      4999,
+      0.0027
+     ],
+     [
+      5000,
+      9999,
+      0.0023
+     ],
+     [
+      10000,
+      49999,
+      0.002
+     ],
+     [
+      50000,
+      50199,
+      0.0018
+     ],
+     [
+      50200,
+      null,
+      0.0018
+     ]
+    ],
+    "need": 10,
+    "attrition": 10,
+    "order_qty": 20,
+    "unit_price_usd": 0.0035,
+    "part_page": "https://jlcpcb.com/partdetail/26562-0603WAF4702T5E/C25819",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0603WAF4702T5E_C25819.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:48:15Z",
+     "stock": 3425501,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 3425501,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 3425501,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 3425501,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 3425501,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 3425501,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 3425501,
+     "unit_price_usd": 0.0035
+    },
+    {
+     "fetched_utc": "2026-10-27T10:36:04Z",
+     "stock": 3388230,
+     "unit_price_usd": 0.0035
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF4992T5E",
+   "mpn": "0603WAF4992T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "49.9k",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R7"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C23184",
+    "mpn": "0603WAF4992T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 1592716,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 1523490,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0029
+     ],
+     [
+      1000,
+      4999,
+      0.0021
+     ],
+     [
+      5000,
+      9999,
+      0.0017
+     ],
+     [
+      10000,
+      49999,
+      0.0015
+     ],
+     [
+      50000,
+      50199,
+      0.0012
+     ],
+     [
+      50200,
+      null,
+      0.0012
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.0029,
+    "part_page": "https://jlcpcb.com/partdetail/23911-0603WAF4992T5E/C23184",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4992T5E_C23184.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:49Z",
+     "stock": 1592716,
+     "unit_price_usd": 0.0029
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 1592716,
+     "unit_price_usd": 0.0029
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 1592716,
+     "unit_price_usd": 0.0029
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 1592716,
+     "unit_price_usd": 0.0029
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 1592716,
+     "unit_price_usd": 0.0029
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 1592716,
+     "unit_price_usd": 0.0029
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 1592716,
+     "unit_price_usd": 0.0029
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 1592716,
+     "unit_price_usd": 0.0029
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF499JT5E",
+   "mpn": "0603WAF499JT5E",
+   "mfr": "UNI-ROYAL",
+   "value": "49.9",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R31",
+    "R32",
+    "R34",
+    "R35"
+   ],
+   "lcsc_design": "",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 4,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C23185",
+    "mpn": "0603WAF499JT5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 1633061,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 1367337,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0021
+     ],
+     [
+      1000,
+      4999,
+      0.0017
+     ],
+     [
+      5000,
+      9999,
+      0.0014
+     ],
+     [
+      10000,
+      49999,
+      0.0012
+     ],
+     [
+      50000,
+      50199,
+      0.001
+     ],
+     [
+      50200,
+      null,
+      0.001
+     ]
+    ],
+    "need": 20,
+    "attrition": 10,
+    "order_qty": 30,
+    "unit_price_usd": 0.0021,
+    "part_page": "https://jlcpcb.com/partdetail/23912-0603WAF499JT5E/C23185",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF499JT5E_C23185.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:51Z",
+     "stock": 1633061,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 1633061,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 1633061,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 1633061,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 1633061,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 1633061,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 1633061,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 1633061,
+     "unit_price_usd": 0.0021
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF5101T5E",
+   "mpn": "0603WAF5101T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "5.1k",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R76",
+    "R77"
+   ],
+   "lcsc_design": "",
+   "sheet": "usb",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C23186",
+    "mpn": "0603WAF5101T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 21976225,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 20663897,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0015
+     ],
+     [
+      1000,
+      4999,
+      0.0012
+     ],
+     [
+      5000,
+      9999,
+      0.001
+     ],
+     [
+      10000,
+      49999,
+      0.0008
+     ],
+     [
+      50000,
+      50199,
+      0.0007
+     ],
+     [
+      50200,
+      null,
+      0.0007
+     ]
+    ],
+    "need": 10,
+    "attrition": 10,
+    "order_qty": 20,
+    "unit_price_usd": 0.0015,
+    "part_page": "https://jlcpcb.com/partdetail/23913-0603WAF5101T5E/C23186",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5101T5E_C23186.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:52Z",
+     "stock": 21976225,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 21976225,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 21976225,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 21976225,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 21976225,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 21976225,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 21976225,
+     "unit_price_usd": 0.0015
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 21976225,
+     "unit_price_usd": 0.0015
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF5103T5E",
+   "mpn": "0603WAF5103T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "510k",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R38"
+   ],
+   "lcsc_design": "",
+   "sheet": "audio",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T12:10:31Z",
+    "found": true,
+    "code": "C23192",
+    "mpn": "0603WAF5103T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 950956,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 831387,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.002
+     ],
+     [
+      1000,
+      4999,
+      0.0016
+     ],
+     [
+      5000,
+      9999,
+      0.0013
+     ],
+     [
+      10000,
+      49999,
+      0.0012
+     ],
+     [
+      50000,
+      50199,
+      0.0011
+     ],
+     [
+      50200,
+      null,
+      0.0011
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.002,
+    "part_page": "https://jlcpcb.com/partdetail/23919-0603WAF5103T5E/C23192",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF5103T5E_C23192.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-27T12:10:31Z",
+     "stock": 950956,
+     "unit_price_usd": 0.002
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "0603WAF6800T5E",
+   "mpn": "0603WAF6800T5E",
+   "mfr": "UNI-ROYAL",
+   "value": "680",
+   "footprint": "Resistor_SMD:R_0603_1608Metric",
+   "refs": [
+    "R3"
+   ],
+   "lcsc_design": "",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C23228",
+    "mpn": "0603WAF6800T5E",
+    "maker": "UNI-ROYAL(Uniroyal Elec)",
+    "stock": 1992590,
+    "library": "basic",
+    "preferred": false,
+    "package": "0603",
+    "presale": 1784692,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      999,
+      0.0021
+     ],
+     [
+      1000,
+      4999,
+      0.0017
+     ],
+     [
+      5000,
+      9999,
+      0.0014
+     ],
+     [
+      10000,
+      49999,
+      0.0013
+     ],
+     [
+      50000,
+      50199,
+      0.0011
+     ],
+     [
+      50200,
+      null,
+      0.0011
+     ]
+    ],
+    "need": 5,
+    "attrition": 10,
+    "order_qty": 15,
+    "unit_price_usd": 0.0021,
+    "part_page": "https://jlcpcb.com/partdetail/23955-0603WAF6800T5E/C23228",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0603WAF6800T5E_C23228.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:55Z",
+     "stock": 1992590,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 1992590,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 1992590,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 1992590,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 1992590,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 1992590,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 1992590,
+     "unit_price_usd": 0.0021
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 1992590,
+     "unit_price_usd": 0.0021
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "DSIC04LS-P",
+   "mpn": "DSIC04LS-P",
+   "mfr": "XKB Connection",
+   "value": "LANE ID",
+   "footprint": "skeeball:SW_DIP_XKB_DSIC04LS-P",
+   "refs": [
+    "SW3"
+   ],
+   "lcsc_design": "C319038",
+   "sheet": "mcu",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C319038",
+    "mpn": "DSIC04LS-P",
+    "maker": "XKB Connection",
+    "stock": 6316,
+    "library": "extended",
+    "preferred": false,
+    "package": "SMD,P=2.54mm",
+    "presale": 6258,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      0.6367
+     ],
+     [
+      10,
+      29,
+      0.5205
+     ],
+     [
+      30,
+      99,
+      0.4616
+     ],
+     [
+      100,
+      499,
+      0.4043
+     ],
+     [
+      500,
+      999,
+      0.37
+     ],
+     [
+      1000,
+      null,
+      0.3519
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.6367,
+    "part_page": "https://jlcpcb.com/partdetail/XKBConnection-DSIC04LSP/C319038",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2110151630_XKB-Connection-DSIC04LS-P_C319038.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:57Z",
+     "stock": 6316,
+     "unit_price_usd": 0.6367
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 6316,
+     "unit_price_usd": 0.6367
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 6316,
+     "unit_price_usd": 0.6367
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 6316,
+     "unit_price_usd": 0.6367
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 6316,
+     "unit_price_usd": 0.6367
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 6316,
+     "unit_price_usd": 0.6367
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 6316,
+     "unit_price_usd": 0.6367
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 6316,
+     "unit_price_usd": 0.6367
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "TS-1187A-B-A-B",
+   "mpn": "TS-1187A-B-A-B",
+   "mfr": "XKB Connection",
+   "value": "BOOTSEL",
+   "footprint": "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A",
+   "refs": [
+    "SW1",
+    "SW2"
+   ],
+   "lcsc_design": "C318884",
+   "sheet": "mcu",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C318884",
+    "mpn": "TS-1187A-B-A-B",
+    "maker": "XKB Connection",
+    "stock": 1187372,
+    "library": "basic",
+    "preferred": false,
+    "package": "SMD-4P,5.1x5.1mm",
+    "presale": 1114152,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      199,
+      0.0207
+     ],
+     [
+      200,
+      599,
+      0.016
+     ],
+     [
+      600,
+      3999,
+      0.0139
+     ],
+     [
+      4000,
+      7999,
+      0.0121
+     ],
+     [
+      8000,
+      19999,
+      0.0115
+     ],
+     [
+      20000,
+      null,
+      0.0111
+     ]
+    ],
+    "need": 10,
+    "attrition": 8,
+    "order_qty": 18,
+    "unit_price_usd": 0.0207,
+    "part_page": "https://jlcpcb.com/partdetail/XKBConnection-TS_1187A_B_AB/C318884",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XKB-Connection-TS-1187A-B-A-B_C318884.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:09:58Z",
+     "stock": 1187372,
+     "unit_price_usd": 0.0207
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 1187372,
+     "unit_price_usd": 0.0207
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 1187372,
+     "unit_price_usd": 0.0207
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 1187372,
+     "unit_price_usd": 0.0207
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 1187372,
+     "unit_price_usd": 0.0207
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 1187372,
+     "unit_price_usd": 0.0207
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 1187372,
+     "unit_price_usd": 0.0207
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 1187372,
+     "unit_price_usd": 0.0207
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "CH340N",
+   "mpn": "CH340N",
+   "mfr": "WCH",
+   "value": "CH340N",
+   "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+   "refs": [
+    "U14"
+   ],
+   "lcsc_design": "C2977777",
+   "sheet": "usb",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C2977777",
+    "mpn": "CH340N",
+    "maker": "WCH(Jiangsu Qin Heng)",
+    "stock": 24904,
+    "library": "extended",
+    "preferred": false,
+    "package": "SOP-8",
+    "presale": 22327,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      0.5909
+     ],
+     [
+      10,
+      29,
+      0.496
+     ],
+     [
+      30,
+      99,
+      0.4289
+     ],
+     [
+      100,
+      499,
+      0.3749
+     ],
+     [
+      500,
+      999,
+      0.3438
+     ],
+     [
+      1000,
+      null,
+      0.3339
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.5909,
+    "part_page": "https://jlcpcb.com/partdetail/WCH_Jiangsu_Qin_Heng-CH340N/C2977777",
+    "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403131131_WCH-Jiangsu-Qin-Heng-CH340N_C2977777.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:12:57Z",
+     "stock": 24904,
+     "unit_price_usd": 0.5909
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 24904,
+     "unit_price_usd": 0.5909
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 24904,
+     "unit_price_usd": 0.5909
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 24904,
+     "unit_price_usd": 0.5909
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 24904,
+     "unit_price_usd": 0.5909
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 24904,
+     "unit_price_usd": 0.5909
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 24904,
+     "unit_price_usd": 0.5909
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "ESDA6V1-5SC6",
+   "mpn": "ESDA6V1-5SC6",
+   "mfr": "STMicroelectronics",
+   "value": "ESDA6V1-5SC6",
+   "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+   "refs": [
+    "U9",
+    "U10",
+    "U11"
+   ],
+   "lcsc_design": "C6650",
+   "sheet": "io",
+   "note": "",
+   "qty_per_board": 3,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C6650",
+    "mpn": "ESDA6V1-5SC6",
+    "maker": "STMicroelectronics",
+    "stock": 2981,
+    "library": "extended",
+    "preferred": false,
+    "package": "SOT-23-6L",
+    "presale": 2946,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.2115
+     ],
+     [
+      50,
+      149,
+      0.1735
+     ],
+     [
+      150,
+      499,
+      0.1572
+     ],
+     [
+      500,
+      2999,
+      0.1369
+     ],
+     [
+      3000,
+      5999,
+      0.1279
+     ],
+     [
+      6000,
+      8999,
+      0.1225
+     ],
+     [
+      9000,
+      20999,
+      0.1213
+     ],
+     [
+      21000,
+      null,
+      0.1205
+     ]
+    ],
+    "need": 15,
+    "attrition": 2,
+    "order_qty": 17,
+    "unit_price_usd": 0.2115,
+    "part_page": "https://jlcpcb.com/partdetail/STMicroelectronics-ESDA6V15SC6/C6650",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810130911_STMicroelectronics-ESDA6V1-5SC6_C6650.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:10:02Z",
+     "stock": 2981,
+     "unit_price_usd": 0.2115
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 2981,
+     "unit_price_usd": 0.2115
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 2981,
+     "unit_price_usd": 0.2115
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 2981,
+     "unit_price_usd": 0.2115
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 2981,
+     "unit_price_usd": 0.2115
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 2981,
+     "unit_price_usd": 0.2115
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 2981,
+     "unit_price_usd": 0.2115
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 2981,
+     "unit_price_usd": 0.2115
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "MAX98357AETE+T",
+   "mpn": "MAX98357AETE+T",
+   "mfr": "Analog Devices",
+   "value": "MAX98357AETE+T",
+   "footprint": "Package_DFN_QFN:TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm",
+   "refs": [
+    "U8"
+   ],
+   "lcsc_design": "C910544",
+   "sheet": "audio",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C910544",
+    "mpn": "MAX98357AETE+T",
+    "maker": "Analog Devices Inc./Maxim Integrated",
+    "stock": 33473,
+    "library": "extended",
+    "preferred": false,
+    "package": "TQFN-16-EP(3x3)",
+    "presale": 32135,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      1.3242
+     ],
+     [
+      10,
+      29,
+      1.1589
+     ],
+     [
+      30,
+      99,
+      1.0034
+     ],
+     [
+      100,
+      499,
+      0.8872
+     ],
+     [
+      500,
+      999,
+      0.8397
+     ],
+     [
+      1000,
+      null,
+      0.8168
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 1.3242,
+    "part_page": "https://jlcpcb.com/partdetail/978950-MAX98357AETET/C910544",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2201242100_Analog-Devices-Inc--Maxim-Integrated-MAX98357AETE-T_C910544.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:10:03Z",
+     "stock": 33473,
+     "unit_price_usd": 1.3242
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 33473,
+     "unit_price_usd": 1.3242
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 33473,
+     "unit_price_usd": 1.3242
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 33473,
+     "unit_price_usd": 1.3242
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 33473,
+     "unit_price_usd": 1.3242
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 33473,
+     "unit_price_usd": 1.3242
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 33473,
+     "unit_price_usd": 1.3242
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 33473,
+     "unit_price_usd": 1.3242
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "RP2350B",
+   "mpn": "RP2350B",
+   "mfr": "Raspberry Pi",
+   "value": "RP2350B",
+   "footprint": "Package_DFN_QFN:QFN-80-1EP_10x10mm_P0.4mm_EP3.4x3.4mm",
+   "refs": [
+    "U5"
+   ],
+   "lcsc_design": "C42415655",
+   "sheet": "mcu",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C42415655",
+    "mpn": "RP2350B",
+    "maker": "Raspberry Pi",
+    "stock": 3477,
+    "library": "extended",
+    "preferred": false,
+    "package": "QFN-80-EP(10x10)",
+    "presale": 3258,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      1.2833
+     ],
+     [
+      10,
+      29,
+      1.1949
+     ],
+     [
+      30,
+      99,
+      1.1376
+     ],
+     [
+      100,
+      499,
+      1.131
+     ],
+     [
+      500,
+      999,
+      1.1048
+     ],
+     [
+      1000,
+      null,
+      1.0934
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 1.2833,
+    "part_page": "https://jlcpcb.com/partdetail/RaspberryPi-RP2350B/C42415655",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2412171426_Raspberry-Pi-RP2350B_C42415655.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:48:06Z",
+     "stock": 3477,
+     "unit_price_usd": 1.2833
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 3477,
+     "unit_price_usd": 1.2833
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 3477,
+     "unit_price_usd": 1.2833
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 3477,
+     "unit_price_usd": 1.2833
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 3477,
+     "unit_price_usd": 1.2833
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 3477,
+     "unit_price_usd": 1.2833
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 3477,
+     "unit_price_usd": 1.2833
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "TLV62569DBVR",
+   "mpn": "TLV62569DBVR",
+   "mfr": "Texas Instruments",
+   "value": "TLV62569DBVR",
+   "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+   "refs": [
+    "U2"
+   ],
+   "lcsc_design": "C141836",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C141836",
+    "mpn": "TLV62569DBVR",
+    "maker": "Texas Instruments",
+    "stock": 432314,
+    "library": "extended",
+    "preferred": false,
+    "package": "SOT-23-5",
+    "presale": 427279,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.0708
+     ],
+     [
+      50,
+      149,
+      0.0559
+     ],
+     [
+      150,
+      499,
+      0.0482
+     ],
+     [
+      500,
+      2999,
+      0.0418
+     ],
+     [
+      3000,
+      5999,
+      0.04
+     ],
+     [
+      6000,
+      null,
+      0.0385
+     ]
+    ],
+    "need": 5,
+    "attrition": 4,
+    "order_qty": 9,
+    "unit_price_usd": 0.0708,
+    "part_page": "https://jlcpcb.com/partdetail/TexasInstruments-TLV62569DBVR/C141836",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1809251629_Texas-Instruments-TLV62569DBVR_C141836.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:10:06Z",
+     "stock": 432314,
+     "unit_price_usd": 0.0708
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 432314,
+     "unit_price_usd": 0.0708
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 432314,
+     "unit_price_usd": 0.0708
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 432314,
+     "unit_price_usd": 0.0708
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 432314,
+     "unit_price_usd": 0.0708
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 432314,
+     "unit_price_usd": 0.0708
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 432314,
+     "unit_price_usd": 0.0708
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 432314,
+     "unit_price_usd": 0.0708
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "TLV74311PDBVR",
+   "mpn": "TLV74311PDBVR",
+   "mfr": "Texas Instruments",
+   "value": "TLV74311PDBVR",
+   "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+   "refs": [
+    "U3"
+   ],
+   "lcsc_design": "C485147",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C485147",
+    "mpn": "TLV74311PDBVR",
+    "maker": "Texas Instruments",
+    "stock": 10298,
+    "library": "extended",
+    "preferred": false,
+    "package": "SOT-23-5",
+    "presale": 6828,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.0935
+     ],
+     [
+      50,
+      149,
+      0.0745
+     ],
+     [
+      150,
+      499,
+      0.0652
+     ],
+     [
+      500,
+      2999,
+      0.0582
+     ],
+     [
+      3000,
+      5999,
+      0.0524
+     ],
+     [
+      6000,
+      null,
+      0.0496
+     ]
+    ],
+    "need": 5,
+    "attrition": 4,
+    "order_qty": 9,
+    "unit_price_usd": 0.0935,
+    "part_page": "https://jlcpcb.com/partdetail/TexasInstruments-TLV74311PDBVR/C485147",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Texas-Instruments-TLV74311PDBVR_C485147.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:10:08Z",
+     "stock": 10298,
+     "unit_price_usd": 0.0935
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 10298,
+     "unit_price_usd": 0.0935
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 10298,
+     "unit_price_usd": 0.0935
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 10298,
+     "unit_price_usd": 0.0935
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 10298,
+     "unit_price_usd": 0.0935
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 10298,
+     "unit_price_usd": 0.0935
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 10298,
+     "unit_price_usd": 0.0935
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 10298,
+     "unit_price_usd": 0.0935
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "TPS2553DBVR",
+   "mpn": "TPS2553DBVR",
+   "mfr": "Texas Instruments",
+   "value": "TPS2553DBVR",
+   "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+   "refs": [
+    "U4"
+   ],
+   "lcsc_design": "C55266",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C55266",
+    "mpn": "TPS2553DBVR",
+    "maker": "Texas Instruments",
+    "stock": 49261,
+    "library": "extended",
+    "preferred": false,
+    "package": "SOT-23-6",
+    "presale": 48217,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      0.5418
+     ],
+     [
+      10,
+      29,
+      0.4485
+     ],
+     [
+      30,
+      99,
+      0.3814
+     ],
+     [
+      100,
+      499,
+      0.3274
+     ],
+     [
+      500,
+      999,
+      0.311
+     ],
+     [
+      1000,
+      null,
+      0.2996
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.5418,
+    "part_page": "https://jlcpcb.com/partdetail/TexasInstruments-TPS2553DBVR/C55266",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1810221710_Texas-Instruments-TPS2553DBVR_C55266.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:10:09Z",
+     "stock": 49261,
+     "unit_price_usd": 0.4485
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 49261,
+     "unit_price_usd": 0.4485
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 49261,
+     "unit_price_usd": 0.5418
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 49261,
+     "unit_price_usd": 0.5418
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 49261,
+     "unit_price_usd": 0.5418
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 49261,
+     "unit_price_usd": 0.5418
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 49261,
+     "unit_price_usd": 0.5418
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 49261,
+     "unit_price_usd": 0.5418
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "TPS259531DSGR",
+   "mpn": "TPS259531DSGR",
+   "mfr": "Texas Instruments",
+   "value": "TPS259531DSGR",
+   "footprint": "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm",
+   "refs": [
+    "U1"
+   ],
+   "lcsc_design": "C2155674",
+   "sheet": "power",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C2155674",
+    "mpn": "TPS259531DSGR",
+    "maker": "Texas Instruments",
+    "stock": 2161,
+    "library": "extended",
+    "preferred": false,
+    "package": "WSON-8-EP(2x2)",
+    "presale": 1994,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      0.8773
+     ],
+     [
+      10,
+      29,
+      0.7153
+     ],
+     [
+      30,
+      99,
+      0.6351
+     ],
+     [
+      100,
+      499,
+      0.5565
+     ],
+     [
+      500,
+      999,
+      0.5091
+     ],
+     [
+      1000,
+      null,
+      0.4829
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.8773,
+    "part_page": "https://jlcpcb.com/partdetail/TexasInstruments-TPS259531DSGR/C2155674",
+    "datasheet": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302281030_Texas-Instruments-TPS259531DSGR_C2155674.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:10:11Z",
+     "stock": 2161,
+     "unit_price_usd": 0.8773
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 2161,
+     "unit_price_usd": 0.8773
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 2161,
+     "unit_price_usd": 0.8773
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 2161,
+     "unit_price_usd": 0.8773
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 2161,
+     "unit_price_usd": 0.8773
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 2161,
+     "unit_price_usd": 0.8773
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 2161,
+     "unit_price_usd": 0.8773
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 2161,
+     "unit_price_usd": 0.8773
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "USBLC6-2SC6",
+   "mpn": "USBLC6-2SC6",
+   "mfr": "STMicroelectronics",
+   "value": "USBLC6-2SC6",
+   "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+   "refs": [
+    "U12",
+    "U13"
+   ],
+   "lcsc_design": "C7519",
+   "sheet": "usb",
+   "note": "",
+   "qty_per_board": 2,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C7519",
+    "mpn": "USBLC6-2SC6",
+    "maker": "STMicroelectronics",
+    "stock": 37197,
+    "library": "extended",
+    "preferred": false,
+    "package": "SOT-23-6L",
+    "presale": 35248,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.1797
+     ],
+     [
+      50,
+      149,
+      0.1384
+     ],
+     [
+      150,
+      499,
+      0.1181
+     ],
+     [
+      500,
+      2999,
+      0.1001
+     ],
+     [
+      3000,
+      5999,
+      0.0951
+     ],
+     [
+      6000,
+      null,
+      0.0922
+     ]
+    ],
+    "need": 10,
+    "attrition": 2,
+    "order_qty": 12,
+    "unit_price_usd": 0.1797,
+    "part_page": "https://jlcpcb.com/partdetail/STMicroelectronics-USBLC62SC6/C7519",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121836_STMicroelectronics-USBLC6-2SC6_C7519.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:10:12Z",
+     "stock": 37197,
+     "unit_price_usd": 0.1797
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 37197,
+     "unit_price_usd": 0.1797
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 37197,
+     "unit_price_usd": 0.1797
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 37197,
+     "unit_price_usd": 0.1797
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 37197,
+     "unit_price_usd": 0.1797
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 37197,
+     "unit_price_usd": 0.1797
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 37197,
+     "unit_price_usd": 0.1797
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 37197,
+     "unit_price_usd": 0.1797
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "W25Q128JVSIQ",
+   "mpn": "W25Q128JVSIQ",
+   "mfr": "Winbond",
+   "value": "W25Q128JVSIQ",
+   "footprint": "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm",
+   "refs": [
+    "U6"
+   ],
+   "lcsc_design": "C97521",
+   "sheet": "mcu",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C97521",
+    "mpn": "W25Q128JVSIQ",
+    "maker": "Winbond Elec",
+    "stock": 58346,
+    "library": "basic",
+    "preferred": false,
+    "package": "SOIC-8-208mil",
+    "presale": 39919,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      2.5828
+     ],
+     [
+      10,
+      29,
+      2.2407
+     ],
+     [
+      30,
+      99,
+      2.0001
+     ],
+     [
+      100,
+      499,
+      1.7808
+     ],
+     [
+      500,
+      999,
+      1.6793
+     ],
+     [
+      1000,
+      null,
+      1.6384
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 2.5828,
+    "part_page": "https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_1811142111_Winbond-Elec-W25Q128JVSIQ_C97521.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:10:14Z",
+     "stock": 58346,
+     "unit_price_usd": 2.5828
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 58346,
+     "unit_price_usd": 2.5828
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 58346,
+     "unit_price_usd": 2.5828
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 58346,
+     "unit_price_usd": 2.5828
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 58346,
+     "unit_price_usd": 2.5828
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 58346,
+     "unit_price_usd": 2.5828
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 58346,
+     "unit_price_usd": 2.5828
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 58346,
+     "unit_price_usd": 2.5828
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "W5500",
+   "mpn": "W5500",
+   "mfr": "WIZnet",
+   "value": "W5500",
+   "footprint": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+   "refs": [
+    "U7"
+   ],
+   "lcsc_design": "C32843",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C32843",
+    "mpn": "W5500",
+    "maker": "WIZNET",
+    "stock": 23251,
+    "library": "extended",
+    "preferred": false,
+    "package": "LQFP-48_7x7",
+    "presale": 20025,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      2.83
+     ],
+     [
+      10,
+      29,
+      2.4682
+     ],
+     [
+      30,
+      99,
+      2.2129
+     ],
+     [
+      100,
+      499,
+      1.9772
+     ],
+     [
+      500,
+      999,
+      1.8692
+     ],
+     [
+      1000,
+      null,
+      1.8266
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 2.83,
+    "part_page": "https://jlcpcb.com/partdetail/WIZNET-W5500/C32843",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121618_WIZNET-W5500_C32843.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:10:16Z",
+     "stock": 23251,
+     "unit_price_usd": 2.83
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 23251,
+     "unit_price_usd": 2.83
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 23251,
+     "unit_price_usd": 2.83
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 23251,
+     "unit_price_usd": 2.83
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 23251,
+     "unit_price_usd": 2.83
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 23251,
+     "unit_price_usd": 2.83
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 23251,
+     "unit_price_usd": 2.83
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 23251,
+     "unit_price_usd": 2.83
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "ABM8-272-T3",
+   "mpn": "ABM8-272-T3",
+   "mfr": "Abracon",
+   "value": "12MHz",
+   "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+   "refs": [
+    "Y1"
+   ],
+   "lcsc_design": "C20625731",
+   "sheet": "mcu",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C20625731",
+    "mpn": "ABM8-272-T3",
+    "maker": "Abracon LLC",
+    "stock": 2735,
+    "library": "extended",
+    "preferred": false,
+    "package": "SMD3225-4P",
+    "presale": 2549,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      9,
+      0.658
+     ],
+     [
+      10,
+      29,
+      0.5418
+     ],
+     [
+      30,
+      99,
+      0.4911
+     ],
+     [
+      100,
+      499,
+      0.4289
+     ],
+     [
+      500,
+      999,
+      0.4011
+     ],
+     [
+      1000,
+      null,
+      0.3847
+     ]
+    ],
+    "need": 5,
+    "attrition": 2,
+    "order_qty": 7,
+    "unit_price_usd": 0.658,
+    "part_page": "https://jlcpcb.com/partdetail/AbraconLLC-ABM8_272T3/C20625731",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121909_Abracon-LLC-ABM8-272-T3_C20625731.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:10:16Z",
+     "stock": 2735,
+     "unit_price_usd": 0.658
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 2735,
+     "unit_price_usd": 0.658
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 2735,
+     "unit_price_usd": 0.658
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 2735,
+     "unit_price_usd": 0.658
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 2735,
+     "unit_price_usd": 0.658
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 2735,
+     "unit_price_usd": 0.658
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 2735,
+     "unit_price_usd": 0.658
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 2735,
+     "unit_price_usd": 0.658
+    }
+   ],
+   "status": "OK"
+  },
+  {
+   "key": "X322525MOB4SI",
+   "mpn": "X322525MOB4SI",
+   "mfr": "YXC",
+   "value": "25MHz",
+   "footprint": "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm",
+   "refs": [
+    "Y2"
+   ],
+   "lcsc_design": "C9006",
+   "sheet": "ethernet",
+   "note": "",
+   "qty_per_board": 1,
+   "jlc": {
+    "fetched_utc": "2026-10-27T00:08:20Z",
+    "found": true,
+    "code": "C9006",
+    "mpn": "X322525MOB4SI",
+    "maker": "YXC Crystal Oscillators",
+    "stock": 240479,
+    "library": "basic",
+    "preferred": false,
+    "package": "SMD3225-4P",
+    "presale": 197198,
+    "buyable": true,
+    "prices": [
+     [
+      1,
+      49,
+      0.0951
+     ],
+     [
+      50,
+      149,
+      0.0762
+     ],
+     [
+      150,
+      499,
+      0.0663
+     ],
+     [
+      500,
+      2999,
+      0.0583
+     ],
+     [
+      3000,
+      5999,
+      0.05
+     ],
+     [
+      6000,
+      null,
+      0.0482
+     ]
+    ],
+    "need": 5,
+    "attrition": 4,
+    "order_qty": 9,
+    "unit_price_usd": 0.0951,
+    "part_page": "https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322525MOB4SI/C9006",
+    "datasheet": "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X322525MOB4SI_C9006.pdf"
+   },
+   "history": [
+    {
+     "fetched_utc": "2026-10-26T21:10:16Z",
+     "stock": 240479,
+     "unit_price_usd": 0.0951
+    },
+    {
+     "fetched_utc": "2026-10-26T21:11:57Z",
+     "stock": 240479,
+     "unit_price_usd": 0.0951
+    },
+    {
+     "fetched_utc": "2026-10-26T22:58:31Z",
+     "stock": 240479,
+     "unit_price_usd": 0.0951
+    },
+    {
+     "fetched_utc": "2026-10-26T23:22:08Z",
+     "stock": 240479,
+     "unit_price_usd": 0.0951
+    },
+    {
+     "fetched_utc": "2026-10-26T23:23:12Z",
+     "stock": 240479,
+     "unit_price_usd": 0.0951
+    },
+    {
+     "fetched_utc": "2026-10-26T23:36:52Z",
+     "stock": 240479,
+     "unit_price_usd": 0.0951
+    },
+    {
+     "fetched_utc": "2026-10-27T00:05:32Z",
+     "stock": 240479,
+     "unit_price_usd": 0.0951
+    },
+    {
+     "fetched_utc": "2026-10-27T00:08:20Z",
+     "stock": 240479,
+     "unit_price_usd": 0.0951
+    }
+   ],
+   "status": "OK"
+  }
+ ],
+ "updated_utc": "2026-10-27T20:24:26Z"
+}

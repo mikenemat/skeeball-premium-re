@@ -1,0 +1,814 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e")
+	(paper "A4")
+	(title_block
+		(title "skeeball-controller")
+		(rev "A-draft")
+		(company "Skee-Ball lane controller SBC-1")
+	)
+	(lib_symbols
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 25.4 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "193f5302-80b2-58d6-a127-4230fc97add5")
+		(property "Reference" "#FLG01"
+			(at 25.4 172.085 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 25.4 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca351321-f5b2-50c4-b8d8-291392092884")
+		)
+		(instances
+			(project "simple_circuit"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 40.64 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "90c95a84-b013-5cd7-983b-9a6498b97b9c")
+		(property "Reference" "#FLG02"
+			(at 40.64 172.085 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d07ae0a-7d1c-51c0-b304-55514483ec0a")
+		)
+		(instances
+			(project "simple_circuit"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "4a2cad68-5a31-57c2-b627-f6f04fc8b23b")
+		(property "Reference" "#FLG03"
+			(at 55.88 172.085 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "18dd0c71-81c5-5b2d-9c31-d83936680477")
+		)
+		(instances
+			(project "simple_circuit"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 71.12 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "c60b71d6-4b9c-530e-b0e6-5e9a7be05d29")
+		(property "Reference" "#FLG04"
+			(at 71.12 172.085 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 71.12 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc9a25f7-3e45-5784-8325-7bf2f995f6da")
+		)
+		(instances
+			(project "simple_circuit"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 86.36 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "bd8ddfc0-0bc6-5771-8eff-15707a3565db")
+		(property "Reference" "#FLG05"
+			(at 86.36 172.085 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 86.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "353251ce-0ad2-5269-ae60-a276a6ce415a")
+		)
+		(instances
+			(project "simple_circuit"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 101.6 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "3738b066-7f55-5c44-8881-2a80d008d2b9")
+		(property "Reference" "#FLG06"
+			(at 101.6 172.085 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3f76f55-67af-56d6-8e9c-6073a6c87b5e")
+		)
+		(instances
+			(project "simple_circuit"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 116.84 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced no)
+		(uuid "61654748-8b0a-5d72-a7be-ccbea81ea80e")
+		(property "Reference" "#FLG07"
+			(at 116.84 172.085 0.0000)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 116.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4531f749-c33f-5858-930a-f117bb137238")
+		)
+		(instances
+			(project "simple_circuit"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 30.48)
+		(size 50.8 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97e8f661-fe85-51dd-9b1a-e87ad9e27270")
+		(property "Sheetname" "Power: protection, eFuse, rails, switches"
+			(at 25.4 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 25.4 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "skeeball-controller"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 30.48)
+		(size 50.8 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7526502d-da39-5d0f-80a1-019fe6addb0d")
+		(property "Sheetname" "RP2350B, QSPI flash, crystal, boot, SWD"
+			(at 86.36 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 86.36 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "skeeball-controller"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 30.48)
+		(size 50.8 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bafc526d-16ae-543a-a341-909e5c2097a1")
+		(property "Sheetname" "W5500 Ethernet + RJ45 magjack"
+			(at 147.32 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 147.32 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "skeeball-controller"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 30.48)
+		(size 50.8 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd14658b-0a37-5aac-9da6-a60be5994f3c")
+		(property "Sheetname" "MAX98357A audio amplifier + speaker"
+			(at 208.28 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 208.28 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "skeeball-controller"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 71.12)
+		(size 50.8 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d065ec3b-4939-5f3d-8c4e-d5593e139646")
+		(property "Sheetname" "Score sensors, buttons, light drivers"
+			(at 25.4 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 25.4 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "skeeball-controller"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 71.12)
+		(size 50.8 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86043d1c-e8c4-534c-a1dc-c44ed754784f")
+		(property "Sheetname" "Display USB host + USB-C debug console"
+			(at 86.36 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 86.36 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "skeeball-controller"
+				(path "/140bf351-5d5f-5bca-9b5c-ba9f2b8a6b2e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(global_label "+5V_IN"
+		(shape passive)
+		(at 25.4000 170.1800 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2a6218c-2068-5b98-9f02-a93fda97c4ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.4000 170.1800 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape passive)
+		(at 40.6400 170.1800 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fe7a4ae-2094-5c03-89b9-54b13cdf13ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.6400 170.1800 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_RGB"
+		(shape passive)
+		(at 55.8800 170.1800 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afcf272e-6d43-54e9-a1e2-4393aff65685")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.8800 170.1800 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_PF"
+		(shape passive)
+		(at 71.1200 170.1800 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75349fdb-dc2e-5667-81ad-c1211c3733b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.1200 170.1800 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape passive)
+		(at 86.3600 170.1800 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c4a5133-a822-5ae4-bdb5-f93184f25c97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.3600 170.1800 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3A"
+		(shape passive)
+		(at 101.6000 170.1800 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80317f97-c33e-5409-acc9-3b47bd232e7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6000 170.1800 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS_DBG"
+		(shape passive)
+		(at 116.8400 170.1800 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd514cb2-1e39-5daf-b2a9-1535bfc56894")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.8400 170.1800 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+)
