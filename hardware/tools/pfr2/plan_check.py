@@ -1,3 +1,4 @@
+_ROOT = __import__("pathlib").Path(__file__).resolve().parents[2]   # project root (tools/pfr2/ -> ..)
 # ported from din-relay-8ch/tools/pfr2/plan_check.py, 2026-10-27 (SBC-1 board model adapted; see docs/ROUTING_PLAYBOOK.md)
 """Exact (shapely) legality pass over a pfr2.py plan against the board it was routed on; narrows track widths where the
 grid could not see the exact geometry (pad entries) and reports what is still illegal.
@@ -279,7 +280,7 @@ def main():
                 hz[z["name"]].append(unary_union([cugraph.ring_poly(o) for o in z["outline"]]))
         hz = {k: unary_union(v) for k, v in hz.items()}
         # approved / as-built leg copper is grandfathered (pcb_pickup_rules.leg_copper; the areas apply to NEW copper)
-        sys.path.insert(0, "C:/work/skeeball-controller/scripts")
+        sys.path.insert(0, str(_ROOT / "scripts"))
         import pcb_pickup_rules as _PR
         _LC = _PR.leg_copper()
         _foot = defaultdict(list)

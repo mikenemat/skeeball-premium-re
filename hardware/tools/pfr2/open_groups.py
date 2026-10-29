@@ -1,3 +1,4 @@
+_ROOT = __import__("pathlib").Path(__file__).resolve().parents[2]   # project root (tools/pfr2/ -> ..)
 # ported from din-relay-8ch/tools/pfr2/open_groups.py, 2026-10-27 (SBC-1 board model adapted; see docs/ROUTING_PLAYBOOK.md)
 """Open joins of a MAIN routing stage by net group and region (CPython).
 
@@ -14,7 +15,7 @@ import json
 import re
 import sys
 from collections import Counter, defaultdict
-sys.path.insert(0, "C:/work/skeeball-controller/tools/pfr2")
+sys.path.insert(0, str(_ROOT / "tools/pfr2"))
 import cugraph
 from open_joins import open_joins
 

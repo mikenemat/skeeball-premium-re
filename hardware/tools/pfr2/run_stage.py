@@ -1,3 +1,4 @@
+_ROOT = __import__("pathlib").Path(__file__).resolve().parents[2]   # project root (tools/pfr2/ -> ..)
 # ported from din-relay-8ch/tools/pfr2/run_stage.py, 2026-10-27 (SBC-1 board model adapted; see docs/ROUTING_PLAYBOOK.md)
 """One routing stage on a MAIN working board (orchestrates the replayable tools; CPython).
 
@@ -17,7 +18,7 @@ from pathlib import Path
 
 T = Path(__file__).resolve().parent
 KP = r"C:\Program Files\KiCad\10.0\bin\python.exe"
-LR = r"C:\work\skeeball-controller\scripts\local_run.py"
+LR = str(_ROOT / "scripts/local_run.py")
 board_dir, plan, out_dir, out_geom = (Path(x).resolve() for x in sys.argv[1:5])
 geom_in = Path(str(out_geom).replace(".json", "-src.json"))
 

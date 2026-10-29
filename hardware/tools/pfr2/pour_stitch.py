@@ -1,3 +1,4 @@
+_ROOT = __import__("pathlib").Path(__file__).resolve().parents[2]   # project root (tools/pfr2/ -> ..)
 # ported from din-relay-8ch/tools/pfr2/pour_stitch.py, 2026-10-27 (SBC-1 board model adapted; see docs/ROUTING_PLAYBOOK.md)
 """Pour stitching (owner doctrine 2026-10-05 (d): missing / carved pours) - CPython on dump_geom JSON, writes a delta_merge
 "add vias" delta. Read-only on the board.
@@ -19,7 +20,7 @@ import argparse
 import json
 import sys
 import uuid
-sys.path.insert(0, "C:/work/skeeball-controller/tools/pfr2")
+sys.path.insert(0, str(_ROOT / "tools/pfr2"))
 from shapely.geometry import Point
 from shapely.ops import unary_union
 from shapely.strtree import STRtree

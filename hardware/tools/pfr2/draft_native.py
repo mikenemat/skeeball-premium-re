@@ -1,3 +1,4 @@
+_ROOT = __import__("pathlib").Path(__file__).resolve().parents[2]   # project root (tools/pfr2/ -> ..)
 # ported from din-relay-8ch/tools/pfr2/draft_native.py, 2026-10-27 (SBC-1 board model adapted; see docs/ROUTING_PLAYBOOK.md)
 """Merged MAIN draft: native board steps (KiCad Python via local_run.py). Driven by build_draft.py.
 
@@ -22,8 +23,8 @@ import sys
 import time
 from pathlib import Path
 
-sys.path.insert(0, "C:/work/skeeball-controller/scripts")
-sys.path.insert(0, "C:/work/skeeball-controller/tools/pfr2")
+sys.path.insert(0, str(_ROOT / "scripts"))
+sys.path.insert(0, str(_ROOT / "tools/pfr2"))
 import pcbnew as p
 import board_const  # noqa: F401  (SBC-1: tools/pylib shapely for KiCad's Python)
 from pcb_redesign import remove_saved_items
@@ -34,7 +35,7 @@ from shapely.strtree import STRtree
 BOARD = "skeeball-controller.kicad_pcb"
 TOOLS = Path(__file__).resolve().parent.parent / "tools"
 if not TOOLS.exists():                         # a sandbox copy (pfr2-speed): the live tools folder
-    TOOLS = Path("C:/work/skeeball-controller/tools/pfr2")
+    TOOLS = (_ROOT / "tools/pfr2")
 MM, mm = p.FromMM, p.ToMM
 KLIB = Path("C:/Program Files/KiCad/10.0/share/kicad/footprints")
 HERE = Path(__file__).resolve().parent
@@ -1331,7 +1332,7 @@ def cmd_linecut(board, report, refs_csv, band=(12.0, 74.0), grow=0.4, exempt=("N
 
 
 # ------------------------------------------------------------------------------------------------------------ fields
-GEN_FP_LIB = Path("C:/work/skeeball-controller/scripts/footprints_candidate")      # the generator's footprint library
+GEN_FP_LIB = (_ROOT / "scripts/footprints_candidate")      # the generator's footprint library
 
 
 def cmd_fpimport(board, delta_path, report):

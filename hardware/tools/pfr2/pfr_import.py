@@ -1,3 +1,4 @@
+_ROOT = __import__("pathlib").Path(__file__).resolve().parents[2]   # project root (tools/pfr2/ -> ..)
 # ported from din-relay-8ch/tools/pfr2/pfr_import.py, 2026-10-27 (SBC-1 board model adapted; see docs/ROUTING_PLAYBOOK.md)
 """Import a pfr.py routing plan into a copy of the board (KiCad Python via local_run.py).
 
@@ -56,7 +57,7 @@ def main():
     stale = stale_rule_areas([(z.m_Uuid.AsString(), z.GetZoneName()) for z in b.Zones() if z.GetIsRuleArea()])
     del b
     if stale:
-        sys.path.insert(0, "C:/work/skeeball-controller/scripts")
+        sys.path.insert(0, str(_ROOT / "scripts"))
         from pcb_redesign import remove_saved_items
         txt = dst.read_text(encoding="utf-8")
         txt2 = remove_saved_items(txt, {u for u, _ in stale})

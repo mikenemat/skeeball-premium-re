@@ -1,3 +1,4 @@
+_ROOT = __import__("pathlib").Path(__file__).resolve().parents[2]   # project root (tools/pfr2/ -> ..)
 # ported from din-relay-8ch/tools/pfr2/via_site.py, 2026-10-27 (SBC-1 board model adapted; see docs/ROUTING_PLAYBOOK.md)
 """Via-site legality, the ONE rule shared by pfr2 / land_stubs / pour_stitch / copper_cleanup (owner 2026-10-05: pad-edge
 and half-in-pad vias are defects, every time).
@@ -29,8 +30,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import cugraph  # noqa: E402
 from cugraph import ring_poly  # noqa: E402
 
-QA = Path("C:/work/skeeball-controller/scripts/qa_copper_landing.py")
-QL = Path("C:/work/skeeball-controller/scripts/qa_layout_quality.py")
+QA = (_ROOT / "scripts/qa_copper_landing.py")
+QL = (_ROOT / "scripts/qa_layout_quality.py")
 SMALL_2T_SPAN = 2.6        # qa_layout_quality small2t (pfr2 tidy / PAD-AXIS scope; no via-in-pad restriction any more)
 EPS = 1e-4                 # geometry slack (gate rounding; positions are on a 0.005 mm grid at best)
 

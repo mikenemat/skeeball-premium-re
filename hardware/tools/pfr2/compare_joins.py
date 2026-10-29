@@ -1,8 +1,9 @@
+_ROOT = __import__("pathlib").Path(__file__).resolve().parents[2]   # project root (tools/pfr2/ -> ..)
 # ported from din-relay-8ch/tools/pfr2/compare_joins.py, 2026-10-27 (SBC-1 board model adapted; see docs/ROUTING_PLAYBOOK.md)
 """open joins of several geoms: total, by open_groups group, and with a pad in the logic block (x 160-210)"""
 import sys
-sys.path.insert(0, "C:/work/skeeball-controller/tools/pfr2")
-sys.path.insert(0, "C:/work/skeeball-controller/tools/pfr2")
+sys.path.insert(0, str(_ROOT / "tools/pfr2"))
+sys.path.insert(0, str(_ROOT / "tools/pfr2"))
 from collections import Counter
 import cugraph
 from open_joins import open_joins

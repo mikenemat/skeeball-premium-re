@@ -1,3 +1,4 @@
+_ROOT = __import__("pathlib").Path(__file__).resolve().parents[2]   # project root (tools/pfr2/ -> ..)
 # ported from din-relay-8ch/tools/pfr2/stage_loop.py, 2026-10-27 (SBC-1 board model adapted; see docs/ROUTING_PLAYBOOK.md)
 """Automated MAIN routing stages (CPython orchestration; KiCad steps via local_run.py).
 
@@ -19,8 +20,8 @@ from pathlib import Path
 T = Path(__file__).resolve().parent
 ROOT = T.parent
 KPY = "C:/Program Files/KiCad/10.0/bin/python.exe"
-LOCAL = "C:/work/skeeball-controller/scripts/local_run.py"
-MR = Path("C:/work/skeeball-controller/.runtime/route/stage-boards")
+LOCAL = str(_ROOT / "scripts/local_run.py")
+MR = (_ROOT / ".runtime/route/stage-boards")
 
 
 def run(args, kicad=False, log=None):

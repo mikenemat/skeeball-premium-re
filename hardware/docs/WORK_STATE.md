@@ -32,7 +32,7 @@ GOTCHAS (new, q6): place.rewrite_paste_windows is a TEXT pass (KiCad 10 FOOTPRIN
   part makes qa_copper_landing size the branch for the trunk (5.5 A); copper_cleanup = stop after step 19 (viacur), use
   cleanup.work/snap/20; pfr2 --keepout needs a Windows path (C:/...), not /c/...
 RESUME PROMPT (paste after the reset):
-  Resume SBC-1 in C:\work\skeeball-controller: read CLAUDE.md, docs/WORK_STATE.md (live block), docs/DECISIONS.md #11-R
+  Resume SBC-1 in C:\work\skeeball-premium-re\hardware: read CLAUDE.md, docs/WORK_STATE.md (live block), docs/DECISIONS.md #11-R
   and #14-#19, the tail of .runtime/route/CHECKPOINT.md and fab/release-2026-10-27b/README.md. hardware/main = q6 final
   (released, not ordered). Remaining work = the owner decisions O1-O3.
 OWNER RULES: 5 boards max; SMD TOP side only unless absolutely critical, THT through; deliver files (SendUserFile);

@@ -1,7 +1,7 @@
 (export
 	(version "E")
 	(design
-		(source "C:\\work\\skeeball-controller\\hardware\\main\\skeeball-controller.kicad_sch")
+		(source "C:\\work\\skeeball-premium-re\\hardware\\hardware\\main\\skeeball-controller.kicad_sch")
 		(date "2026-10-27T13:24:15")
 		(tool "Eeschema 10.0.6")
 		(sheet

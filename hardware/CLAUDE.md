@@ -48,7 +48,7 @@ footprints (`scripts/jlc_footprints.py` -> `bom/easyeda_cache/`) and the owner's
 ## 9. PROJECT FACTS
 ```
 PROJECT:            SBC-1 - Skee-Ball lane controller, 5 V, SELV only, 4-layer
-PROJECT ROOT:       C:\work\skeeball-controller
+PROJECT ROOT:       C:\work\skeeball-premium-re\hardware
 VERSION CONTROL:    none (no Git commands)
 BOARDS:             main: schematic hardware/main/skeeball-controller.kicad_sch (generated, ERC clean); PCB placed
                     (scripts/place.py) + locked heavy copper (scripts/power_copper.py), routed (pfr2), q6 adopted;
