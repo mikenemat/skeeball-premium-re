@@ -1,0 +1,6 @@
+# Private research and generated outputs. Never force-add these paths.
+internal/
+__pycache__/
+*.py[cod]
+.venv/
+.pi/

@@ -5,3 +5,6 @@ desktop.ini
 *.swp
 .vscode/
 .idea/
+
+# Software research remains local
+/software/internal/

@@ -1,0 +1,21 @@
+# Reviewed file paths relative to software/. Review additions before listing them.
+.gitattributes
+.githooks/pre-commit
+.gitignore
+AGENTS.md
+CLAUDE.md
+NOTICE.md
+README.md
+RESUME.md
+public-files.txt
+requirements.txt
+tools/check_public_tree.py
+tools/compare.py
+tools/extract.py
+tools/libmatch.py
+tools/tests/fix_a.c
+tools/tests/fix_b.c
+tools/tests/fix_c.c
+tools/tests/fix_pad.c
+tools/tests/fixture.ld
+tools/tests/run_tests.py

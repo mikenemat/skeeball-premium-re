@@ -10,6 +10,7 @@ Ethernet, so several lanes can share high scores and play together.
 | Folder | What |
 |---|---|
 | [`hardware/`](hardware/) | SBC-1: KiCad 10 project, design-as-code scripts, BOM, routed 4-layer board, manufacturing files, design records |
+| [software/](software/) | ARM image-analysis tools and synthetic tests |
 
 ## SBC-1 at a glance
 - **MCU:** Raspberry Pi RP2350B with 16 MB QSPI flash.
@@ -30,7 +31,7 @@ for first power-up.
 ## Notes
 - This is an independent hobby project. It is not affiliated with or endorsed by Bay Tek Entertainment. Skee-Ball is a
   trademark of its owner.
-- The repository contains no Bay Tek firmware, binaries or decompiled code. Stock-board facts here come from
+- The tracked repository contains no Bay Tek firmware, binaries or decompiled code. Stock-board facts here come from
   measurements, photos and continuity tests of the owner's own machines.
 - Third-party datasheets and vendor 3D models are not redistributed. The setup notes in `hardware/README.md` say
   how to fetch them.

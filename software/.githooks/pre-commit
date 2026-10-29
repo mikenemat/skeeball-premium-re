@@ -1,0 +1,13 @@
+#!/bin/sh
+set -eu
+repo=$(git rev-parse --show-toplevel)
+guard="$repo/software/tools/check_public_tree.py"
+if command -v py >/dev/null 2>&1; then
+    exec py -3 "$guard"
+elif command -v python3 >/dev/null 2>&1 && python3 --version >/dev/null 2>&1; then
+    exec python3 "$guard"
+elif command -v python >/dev/null 2>&1; then
+    exec python "$guard"
+fi
+echo "Publication guard requires Python 3." >&2
+exit 1
